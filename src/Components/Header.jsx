@@ -4,7 +4,7 @@ import {Link} from "react-location"
 
 function Header() {
     return (
-        <div className="App" >
+        <div className="checking" >
             <h1>hello</h1>
         </div>
     );
