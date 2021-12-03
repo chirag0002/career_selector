@@ -1,15 +1,14 @@
 import './App.css';
-import Header from './Components/Header';
-import Home_page from './Components/Home_page';
-
+import { Router, Outlet } from 'react-location';
+import { routes, location } from "./Components/router"
 
 function App() {
-    return ( <div className = "App" >
-        <Header/>,
-        <Home_page />
-
-        
+    return (
+        <Router routes={routes} location={location}>
+        <div className="App" >
+            <Outlet />        
         </div>
+        </Router>
     );
 }
 

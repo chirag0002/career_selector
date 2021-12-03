@@ -1,0 +1,43 @@
+.line-heading {
+    font-family: sans-serif;
+    color: skyblue;
+    font-weight: 600;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 10px 0 40px 10%;
+    white-space: nowrap; 
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgb(0,0,0);
+  }
+  /* .line-heading:after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 1px;
+    margin-top: 0 0 0 20;
+    background: rgba(7, 54, 207, 0.651);
+    text-shadow: none;
+    transition: all .6s ease-in-out 0s
+  }
+  .line-heading:hover:after{
+    width: 180px;
+    background: rgba(7, 54, 207, 0.651);
+  } */
+  .heading_faq{
+    font-family: sans-serif;
+    margin-top:-2%;
+    margin-right:45.3%;
+    font-size: 20px;
+    line-height: 1.1;
+    white-space: nowrap;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+  }
+  .cont_5{
+      background-color: #6E3CBC;
+      width:100%;
+      height: 50vh;
+  }
