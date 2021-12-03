@@ -1,0 +1,33 @@
+.homepage_cont_2-1_img{
+    width:100%;
+    height:25rem;
+
+}
+.homepage_cont_2_images{
+    display:flex;
+    margin:-5% auto;
+    width: 70%;
+    justify-content: center;
+    max-height:50%;
+    text-decoration:none;
+}
+.homepage_cont_2_img{
+    width: 20rem;
+    height:15rem;
+    
+}
+.homepage_cont_2_img_div{
+    margin:0 auto;
+    justify-content:center;
+    border-radius:25px;
+    cursor:pointer;
+    background-color: #7267CB;
+}
+.homepage_cont_2_img_link{
+    text-decoration:none;
+    color:#B8E4F0;
+
+}
+.homepage_cont_2_img_link:hover{
+    color:rgb(0, 0, 0);
+}
