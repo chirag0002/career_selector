@@ -2,6 +2,7 @@ import React from 'react'
 import {  Route,  ReactLocation } from "react-location";
 import Header from './Header';
 import HomePage from './HomePage';
+import Footer from './Footer';
 
 export const routes: Route[] = [
     {
@@ -12,11 +13,11 @@ export const routes: Route[] = [
         path: "/",
         element: <HomePage />
     },
-    // {
-    //     path: "todo",
-    //     element:<Todos />
+    {
+        path: "footer",
+        element:<Footer />
             
-    // }
+    }
 ];
 
 export const location = new ReactLocation();
