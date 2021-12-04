@@ -1,5 +1,6 @@
 import React from 'react'
 import {  Route,  ReactLocation } from "react-location";
+import Container2 from './Container2';
 import Header from './Header';
 import HomePage from './HomePage';
 
@@ -25,8 +26,17 @@ export const routes: Route[] = [
     //     path: "todo",
     //     element:<Todos />
     {
+<<<<<<< HEAD:src/Components/router.jsx
+        path: "c2",
+        element: <Container2 />
+    },
+    // {
+    //     path: "todo",
+    //     element:<Todos />
+=======
         path: "footer",
         element:<Footer />
+>>>>>>> upstream/main:src/Components/router.js
             
     }
 ];
