@@ -4,6 +4,7 @@ import Container2 from './Container2';
 import Header from './Header';
 import HomePage from './HomePage';
 import Footer from './Footer';
+import Container4 from './Container4';
 
 export const routes: Route[] = [
     {
@@ -15,19 +16,21 @@ export const routes: Route[] = [
         element: <HomePage />
     },
     {
-<<<<<<< HEAD:src/Components/router.jsx
         path: "c2",
         element: <Container2 />
     },
     // {
     //     path: "todo",
     //     element:<Todos />
-=======
+    {
         path: "footer",
         element:<Footer />
->>>>>>> upstream/main:src/Components/router.js
             
-    }
+    },
+    {
+        path: "cont4",
+        element:<Container4 />
+    },
 ];
 
 export const location = new ReactLocation();
