@@ -7,6 +7,7 @@ import HomePage from './HomePage';
 import HOME_PAGE from './HOME_PAGE';
 
 import Footer from './Footer';
+import Accordion from './Accordion';
 
 
 export const routes: Route[] = [
@@ -26,17 +27,20 @@ export const routes: Route[] = [
     //     path: "todo",
     //     element:<Todos />
     {
-<<<<<<< HEAD:src/Components/router.jsx
         path: "c2",
         element: <Container2 />
     },
     // {
     //     path: "todo",
     //     element:<Todos />
-=======
+    {
         path: "footer",
         element:<Footer />
->>>>>>> upstream/main:src/Components/router.js
+            
+    },
+    {
+        path: "accordion",
+        element:<Accordion />
             
     }
 ];
