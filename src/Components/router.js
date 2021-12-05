@@ -7,7 +7,11 @@ import HomePage from './HomePage';
 import HOME_PAGE from './HOME_PAGE';
 
 import Footer from './Footer';
+
 import Accordion from './Accordion';
+
+
+import Container4 from './Container4';
 
 
 export const routes: Route[] = [
@@ -36,13 +40,19 @@ export const routes: Route[] = [
     {
         path: "footer",
         element:<Footer />
+
             
     },
     {
         path: "accordion",
         element:<Accordion />
+
             
-    }
+    },
+    {
+        path: "cont4",
+        element:<Container4 />
+    },
 ];
 
 export const location = new ReactLocation();
