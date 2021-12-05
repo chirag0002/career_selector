@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap%27');
+
+.header{
+    background-image:linear-gradient(to bottom, #6E3CBC,#98BAE7);
+    height: 500px;
+    
+}
+.heading{
+    padding-top: 80px;
+    font-size: 75px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    align-items: center;
+    }
+    
+
+    
