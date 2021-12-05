@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './Components/Header';
 import { Router, Outlet } from 'react-location';
 import { routes, location } from "./Components/router"
 
