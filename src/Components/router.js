@@ -34,14 +34,11 @@ export const routes: Route[] = [
         path: "c2",
         element: <Container2 />
     },
-    // {
+    {
     //     path: "todo",
     //     element:<Todos />
-    {
         path: "footer",
-        element:<Footer />
-
-            
+        element:<Footer />   
     },
     {
         path: "accordion",
