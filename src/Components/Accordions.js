@@ -10,16 +10,17 @@ const Accordions=({question,answer}) => {
    }
     return (
         <>
-         <div className="question">
-            <h2>{question}</h2>
-            <p onClick = {display}>{text?<i class="fas fa-angle-down"></i>:<i class="fas fa-angle-right"></i>}</p>
-    </div>
+        
+         <div  className="question" onClick = {display}>
+         <h2>{question}</h2>
+         {text?<i class="fas fa-angle-down"></i>:<i class="fas fa-angle-right"></i>}
+      </div>
     <div className="answers">
     
       { text && <p> {answer} </p> }
     </div>
     
-             </>
+        </>
         
     )
 }
