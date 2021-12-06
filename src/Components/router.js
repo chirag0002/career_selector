@@ -15,17 +15,14 @@ export const routes: Route[] = [
         element: <HomePage />
     },
     {
-<<<<<<< HEAD:src/Components/router.jsx
         path: "c2",
         element: <Container2 />
     },
-    // {
+    {
     //     path: "todo",
     //     element:<Todos />
-=======
         path: "footer",
         element:<Footer />
->>>>>>> upstream/main:src/Components/router.js
             
     }
 ];
