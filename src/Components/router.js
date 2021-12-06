@@ -3,8 +3,10 @@ import {  Route,  ReactLocation } from "react-location";
 import Container2 from './Container2';
 import Header from './Header';
 import HomePage from './HomePage';
+import HOME_PAGE from './HOME_PAGE';
 import Footer from './Footer';
 import Container1 from './Container1';
+import Accordion from './Accordion';
 import Container4 from './Container4';
 
 export const routes: Route[] = [
@@ -16,6 +18,13 @@ export const routes: Route[] = [
         path: "/",
         element: <HomePage />
     },
+   {
+       path:"home",
+       element: <HOME_PAGE />
+   },
+    // {
+    //     path: "todo",
+    //     element:<Todos />
     {
         path: "c2",
         element: <Container2 />
@@ -35,6 +44,13 @@ export const routes: Route[] = [
     {
         path: "footer",
         element:<Footer />
+
+            
+    },
+    {
+        path: "accordion",
+        element:<Accordion />
+
             
     },
     {
