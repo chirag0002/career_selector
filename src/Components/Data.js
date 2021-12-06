@@ -5,17 +5,17 @@ const Data=[
          answer: "Blue"
     },
     {
-        id:1,
+        id:2,
         question: "What is my Fav color?",
          answer: "Blue"
     },
     {
-        id:1,
+        id:3,
         question: "What is my Fav color?",
          answer: "Blue"
     },
     {
-        id:1,
+        id:4,
         question: "What is my Fav color?",
          answer: "Blue"
     }

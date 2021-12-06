@@ -1,17 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
  .ques{
    text-align:center;
    font-size: 3rem;
-   margin: 1em 0;
+   /* margin: 1em 0; */
+   margin-top:-50%;
+   margin-left: 70%;
+   width: 20%;
  }
+ .pic{
+   width:550px;
+   height: 450px; 
+   margin-top: 80%;
+   display: flex;
+   /* margin-left: 20%; */
+   /* transition: transform infinite;
+    */
+   animation:  snap  2s  infinite alternate-reverse ;
+ }
+   /* max-width: 100%;
+   height: auto;  */
+@keyframes snap {
+  from{transform: translate(0%);}
+  to {transform: translateY(8%);}
+  
+}
+  
+ 
+ /* .cont-5{
+   width:100%;
+   background-color: blueviolet;
+   border-radius: 8px 8px 8px 8px;
+ } */
   .container5{
    /* background-color: aqua;  */
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-left: 2%;
+   width: 90%;
+   margin-top: -10%;
+  
  }
  .accordionBlock{
-   width: 50%;
-   /* background-color: blue; */
+   margin-top: -12%;
+   width: 90%;
+   margin-left: 33%;
+  
+ 
+   
  }
  .question{
   display: flex;
@@ -24,9 +60,16 @@
   margin-bottom: .2em;
   border-radius: .5em;
  }
+ .question:hover{
+   cursor: pointer;
+ }
+ .fas{
+   font-size: 30px;
+ }
  .question h2{
    color: #fff;
-   font-size: 1.8rem;
+   font-size: 1.3rem;
+   font-family: 'Kanit', sans-serif;
  }
  .question p{
    color: #fff;
@@ -35,12 +78,12 @@
  .answers p{
    font-size: 1.5rem;
    background-color: #98BAE7;
-   width: 84%;
+   width: 83%;
    margin: 2px auto;
    padding: .2em;
    text-align: center;
-   border-radius: 4px;
-   height:60px;
+   border-radius: .5em;
+   height:50px;
    white-space: 0px;
 
  }
