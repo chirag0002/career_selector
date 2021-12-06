@@ -4,7 +4,7 @@ import Container2 from './Container2';
 import Header from './Header';
 import HomePage from './HomePage';
 
-import HOME_PAGE from './HOME_PAGE';
+import Home_page from './Home_page';
 
 import Footer from './Footer';
 
@@ -25,7 +25,7 @@ export const routes: Route[] = [
     },
    {
        path:"home",
-       element: <HOME_PAGE />
+       element: <Home_page />
    },
     // {
     //     path: "todo",

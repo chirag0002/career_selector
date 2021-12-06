@@ -1,4 +1,6 @@
-
+.homepage_cont_2_3{
+    background-color: white;
+}
 .homepage_cont_2{
     margin-bottom:10%;
 }
@@ -28,7 +30,7 @@
     margin:0 auto;
     justify-content:center;
     cursor:pointer;  
-    background-color: beige;
+    background-color: #a1a1a1;
     border-radius: 25px;
 }
 .homepage_cont_2_img_div_1:hover,
@@ -36,15 +38,16 @@
 .homepage_cont_3_ex_img:hover{
 transform:scale(1.1);
 border-radius: 30px;
-box-shadow: 15px 20px 15px rgb(87, 86, 86);
+box-shadow: 15px 20px 15px rgb(71, 65, 65);
 }
+
 .homepage_cont_2_img:hover{
     border-radius: 30px;
-    }
+}
 
 .homepage_cont_2_img_link{
     text-decoration:none;
-    color:#4c5052;
+    color:#f2fbff;
 
 }
 .homepage_cont_2_img_link:hover{
@@ -58,7 +61,7 @@ box-shadow: 15px 20px 15px rgb(87, 86, 86);
     margin:3% auto;
     display:flex;
     justify-content:space-evenly;
-    border: 2px solid #4c5052;
+    border: 2px solid #000000;
     padding:10px;
     border-radius: 15%;
 }
@@ -80,5 +83,5 @@ box-shadow: 15px 20px 15px rgb(87, 86, 86);
     margin:10px;
 }
 .homepage_cont_3_ex_p_p{
-    display:center;
+    padding-top:70px;
 }

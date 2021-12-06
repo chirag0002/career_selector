@@ -3,7 +3,7 @@ import "../styling/container2.css"
 
 const Container2 = () => {
     return (
-        <div>
+        <div className="homepage_cont_2_3">
         <div className="homepage_cont_2">
             <img className="homepage_cont_2-1_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png" alt="" />
             <div className="homepage_cont_2_images">
@@ -29,12 +29,12 @@ const Container2 = () => {
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
-                    <p className="homepage_cont_3_ex_p_p">Engineering stimulates the mind. Kids get bored easily. They have got to get their hands dirty: make things, dismantle things, fix things. When the schools can offer that, ypu'll have an engineer for life. <br /><a href="">Click here for more</a> </p>
+                    <p className="homepage_cont_3_ex_p_p">Engineering stimulates the mind. Kids get bored easily. They have got to get their hands dirty: make things, dismantle things, fix things. When the schools can offer that, ypu'll have an engineer for life. <br /><a href="">more...</a> </p>
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
                 <div className="homepage_cont_3_ex_p">
-                    <p className="homepage_cont_3_ex_p_p">I want to experience the most beautiful adrenaline rush of my life. A rush while taking medical pledge/oath. <br /><a href="">Click here for more</a></p>
+                    <p className="homepage_cont_3_ex_p_p">I want to experience the most beautiful adrenaline rush of my life. A rush while taking medical pledge/oath. <br /><a href="">more...</a></p>
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div>
@@ -47,12 +47,12 @@ const Container2 = () => {
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
-                    <p className="homepage_cont_3_ex_p_p">"Almost everything worthwhile carries with it some sort of risk, whether it’s starting a new business, whether it’s leaving home, whether it’s getting married, or whether it’s flying in space.” – Chris Hadfield, astronaut <br /><a href="">Click here for more</a> </p>
+                    <p className="homepage_cont_3_ex_p_p">"npm Almost everything worthwhile carries with it some sort of risk, whether it’s starting a new business, whether it’s leaving home, whether it’s getting married, or whether it’s flying in space.” – Chris Hadfield, astronaut <br /><a href="">more...</a> </p>
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
                 <div className="homepage_cont_3_ex_p">
-                    <p className="homepage_cont_3_ex_p_p">"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring." -- Paul Rand, graphic designer <br /><a href="">Click here for more</a></p>
+                    <p className="homepage_cont_3_ex_p_p">"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring." -- Paul Rand, graphic designer <br /><a href="">more...</a></p>
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div>
