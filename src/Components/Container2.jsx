@@ -56,7 +56,7 @@ const Container2 = () => {
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div>
-                    <a href=""><img className="homepage_cont_3_ex_img" src="https://th.bing.com/th/id/R.c13f0796a333ae2b4e4c0aa711eb02fa?rik=xRkQWa67bG89og&riu=http%3a%2f%2fthumbs.dreamstime.com%2fz%2fword-cloud-design-27404742.jpg&ehk=xjS2E%2fE04cJOOmqCOlVQTHGrGeiNC2JFKCeJ%2fErIRfw%3d&risl=&pid=ImgRaw&r=0" alt="" /></a>
+                    <a href=""><img className="homepage_cont_3_ex_img" src="" alt="" /></a>
                 </div>
             </div>
         </div> 
