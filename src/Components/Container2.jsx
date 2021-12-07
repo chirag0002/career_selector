@@ -1,11 +1,11 @@
 import React from 'react'
 import "../styling/container2.css"
+import Doctor from "../Videos/Doctor.mp4"
 
 const Container2 = () => {
     return (
         <div className="homepage_cont_2_3">
         <div className="homepage_cont_2">
-            <img className="homepage_cont_2-1_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png" alt="" />
             <div className="homepage_cont_2_images">
                 <div className="homepage_cont_2_img_div_1">
                     <a className="homepage_cont_2_img_link" href="">
@@ -25,7 +25,7 @@ const Container2 = () => {
             <h1 className="homepage_cont_3_heading"> Fields To Explore</h1>
             <div className="homepage_cont_3_ex">
                 <div>
-                   <a href=""><img  className="homepage_cont_3_ex_img" src="https://st2.depositphotos.com/1006360/12444/v/950/depositphotos_124447350-stock-illustration-engineering-word-cloud.jpg" alt="" /></a>
+                   <a href=""><img  className="homepage_cont_3_ex_img" src="" alt="" /></a>
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
@@ -38,12 +38,16 @@ const Container2 = () => {
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div>
-                    <a href=""><img className="homepage_cont_3_ex_img" src="https://th.bing.com/th/id/R.fddf2259e223a92170c2dd3a9b2103b8?rik=EqNrsuWGb0bwvw&riu=http%3a%2f%2fst2.depositphotos.com%2f4678737%2f8858%2fv%2f950%2fdepositphotos_88589196-stock-illustration-doctor-word-cloud.jpg&ehk=nzJ7ELvsQGt4erBDKPJ6Ajk5N96OZLe%2fV5NVC7TMRy4%3d&risl=&pid=ImgRaw&r=0" alt="" /></a>
+                    <a href="">
+                        <video width="25rem" height="20rem" controls className="homepage_cont_3_ex_vdo">
+                            <source src="..Videos\Doctor.mp4" type="video\mp4"/>
+                        </video>
+                    </a>
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
                 <div>
-                   <a href=""><img  className="homepage_cont_3_ex_img" src="https://caknowledge.com/wp-content/uploads/2019/12/Commerce-Education-in-India.jpg" alt="" /></a>
+                   <a href=""><img  className="homepage_cont_3_ex_img" src="" alt="" /></a>
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
