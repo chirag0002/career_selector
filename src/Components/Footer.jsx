@@ -2,6 +2,7 @@ import React from 'react'
 import "../styling/Footer.css"
 import footer_img from "../Images/unique-career-plan2.jpeg"
 import footer_img1 from "../Images/paper-plane.png"
+import footer_img2 from "../Images/logo.png"
 import { Button } from '@mui/material';
 import instagram from "../Images/instagram.png"
 import twitter from "../Images/twitter.png"
@@ -27,7 +28,7 @@ const Footer = () => {
             </div>
             <div className="footer_cont_6b">
                 <div className="footer_cont_6b_a">
-                    <p className="test">CS</p>
+                    <img className="footer_logo" src={footer_img2} alt="" />
                     <p className="test_1">Let us help you in making right career choice</p>
                 </div>
             

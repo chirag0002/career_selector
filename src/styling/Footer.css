@@ -19,7 +19,7 @@
 }
 
 .test_1{
-    margin-top: 2%;
+    margin-top: 13%;
     font-size:1.2rem;
 }
 
@@ -99,4 +99,12 @@
 
 b:hover{
 color: #6E3CBC;
+}
+
+.footer_logo{
+    width:90px;
+    position:absolute;
+    height:80px;
+    margin-top:-2%;
+    margin-left:-14%;
 }

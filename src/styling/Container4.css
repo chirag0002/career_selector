@@ -6,14 +6,21 @@
 
 .cont4_heading{
     font-size:2rem;
-    text-align: left;
-    margin-left: 2%;
+    text-align: centre;
 }
 
 .cont4_a_card{
     font-size:1.3rem;
     color: white;
     margin-top: 2%;
+}
+
+.cont4_1{
+    display: flex;
+}
+
+.cont4_2{
+    display: flex;
 }
 
 .cont4_card{
@@ -28,8 +35,28 @@
     animation:Try 4.5s alternate ease-in-out infinite;
 }
 
+.cont4_card_1{
+    border: 1px solid;
+    background:black;
+    margin-left: 3%;
+    margin-right:5%;
+    height:40px;
+    width:180px;
+    justify-content: center;
+    margin-top: 3%;
+    animation:Try1 4.5s alternate ease-in-out infinite;
+}
+
 .cont4_a{
     display: flex;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+.cont4_b{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 4%;
 }
 
 @keyframes Try
@@ -40,5 +67,16 @@ from
 }
 to{
     transform:translateX(50%);
+}
+}
+
+@keyframes Try1
+{
+from
+{
+    transform:translateX(50%);
+}
+to{
+    transform:translateX(0%);
 }
 }
