@@ -3,7 +3,6 @@ import {  Route,  ReactLocation } from "react-location";
 import Container2 from './Container2';
 import Header from './Header';
 import HomePage from './HomePage';
-
 import Footer from './Footer';
 import Accordion from './Accordion';
 import Container4 from './Container4';
