@@ -1,13 +1,13 @@
-const Data=[
+let Data=[
     {
         id:1,
-        question: "What is my Fav color?",
-         answer: "Blue"
+        question: "Who is Aayush?",
+         answer: "Aayush is Chutiya, maha pagal iiejiwohujuehjwnkiuehfjdnksiuhbdnshdjwkqiuw"
     },
     {
         id:2,
-        question: "What is my Fav color?",
-         answer: "Blue"
+        question: "Who is Bhavya?",
+         answer: "Bhavya is Pyaare"
     },
     {
         id:3,
@@ -16,6 +16,11 @@ const Data=[
     },
     {
         id:4,
+        question: "What is my Fav color?",
+         answer: "Blue"
+    },
+    {
+        id:5,
         question: "What is my Fav color?",
          answer: "Blue"
     }
