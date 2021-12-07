@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from "react-location"
 import Accordion from './Accordion.js'
 import Container2 from './Container2'
 import Container4 from './Container4'
