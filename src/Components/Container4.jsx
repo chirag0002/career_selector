@@ -23,6 +23,21 @@ const Container4 = () => {
                         GATE
                     </p>
                 </div>
+                <div className="cont4_card">
+                    <p className="cont4_a_card">
+                        CAT
+                    </p>
+                </div>
+                <div className="cont4_card">
+                    <p className="cont4_a_card">
+                        NDA
+                    </p>
+                </div>
+                <div className="cont4_card">
+                    <p className="cont4_a_card">
+                        NEET
+                    </p>
+                </div>
             </div>
         </div>
     )

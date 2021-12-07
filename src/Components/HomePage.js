@@ -8,10 +8,10 @@ import Footer from './Footer'
 const HomePage = () => {
     return (
         <div>
-         <Header />,
-         <Container2 />,
-         <Container4 />,
-            <Accordion />,
+         <Header />
+         <Container2 />
+         <Container4 />
+            <Accordion />
             <Footer />
             {/* <Link to="/logo"><button>Routing</button></Link> */}
         </div>
