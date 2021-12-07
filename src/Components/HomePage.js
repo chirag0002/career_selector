@@ -7,7 +7,9 @@ import Container1 from './Container1'
 const HomePage = () => {
     return (
         <div>
+
             <Container1/>
+
          <Container2 />
          <Container4 />
             <Accordion />

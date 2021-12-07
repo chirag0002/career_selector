@@ -11,6 +11,7 @@ export const routes: Route[] = [
         path: "/",
         element: <HomePage />
     },
+
     {
         path: "c2",
         element: <Container2 />
