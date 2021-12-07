@@ -7,11 +7,9 @@ import Container1 from './Container1'
 const HomePage = () => {
     return (
         <div>
-<<<<<<< HEAD
-         <Header />
-=======
+
             <Container1/>
->>>>>>> upstream/main
+
          <Container2 />
          <Container4 />
             <Accordion />
