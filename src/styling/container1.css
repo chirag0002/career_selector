@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap%27');
+
+
+
+.bar{
+    padding-top: 6px;
+    width: 100%;
+    padding-left: 60px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    border-radius: 3px;
+    border-color:plum;
+    margin-top: 200px;
+    margin-left: 400px;
+    
+}
+.search_bar{
+    margin-top: -490px;
+    position: absolute;
+    margin-left: 45px;
+}
+.search_icon{
+    margin-left: -710px;
+    margin-top: -30px;
+    padding-left: 900px;
+}
+.side_stuff{
+    color:black;
+    display:flex;
+    flex-direction: row;
+    margin-left: 1140px;
+    margin-top: -600px;
+    font-size: 22px;
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    
+}
+.first{
+    margin-right: 40px;
+}
+.second{
+    margin-right: 40px;
+    margin-left: 24px;
+}
+.third{
+    margin-left: 20px;
+
+}
+.back_img{
+    width: 100%;
+    position: relative;
+    height: 630px;
+}
+.container{
+    
+    position: absolute;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -520px;
+}
+.word{
+    max-width: 100%;
+    letter-spacing: 5px;
+    
+    position: absolute;
+    color: black;
+    animation:word 10s infinite ease-in-out;
+    font-family: 'Kanit', sans-serif;
+}
+.word:nth-child(1){
+    animation-delay:-15s ;
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: -30px;
+    align-items: center;
+
+}
+.word:nth-child(2){
+    animation-delay:-12s ;
+    font-size: 40px;
+    
+}
+@keyframes word{
+    0%,5%, 100%{
+        filter:blur(0px);
+        opacity: 1;
+    }
+    20%, 80%{
+        filter:blur(30px);
+        opacity: 0;
+    }
+}
+.logo{
+    height:160px;
+    width:160px;
+    margin-right: 1350px;
+    position: absolute;
+    
+    
+}
