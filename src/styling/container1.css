@@ -29,7 +29,7 @@
     display:flex;
     flex-direction: row;
     margin-left: 1140px;
-    margin-top: -600px;
+    margin-top: -750px;
     font-size: 22px;
     position: absolute;
     font-family: 'Kanit', sans-serif;
@@ -50,6 +50,7 @@
     width: 100%;
     position: relative;
     height: 630px;
+    margin-top: -20px;
 }
 .container{
     
@@ -59,7 +60,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: -520px;
+    margin-top: -610px;
 }
 .word{
     max-width: 100%;
@@ -96,11 +97,13 @@
 .logo{
     
     position: relative;
-    height:100px;
-    width:100px;
-    margin-top: 30px;
-    margin-left: -70px;
-    align-items: center;
+    height:140px;
+    width:140px;
+    margin-top: 20px;
+    float: left;
+
+    
+    
     
     
     

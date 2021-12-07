@@ -6,9 +6,10 @@ import logo from "../Images/logo.png"
 const Container1 = () => {
     return (
         <div className="container1">
+             <img className="logo" src={logo} />
             <div className="header">
                 
-                <img className="logo" src={logo} alt="" />
+               
                 
                 <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
                 <div className="animated_header">
