@@ -1,11 +1,15 @@
 import React from 'react'
 import "../styling/container1.css"
 import SearchIcon from '@mui/icons-material/Search';
+import logo from "../Images/logo.png"
 
 const Container1 = () => {
     return (
         <div className="container1">
             <div className="header">
+                
+                <img className="logo" src={logo} alt="" />
+                
                 <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
                 <div className="animated_header">
                     <div className="container">
