@@ -17,8 +17,10 @@ const Accordions=({question,answer}) => {
       </div>
     <div className="answers">
     
-      { text && <p> {answer} </p> }
-    </div>
+    
+      { text && <p className="jawab"> {answer} </p> }
+      </div>
+    
     
         </>
         

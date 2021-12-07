@@ -1,8 +1,8 @@
-const Data=[
+let Data=[
     {
         id:1,
         question: "Who is Aayush?",
-         answer: "Aayush is Chutiya"
+         answer: "Aayush is Chutiya, maha pagal iiejiwohujuehjwnkiuehfjdnksiuhbdnshdjwkqiuw"
     },
     {
         id:2,

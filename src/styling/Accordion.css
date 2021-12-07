@@ -59,14 +59,17 @@ margin-left: 35%;
    font-size: 2.2rem;
  }
  
- .answers p{
-   font-size: 1.5rem;
+ 
+  .jawab{
+   font-size: 1.2rem;
    background-color: whitesmoke;
    width: 83%;
-   margin: 2px auto;
-   padding: .2em;
-   text-align: center;
+   margin: 2px auto ;
    border-radius: .5em;
    height:50px;
    white-space: 0px;
+   text-align: left;
+   padding-left: 7px;
+  
 }
+
