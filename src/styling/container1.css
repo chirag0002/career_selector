@@ -68,7 +68,7 @@
     
     position: absolute;
     color: black;
-    animation:word 10s infinite ease-in-out;
+    animation:word 6s infinite ease-in-out;
     font-family: 'Kanit', sans-serif;
 }
 .word:nth-child(1){
