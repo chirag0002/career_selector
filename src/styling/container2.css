@@ -1,7 +1,12 @@
+.homepage_cont_2_3{
+    background-color: white;
+}
+.homepage_cont_2{
+    margin-bottom:10%;
+}
 .homepage_cont_2-1_img{
     width:100%;
     height:25rem;
-
 }
 .homepage_cont_2_images{
     display:flex;
@@ -14,20 +19,69 @@
 .homepage_cont_2_img{
     width: 20rem;
     height:15rem;
-    
 }
-.homepage_cont_2_img_div{
+.homepage_cont_2_heading{
+    padding:15px;
+}
+
+
+.homepage_cont_2_img_div_1,
+.homepage_cont_2_img_div_2{
     margin:0 auto;
     justify-content:center;
-    border-radius:25px;
-    cursor:pointer;
-    background-color: #7267CB;
+    cursor:pointer;  
+    background-color: #a1a1a1;
+    border-radius: 25px;
 }
+.homepage_cont_2_img_div_1:hover,
+.homepage_cont_2_img_div_2:hover,
+.homepage_cont_3_ex_img:hover{
+transform:scale(1.1);
+border-radius: 30px;
+box-shadow: 15px 20px 15px rgb(71, 65, 65);
+}
+
+.homepage_cont_2_img:hover{
+    border-radius: 30px;
+}
+
 .homepage_cont_2_img_link{
     text-decoration:none;
-    color:#B8E4F0;
+    color:#f2fbff;
 
 }
 .homepage_cont_2_img_link:hover{
     color:rgb(0, 0, 0);
+}
+.homepage_cont_3{
+    width:70%;
+    margin:2% auto;
+}
+.homepage_cont_3_ex{
+    margin:3% auto;
+    display:flex;
+    justify-content:space-evenly;
+    border: 2px solid #000000;
+    padding:10px;
+    border-radius: 15%;
+}
+.homepage_cont_3_ex_img{
+    width:20rem;
+    height:15rem;
+    cursor:pointer;
+    border-radius: 15%;
+}
+.homepage_cont_3_ex_p{
+    width:20rem;
+    height:15rem;
+    text-align: center;
+    font-size:17px;
+
+}
+.homepage_cont_3_hr{
+    border-bottom:1px solid black;
+    margin:10px;
+}
+.homepage_cont_3_ex_p_p{
+    padding-top:70px;
 }
