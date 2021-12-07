@@ -1,19 +1,18 @@
 import React from 'react'
-import {Link} from "react-location"
-import Header from './Header'
 import Accordion from './Accordion.js'
 import Container2 from './Container2'
 import Container4 from './Container4'
 import Footer from './Footer'
+import Container1 from './Container1'
 const HomePage = () => {
     return (
         <div>
-         <Header />
+            <Container1/>
          <Container2 />
          <Container4 />
             <Accordion />
             <Footer />
-            {/* <Link to="/logo"><button>Routing</button></Link> */}
+            
         </div>
     )
 }
