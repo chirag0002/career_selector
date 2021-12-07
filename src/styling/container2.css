@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
 .homepage_cont_2_3{
     background-color: white;
+    font-family: 'Kanit', sans-serif;
+    margin:3%;
 }
 .homepage_cont_2{
     margin-bottom:10%;
@@ -10,7 +14,7 @@
 }
 .homepage_cont_2_images{
     display:flex;
-    margin:-5% auto;
+    margin:3% auto;
     width: 70%;
     justify-content: center;
     max-height:50%;
@@ -34,8 +38,7 @@
     border-radius: 25px;
 }
 .homepage_cont_2_img_div_1:hover,
-.homepage_cont_2_img_div_2:hover,
-.homepage_cont_3_ex_img:hover{
+.homepage_cont_2_img_div_2:hover{
 transform:scale(1.1);
 border-radius: 30px;
 box-shadow: 15px 20px 15px rgb(71, 65, 65);
@@ -61,16 +64,22 @@ box-shadow: 15px 20px 15px rgb(71, 65, 65);
     margin:3% auto;
     display:flex;
     justify-content:space-evenly;
-    border: 2px solid #000000;
-    padding:10px;
-    border-radius: 15%;
+    padding:20px;
+    border:10px solid rgb(228, 222, 222);
 }
-.homepage_cont_3_ex_img{
-    width:20rem;
-    height:15rem;
+.homepage_cont_3_ex_vdo{
+    width:22rem;
+    height:17rem;
     cursor:pointer;
-    border-radius: 15%;
+    border-radius: 20px;
+
+    
 }
+.homepage_cont_3_ex_vdo:hover{
+    transform:scale(1.2);
+    box-shadow: 20px 15px 20px rgb(71, 65, 65);
+    position: relative;
+    }
 .homepage_cont_3_ex_p{
     width:20rem;
     height:15rem;
