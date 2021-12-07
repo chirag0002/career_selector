@@ -11,23 +11,11 @@ export const routes: Route[] = [
         path: "/",
         element: <HomePage />
     },
-<<<<<<< HEAD
-=======
-   {
-       path:"home",
-       element: <Home_page />
-   },
-
->>>>>>> upstream/main
     {
         path: "c2",
         element: <Container2 />
     },
     {
-<<<<<<< HEAD
-=======
-    
->>>>>>> upstream/main
         path: "footer",
         element:<Footer />   
     },
