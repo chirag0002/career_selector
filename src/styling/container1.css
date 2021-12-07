@@ -94,10 +94,14 @@
     }
 }
 .logo{
-    height:160px;
-    width:160px;
-    margin-right: 1350px;
-    position: absolute;
+    
+    position: relative;
+    height:100px;
+    width:100px;
+    margin-top: 30px;
+    margin-left: -70px;
+    align-items: center;
+    
     
     
 }
