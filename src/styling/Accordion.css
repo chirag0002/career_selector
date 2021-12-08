@@ -2,14 +2,14 @@
  .ques{
    text-align:center;
    font-size: 3rem;
-   margin-top:-50%;
+   /* margin-top:-20%; */
    margin-left: 70%;
    width: 20%;
  }
  .pic{
    width:550px;
    height: 450px; 
-   margin-top: 80%;
+   margin-top: 3%;
    display: flex;
    animation:  snap  2s  infinite alternate-reverse ;
  }

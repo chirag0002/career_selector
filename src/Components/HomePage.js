@@ -8,9 +8,9 @@ const HomePage = () => {
     return (
         <div>
 
-            <Container1/>
+        <Container1/>
 
-         <Container2 />
+    <Container2 />
          <Container4 />
             <Accordion />
             <Footer />
