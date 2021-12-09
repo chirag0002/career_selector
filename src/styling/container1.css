@@ -1,29 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap%27');
 
-
-
-.bar{
-    padding-top: 6px;
-    width: 100%;
-    padding-left: 60px;
-    padding-bottom: 6px;
-    font-size: 15px;
-    border-radius: 3px;
-    border-color:plum;
-    margin-top: 200px;
-    margin-left: 400px;
-    
-}
-.search_bar{
-    margin-top: -490px;
-    position: absolute;
-    margin-left: 45px;
-}
-.search_icon{
-    margin-left: -710px;
-    margin-top: -30px;
-    padding-left: 900px;
-}
 .side_stuff{
     color:black;
     display:flex;
@@ -95,16 +71,9 @@
     }
 }
 .logo{
-    
     position: relative;
     height:140px;
     width:140px;
     margin-top: 20px;
     float: left;
-
-    
-    
-    
-    
-    
 }
