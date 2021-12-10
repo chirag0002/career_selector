@@ -1,7 +1,7 @@
 import './App.css';
 import { Router, Outlet } from 'react-location';
 import { routes, location } from "./Components/router"
-
+ 
 function App() {
     return (
         <Router routes={routes} location={location}>
