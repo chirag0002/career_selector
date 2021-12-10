@@ -5,7 +5,11 @@ import logo from "../Images/logo.png"
 // import {Link} from "react-location";
 // import Popup from "./Popup"
 import { isDOMComponentElement } from 'react-dom/cjs/react-dom-test-utils.production.min';
+
 import Popup from './Popup';
+
+
+import workplace from '../Images/workplace.png'
 
 
 const Container1 = () => {
@@ -54,6 +58,17 @@ const Container1 = () => {
         <div className="container1">
              <img className="logo" src={logo} />
             <div className="header">
+
+                <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
+
+
+                <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
+
+                
+               
+                
+                <img className="back_img" src={workplace}/>
+
                 <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
                 <div className="animated_header">
                     <div className="container">

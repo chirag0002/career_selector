@@ -2,7 +2,7 @@ import React from 'react'
 import "../styling/Footer.css"
 import footer_img from "../Images/unique-career-plan2.jpeg"
 import footer_img1 from "../Images/paper-plane.png"
-import footer_img2 from "../Images/logo.png"
+import footer_img2 from "../Images/logo-removed.png"
 import { Button } from '@mui/material';
 import instagram from "../Images/instagram.png"
 import twitter from "../Images/twitter.png"

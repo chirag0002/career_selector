@@ -2,10 +2,10 @@
 
 
 .side_stuff{
-    color:black;
+    /* color:black; */
     display:flex;
     flex-direction: row;
-    margin-left: 1140px;
+    margin-left: 1040px;
     margin-top: -750px;
     font-size: 22px;
     position: absolute;
@@ -45,7 +45,7 @@
     letter-spacing: 5px;
     
     position: absolute;
-    color: black;
+    /* color: black; */
     animation:word 6s infinite ease-in-out;
     font-family: 'Kanit', sans-serif;
 }
