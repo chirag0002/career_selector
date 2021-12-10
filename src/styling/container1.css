@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap%27');
 
+
 .side_stuff{
     /* color:black; */
     display:flex;
@@ -9,17 +10,16 @@
     font-size: 22px;
     position: absolute;
     font-family: 'Kanit', sans-serif;
-    
-}
+    }
 
 
 .first{
     margin-right: 40px;
 }
-.second{
+/* .second{
     margin-right: 40px;
     margin-left: 24px;
-}
+} */
 .third{
     margin-left: 20px;
 
@@ -81,67 +81,61 @@
 }
 .query{
 position: absolute;
-top:20%;
-left:30%;
+top:3%;
+left:27%;
 background: #fff;
 width:410px;
 padding: 30px;
-box-shadow: 0 0 8px rgba(0,0,0,0.4);
-height: 500px;
+box-shadow: 0 0 8px #00008B;
+background-image: url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVkdWNhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
 width: 600px;
-transform:translate(-50%,-50%) scale(0);
-transform:200ms ease-in-out;
+}
 
-}
-.query.active{
-    transform:translate(-50%,-50%) scale(1);
-}
 .data{
-    padding-top: 30px;
+    padding-top: 1px;
 }
-.email_in{
-    margin-right: -30px;
-}
-.email{
-    margin-left: -70px;
-}
+
 .heading{
-    font-size: 35px;
-    font-weight: 600;
-    margin-right: 300px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: -20px;
+    margin-top: 5px;
     font-family: 'Kanit', sans-serif;
     text-decoration:none;
+    color:white;
+    
+    
 }
 .query form{
     margin-top: -20px;
 }
-#overlay{
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    transform:200ms ease-in-out;
-    bottom:0;
-    background-color: rgbe(0,0,0,0.5);
-    pointer-events: none;    
-}
-#overplay.active{
-    opacity: 1;
-    pointer-events: all;
-}
+
+
 .query form .data{
     height: 45px;
     width: 100%;
     margin: 40px 0;
     font-family: 'Kanit', sans-serif;
+    color:white;
+
+}
+.first_q{
+    margin-top: 40px;
+    color:white;
+    font-family: 'Kanit', sans-serif;
 
 }
 .second_q{
     margin-top: 40px;
+    color:white;
     font-family: 'Kanit', sans-serif;
 }
 
 .third_q{
+    color:white;
     margin-top: 40px;
     font-family: 'Kanit', sans-serif;
 }
@@ -154,26 +148,38 @@ transform:200ms ease-in-out;
     width: 40%;
     background: none;
     border:none;
-    color:black;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: 0 0 8px purple;
+    color:white;
+    box-shadow: 0 0 8px whitesmoke;
     
 
 }
-.close{
+.close-icon{
     float: right;
-    margin-top: -360px;
+    margin-top: -456px;
     margin-right: -29px;
-    background: red;
+    background: whitesmoke;
+    border: none;
+    height:26px;
+    width: 30px;
+    font-size: 20px;
+    
+}
+.second{
+    font-size: 22px;
+    text-decoration: none;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 10px;
 
 }
-.email{
-    padding-left: 20px;
-}
+
 .phone{
     padding-left: -20px;
 }
@@ -183,15 +189,18 @@ transform:200ms ease-in-out;
 
 form .data input{
     height: 30px;
+    border-radius: 5px;
     width: 400px;
-    padding-left: 10px;
+    padding-left: 13px;
     font-size: 17px;
     font-family: 'Kanit', sans-serif;
     border: 1px solid lightgrey;
 }
 
 form .data label{
-    font-size: 18px;
+    color:white;
+    font-size: 23px;
     font-family: 'Kanit', sans-serif;
     padding-right: 20px;
 }
+
