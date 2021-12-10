@@ -12,6 +12,7 @@
    margin-top: 3%;
    display: flex;
    animation:  snap  2s  infinite alternate-reverse ;
+   
  }
    
 @keyframes snap {
