@@ -2,13 +2,10 @@ import React,{useState} from 'react'
 import "../styling/container1.css"
 import SearchIcon from '@mui/icons-material/Search';
 import logo from "../Images/logo.png"
-<<<<<<< HEAD
 // import {Link} from "react-location";
 // import Popup from "./Popup"
 import { isDOMComponentElement } from 'react-dom/cjs/react-dom-test-utils.production.min';
-=======
 import workplace from '../Images/workplace.png'
->>>>>>> upstream/main
 
 const Container1 = () => {
 
@@ -17,14 +14,14 @@ const Container1 = () => {
         <div className="container1">
              <img className="logo" src={logo} />
             <div className="header">
-<<<<<<< HEAD
-                <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
-=======
+
+               <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
+
                 
                
                 
                 <img className="back_img" src={workplace}/>
->>>>>>> upstream/main
+
                 <div className="animated_header">
                     <div className="container">
                         <div className="word">Career Selector</div>
