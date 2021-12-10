@@ -6,7 +6,8 @@ function App() {
     return (
         <Router routes={routes} location={location}>
         <div className="App" >
-            <Outlet />        
+            <Outlet />     
+              
         </div>
         </Router>
     );
