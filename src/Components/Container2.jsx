@@ -10,7 +10,7 @@ const Container2 = () => {
     return (
         <div className="homepage_cont_2_3">
         <div className="homepage_cont_2">
-            <h1>
+            <h1 className="homepage_cont_2_main_head">
             CHOOSE YOUR DESTINATION
             </h1>
             <div className="homepage_cont_2_images">
@@ -31,7 +31,7 @@ const Container2 = () => {
         <div className="homepage_cont_3">
             <h1 className="homepage_cont_3_heading"> FIELDS TO EXPLORE</h1>
             <div className="homepage_cont_3_ex">
-                <div>
+                <div className="homepage_cont_3_ex_vdo_div">
                    <a href="">
                         <video className="homepage_cont_3_ex_vdo" autoPlay loop muted controls> 
                             <source src={Engineer} type="video/mp4"/>
@@ -39,17 +39,17 @@ const Container2 = () => {
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
-                <h4>ENGINEERING</h4>
+                <h3 className="homepage_cont_3_ex_p_head">ENGINEERING</h3>
                     <p className="homepage_cont_3_ex_p_p">Engineering stimulates the mind. Kids get bored easily. They have got to get their hands dirty: make things, dismantle things, fix things. When the schools can offer that, ypu'll have an engineer for life. <br /><a href="">more...</a> </p>
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
                 <div className="homepage_cont_3_ex_p">
-                <h4>DOCTORS</h4>
+                <h3 className="homepage_cont_3_ex_p_head">DOCTORS</h3>
                     <p className="homepage_cont_3_ex_p_p">I want to experience the most beautiful adrenaline rush of my life. A rush while taking medical pledge/oath. <br /><a href="">more...</a></p>
                 </div>
                 <hr className="homepage_cont_3_hr" />
-                <div>
+                <div className="homepage_cont_3_ex_vdo_div">
                     <a href="">
                         <video className="homepage_cont_3_ex_vdo" autoPlay loop muted controls>
                             <source src={Doctor} type="video/mp4"/>
@@ -58,7 +58,7 @@ const Container2 = () => {
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
-                <div>
+                <div className="homepage_cont_3_ex_vdo_div">
                    <a href=""> 
                         <video className="homepage_cont_3_ex_vdo" autoPlay loop muted controls>
                             <source src={Enterpreneur} type="video/mp4"/>
@@ -66,17 +66,17 @@ const Container2 = () => {
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
-                <h4>ENTREPRENEURS</h4>
+                <h3 className="homepage_cont_3_ex_p_head">ENTREPRENEURS</h3>
                     <p className="homepage_cont_3_ex_p_p">"npm Almost everything worthwhile carries with it some sort of risk, whether it’s starting a new business, whether it’s leaving home, whether it’s getting married, or whether it’s flying in space.” – Chris Hadfield, astronaut <br /><a href="">more...</a> </p>
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
                 <div className="homepage_cont_3_ex_p">
-                <h4>DESIGNING</h4>
+                <h3 className="homepage_cont_3_ex_p_head">DESIGNING</h3>
                     <p className="homepage_cont_3_ex_p_p">"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring." -- Paul Rand, graphic designer <br /><a href="">more...</a></p>
                 </div>
                 <hr className="homepage_cont_3_hr" />
-                <div>
+                <div className="homepage_cont_3_ex_vdo_div">
                     <a href="">
                         <video className="homepage_cont_3_ex_vdo" autoPlay loop muted controls>
                             <source src={Design} type="video/mp4"/>
@@ -85,7 +85,7 @@ const Container2 = () => {
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
-                <div>
+                <div className="homepage_cont_3_ex_vdo_div">
                    <a href=""> 
                         <video className="homepage_cont_3_ex_vdo" autoPlay loop muted controls>
                             <source src={Civil} type="video/mp4"/>
@@ -93,7 +93,7 @@ const Container2 = () => {
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
-                <h4>CIVIL-SERVICES</h4>
+                <h3 className="homepage_cont_3_ex_p_head">CIVIL-SERVICES</h3>
                     <p className="homepage_cont_3_ex_p_p">It takes hundreds of individuals to show against the law politically impose the right democratic injustice, and because it happens, these persons are civil servants. If even a few civil servant of the country is loyal and faithful to the country, then the place is in safe hands.
                     <br /><a href="">more...</a> </p>
                 </div>

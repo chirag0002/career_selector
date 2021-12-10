@@ -2,6 +2,7 @@ import React from 'react'
 import "../styling/container1.css"
 import SearchIcon from '@mui/icons-material/Search';
 import logo from "../Images/logo.png"
+import workplace from '../Images/workplace.png'
 
 const Container1 = () => {
     return (
@@ -11,7 +12,7 @@ const Container1 = () => {
                 
                
                 
-                <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
+                <img className="back_img" src={workplace}/>
                 <div className="animated_header">
                     <div className="container">
                         <div className="word">Career Selector</div>
