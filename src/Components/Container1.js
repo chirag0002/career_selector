@@ -1,24 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "../styling/container1.css"
 import SearchIcon from '@mui/icons-material/Search';
 import logo from "../Images/logo.png"
+// import {Link} from "react-location";
+// import Popup from "./Popup"
+import { isDOMComponentElement } from 'react-dom/cjs/react-dom-test-utils.production.min';
 
-const Container1 = ({props}) => {
+const Container1 = () => {
+
+
     return (
         <div className="container1">
              <img className="logo" src={logo} />
             <div className="header">
-                <div className="search_box">
-                    <input type="text" placeholder="Type to search"></input>
-                    <div className="search_button">
-                        <i className="fas fa-search"></i>
-                    </div>
-                    <div className="cancel_button">
-                        <i className="fas fa-times"></i>
-                    </div>
-                </div>
-               
-                
                 <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
                 <div className="animated_header">
                     <div className="container">
@@ -35,8 +29,32 @@ const Container1 = ({props}) => {
             </div>
             <div className="side_stuff">
                 <div className="first">About Us</div>
-                <div className="second">Ask Us</div>
+                {/* <Link to="ask"> */}
+                <button  className="second">Ask Us</button>
+                {/* </Link> */}
                 <div className="third">Careers</div>
+            </div>
+
+            <div className="query">
+                <h1 className='heading'>Queries</h1>
+                <form>
+                <div className="data">
+                <div className="first_q">
+                    <label className="email">Enter your Email-Id</label>
+                    <input type="text" placeholder='Email'></input>
+                </div>
+                <div className="second_q">
+                    <label className="phone">Enter your Phone No.</label>
+                    <input type="text" placeholder='Phone'></input>
+                </div>
+                <div className="third_q">
+                    <label className="q">Enter your Query</label>
+                    <input type="text" placeholder='Ask'></input>
+                </div>
+                <button className="close">x</button>
+                <button  className="submit" type="submit">Submit</button>
+                </div>
+                </form>
             </div>
         
         </div>
