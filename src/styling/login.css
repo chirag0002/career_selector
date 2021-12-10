@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+
+.user{
+    
+    position: absolute;
+    font-size:1.3rem;
+    margin-left: 5%;
+    margin-top: 14%;
+    font-family: 'Lobster', cursive;
+}
+.cont{
+    width:100%;
+    background-image: url("../Images/bg.png");
+    background-repeat: no-repeat;
+}
+
+.picture{
+    width: 400px;
+    height: 400px;
+    margin-top: 11%;
+    position: absolute;
+    display: flex;
+    margin-left: 8%;
+    
+}
+
+.email-1{
+    margin-top: 16%;
+    position: absolute;
+    margin-left: 5%;
+    background-color: grey;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+    height:40px;
+    width:300px;
+    font-size:1em;
+    color: white;
+    outline: none;
+}
+.password{
+    position: absolute;
+    font-size:1.3rem;
+    margin-left: 5%;
+    margin-top: 20%;
+    font-family: 'Lobster', cursive;
+}
+.password-1{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 22%;
+    position: absolute;
+    margin-left: 5%;
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    height:40px;
+    width:300px;
+    font-size:1em;
+    outline: none;
+}
+.login_btn{
+    font-family: 'Francois One', sans-serif;
+    position: absolute;
+    margin-top:27%;
+    background: black;
+    height: 40px;
+    width: 110px;
+    margin-left: 5%;
+    color: white;
+    border-radius:6px;
+    border-style:2px solid;
+    border-width: 3px;
+    border-color:white;
+    font-size:1rem;
+    
+    
+}

@@ -6,6 +6,9 @@ import Footer from './Footer';
 import Accordion from './Accordion';
 import Container4 from './Container4';
 import Container1 from './Container1';
+import Search_box from "./Search_box"
+import Ask from './Ask';
+import Login from './Login';
 import CP_Container1 from './CP_Container1';
 export const routes: Route[] = [
         {
@@ -32,6 +35,18 @@ export const routes: Route[] = [
     {
         path: "cont4",
         element:<Container4 />
+    },
+    {
+        path: "search",
+        element:<Search_box />
+    },
+    {
+        path: "ask",
+        element:<Ask />
+    },
+    
+        path: "login",
+        element:<Login />
     },
     {
         path: "cpc1",
