@@ -6,8 +6,13 @@ import Footer from './Footer';
 import Accordion from './Accordion';
 import Container4 from './Container4';
 import Container1 from './Container1';
+<<<<<<< HEAD
 import Search_box from "./Search_box"
 import Ask from './Ask';
+=======
+import Login from './Login';
+import CP_Container1 from './CP_Container1';
+>>>>>>> upstream/main
 export const routes: Route[] = [
         {
         path: "/",
@@ -35,6 +40,7 @@ export const routes: Route[] = [
         element:<Container4 />
     },
     {
+<<<<<<< HEAD
         path: "search",
         element:<Search_box />
     },
@@ -43,6 +49,15 @@ export const routes: Route[] = [
         element:<Ask />
     },
     
+=======
+        path: "login",
+        element:<Login />
+    },
+    {
+        path: "cpc1",
+        element:<CP_Container1 />
+    },
+>>>>>>> upstream/main
 ];
 
 export const location = new ReactLocation();
