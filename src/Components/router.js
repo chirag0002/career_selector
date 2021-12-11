@@ -44,7 +44,7 @@ export const routes: Route[] = [
         path: "ask",
         element:<Ask />
     },
-    
+    {
         path: "login",
         element:<Login />
     },
