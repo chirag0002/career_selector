@@ -2,13 +2,32 @@ import React from 'react'
 import "../styling/search_box.css"
 
 const Search_box= () => {
-    return (
-        <div className="search">
-            <h1>gggggg
+    window.onload = function() {
+        const searchBtn = document.querySelector(".search-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    const searchBox = document.querySelector(".search-box");
+    
+    searchBtn.onclick = () => {
+      searchBox.classList.add("active");
+    }
+    
+    cancelBtn.onclick = () => {
+      searchBox.classList.remove("active");
+     }
+    
+    }
 
-            </h1>
-           
-        </div>
+    return (
+        <div className="search-box">
+    <input type="text" placeholder="Type to search..."/>
+    <div className="search-btn">
+      <i className="fas fa-search"></i>
+    </div>
+    
+    <div class="cancel-btn">
+      <i class="fas fa-times"></i>
+    </div>
+  </div>
     )
 };
 

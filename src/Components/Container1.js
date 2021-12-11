@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import logo from "../Images/logo.png"
 import { isDOMComponentElement } from 'react-dom/cjs/react-dom-test-utils.production.min';
 import Popup from './Popup';
+import Search_box from './Search_box';
 const Container1 = () => {
 
     const[isOpen,setIsOpen]=useState(false);
@@ -11,43 +12,10 @@ const Container1 = () => {
     const togglePopup=()=>{
         setIsOpen(!isOpen);
     }
-
-
-
-    // const openQuery=document.querySelectorAll('[data-query-target]')
-    // const closeQuery=document.querySelectorAll('[data-close-button]')
-    // const overplay=document.getElementById('overplay')
-
-    // openQuery.forEach(button=>{
-    //     button.addEventListener('click', ()=>{
-    //         const query= document.querySelector(button.dataset.queriesTarget)
-    //     open(query)
-    //     })
-    // })
-    // closeQuery.forEach(button=>{
-    //     button.addEventListener('click', ()=>{
-    //         const query= button.closest('.query')
-    //     close(query)
-    //     })
-    // })
-
-    // function open(query){
-    //     if(query==null)
-    //     return
-    //     query.classList.add('active')
-    //     // overlay.classList.add('active')
-    // }
-
-    // function close(query){
-    //     if(query==null)
-    //     return
-    //     query.classList.remove('active')
-    //     // overlay.classList.remove('active')
-    // }
-
-
-    return (
-        <div className="container1">
+return (
+    
+<div className="container1">
+<Search_box/>
              <img className="logo" src={logo} />
             <div className="header">
 
@@ -60,16 +28,11 @@ const Container1 = () => {
                 </div>
                 
             </div>
-            <div className="search_bar">
-
-            
-                
-            </div>
             <div className="side_stuff">
                 <div className="first">About Us</div>
-                {/* <Link to="ask"> */}
+                
                 <button  onClick={togglePopup} className="second">Ask Us</button>
-                {/* </Link> */}
+                
                 <div className="third">Careers</div>
             </div>
 
