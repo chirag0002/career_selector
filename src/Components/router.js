@@ -6,10 +6,11 @@ import Footer from './Footer';
 import Accordion from './Accordion';
 import Container4 from './Container4';
 import Container1 from './Container1';
-import Search_box from "./Search_box"
-import Ask from './Ask';
+import Searchbox from "./Search_box"
 import Login from './Login';
-import CP_Container1 from './CP_Container1';
+import CPContainer1 from './CP_Container1';
+
+
 export const routes: Route[] = [
         {
         path: "/",
@@ -38,19 +39,16 @@ export const routes: Route[] = [
     },
     {
         path: "search",
-        element:<Search_box />
+        element:<Searchbox />
     },
-    {
-        path: "ask",
-        element:<Ask />
-    },
+    
     {
         path: "login",
         element:<Login />
     },
     {
         path: "cpc1",
-        element:<CP_Container1 />
+        element:<CPContainer1 />
     },
 ];
 
