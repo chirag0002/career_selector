@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styling/Footer.css"
 import footer_img from "../Images/uc.png"
-import footer_img1 from "../Images/paper-plane.png"
+import footer_img1 from "../Images/send.png"
 import footer_img2 from "../Images/logo.png"
 import { Button } from '@mui/material';
 import instagram from "../Images/instagram.png"
