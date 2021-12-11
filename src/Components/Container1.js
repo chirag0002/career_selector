@@ -1,8 +1,7 @@
 import React,{useState} from 'react'
 import "../styling/container1.css"
-import SearchIcon from '@mui/icons-material/Search';
 import logo from "../Images/logo.png"
-import { isDOMComponentElement } from 'react-dom/cjs/react-dom-test-utils.production.min';
+import workplace from "../Images/wp.png"
 import Popup from './Popup';
 const Container1 = () => {
 
@@ -12,46 +11,12 @@ const Container1 = () => {
         setIsOpen(!isOpen);
     }
 
-
-
-    // const openQuery=document.querySelectorAll('[data-query-target]')
-    // const closeQuery=document.querySelectorAll('[data-close-button]')
-    // const overplay=document.getElementById('overplay')
-
-    // openQuery.forEach(button=>{
-    //     button.addEventListener('click', ()=>{
-    //         const query= document.querySelector(button.dataset.queriesTarget)
-    //     open(query)
-    //     })
-    // })
-    // closeQuery.forEach(button=>{
-    //     button.addEventListener('click', ()=>{
-    //         const query= button.closest('.query')
-    //     close(query)
-    //     })
-    // })
-
-    // function open(query){
-    //     if(query==null)
-    //     return
-    //     query.classList.add('active')
-    //     // overlay.classList.add('active')
-    // }
-
-    // function close(query){
-    //     if(query==null)
-    //     return
-    //     query.classList.remove('active')
-    //     // overlay.classList.remove('active')
-    // }
-
-
     return (
         <div className="container1">
-             <img className="logo" src={logo} />
+             <img className="logo" src={logo}  alt=""/>
             <div className="header">
 
-                <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
+                <img className="back_img" src={workplace} alt=""/>
                 <div className="animated_header">
                     <div className="container">
                         <div className="word">Career Selector</div>
