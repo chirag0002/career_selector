@@ -1,8 +1,7 @@
 import React,{useState} from 'react'
 import "../styling/container1.css"
-import SearchIcon from '@mui/icons-material/Search';
 import logo from "../Images/logo.png"
-import { isDOMComponentElement } from 'react-dom/cjs/react-dom-test-utils.production.min';
+import workplace from "../Images/wp.png"
 import Popup from './Popup';
 import Search_box from './Search_box';
 const Container1 = () => {
@@ -12,14 +11,21 @@ const Container1 = () => {
     const togglePopup=()=>{
         setIsOpen(!isOpen);
     }
+<<<<<<< HEAD
 return (
     
 <div className="container1">
 <Search_box/>
              <img className="logo" src={logo} />
+=======
+
+    return (
+        <div className="container1">
+             <img className="logo" src={logo}  alt=""/>
+>>>>>>> upstream/main
             <div className="header">
 
-                <img className="back_img" src="https://blog.bonus.ly/hubfs/workplace-conflict.png"/>
+                <img className="back_img" src={workplace} alt=""/>
                 <div className="animated_header">
                     <div className="container">
                         <div className="word">Career Selector</div>
