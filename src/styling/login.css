@@ -23,8 +23,14 @@
     position: absolute;
     display: flex;
     margin-left: 8%;
+    animation:  snap  1.5s  infinite alternate-reverse ;
     
 }
+   
+@keyframes snap {
+    from{transform: translate(0%);}
+    to {transform: translateY(10%);}
+  }
 
 .email-1{
     margin-top: 16%;
@@ -77,6 +83,13 @@
     border-width: 3px;
     border-color:white;
     font-size:1rem;
+   border: 1px solid black;
     
+   
+     
     
+}
+.login_btn:hover{
+    color: #ffffff;
+  box-shadow: inset 250px 0 0 0 grey;
 }

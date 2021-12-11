@@ -3,7 +3,7 @@ import "../styling/login.css"
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import pic from "../Images/idea_concepts.png"
- import bg from "../Images/bg.png"
+//  import bg from "../Images/bg.png"
 const Login = () => {
     return (
 
