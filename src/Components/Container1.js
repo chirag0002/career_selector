@@ -11,18 +11,12 @@ const Container1 = () => {
     const togglePopup=()=>{
         setIsOpen(!isOpen);
     }
-<<<<<<< HEAD
-return (
-    
-<div className="container1">
-<Search_box/>
-             <img className="logo" src={logo} />
-=======
+
 
     return (
         <div className="container1">
+            <Search_box/>
              <img className="logo" src={logo}  alt=""/>
->>>>>>> upstream/main
             <div className="header">
 
                 <img className="back_img" src={workplace} alt=""/>

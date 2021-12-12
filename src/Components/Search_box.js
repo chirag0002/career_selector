@@ -24,8 +24,8 @@ const Search_box= () => {
       <i className="fas fa-search"></i>
     </div>
     
-    <div class="cancel-btn">
-      <i class="fas fa-times"></i>
+    <div className="cancel-btn">
+      <i className="fas fa-times"></i>
     </div>
   </div>
     )
