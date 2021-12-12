@@ -3,12 +3,26 @@ import "../styling/login.css"
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import pic from "../Images/idea_concepts.png";
+import fb from "../Images/facebook2.png";
+import google from "../Images/google.png";
+import logo from "../Images/logo.png"
+import bg from "../Images/bg.jpg";
+
 const Login = () => {
     return (
+     
+              <> 
 
-        <div className= "cont">
+
+         {/* <div className= "cont"> */}
+         <img className="snap" src={bg} alt="" />
+        
+        
+         <img className="logo" src={logo}  alt=""/> 
                 <img className="picture" src={pic} alt="" />
-            <Form class="form">
+                
+            <Form className="form">
+          
             
   <Form.Group  controlId="formBasicEmail">
     <Form.Label className="user"> Username or Email </Form.Label>
@@ -20,11 +34,26 @@ const Login = () => {
     <Form.Control className="password-1" type="password"  />
   </Form.Group>
   
-  <Button className="login_btn" variant="primary" type="submit">
-    Login
+  <Button className="login_btn"  type="submit">
+   Login
   </Button>
+  <div class="striped">
+				<span class="striped-line"></span>
+				<span class="striped-text">Or</span>
+				<span class="striped-line"></span>
+			</div>
+  <Button className="login_google"  type="submit">
+  <img className="google" src={google} alt="" /> Login with Google  
+  </Button>
+  <Button className="login_fb"  type="submit">
+    <img className="fb" src={fb} alt="" /> Login with Facebook
+  </Button>
+  
+  
 </Form>
-        </div>
+
+
+</>
     )
 }
 
