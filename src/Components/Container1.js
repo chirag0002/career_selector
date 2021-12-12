@@ -3,6 +3,7 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
+import Search_box from './Search_box';
 const Container1 = () => {
 
     const[isOpen,setIsOpen]=useState(false);
@@ -11,8 +12,10 @@ const Container1 = () => {
         setIsOpen(!isOpen);
     }
 
+
     return (
         <div className="container1">
+            <Search_box/>
              <img className="logo" src={logo}  alt=""/>
             <div className="header">
 
@@ -25,16 +28,11 @@ const Container1 = () => {
                 </div>
                 
             </div>
-            <div className="search_bar">
-
-            
-                
-            </div>
             <div className="side_stuff">
                 <div className="first">About Us</div>
-                {/* <Link to="ask"> */}
+                
                 <button  onClick={togglePopup} className="second">Ask Us</button>
-                {/* </Link> */}
+                
                 <div className="third">Careers</div>
             </div>
 
