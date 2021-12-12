@@ -28,7 +28,7 @@ const[theme,setTheme]=useState("light");
             <MUISwitch
             className="theme_switch"
             onClick={themeChanger}
-            defaultChecked />
+            defaultUnChecked />
             <Container1/>
             <Container2 />
             <Container4 />
