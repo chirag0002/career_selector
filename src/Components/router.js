@@ -8,7 +8,7 @@ import Container4 from './Container4';
 import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
-import CPContainer1 from './CP_Container1';
+
 
 
 export const routes: Route[] = [
@@ -45,10 +45,6 @@ export const routes: Route[] = [
     {
         path: "login",
         element:<Login />
-    },
-    {
-        path: "cpc1",
-        element:<CPContainer1 />
     },
 ];
 
