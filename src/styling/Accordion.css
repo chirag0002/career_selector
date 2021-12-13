@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
  .ques{
    text-align:center;
    font-size: 3rem;
-   /* margin-top:-20%; */
    margin-left: 70%;
    width: 20%;
  }
@@ -53,7 +51,6 @@ margin-left: 35%;
  .question h2{
    color: #fff;
    font-size: 1.3rem;
-   font-family: 'Kanit', sans-serif;
  }
  .question p{
    color: #fff;
