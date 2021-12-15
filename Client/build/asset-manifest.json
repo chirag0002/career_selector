@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21615646.chunk.css",
+    "main.js": "/static/js/main.98d9076b.chunk.js",
+    "main.js.map": "/static/js/main.98d9076b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.88dd8daf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.88dd8daf.js.map",
+    "static/js/2.f0b1e807.chunk.js": "/static/js/2.f0b1e807.chunk.js",
+    "static/js/2.f0b1e807.chunk.js.map": "/static/js/2.f0b1e807.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.21615646.chunk.css.map": "/static/css/main.21615646.chunk.css.map",
+    "static/js/2.f0b1e807.chunk.js.LICENSE.txt": "/static/js/2.f0b1e807.chunk.js.LICENSE.txt",
+    "static/media/Civil.3cc723b7.mp4": "/static/media/Civil.3cc723b7.mp4",
+    "static/media/Design.6370ecd4.mp4": "/static/media/Design.6370ecd4.mp4",
+    "static/media/Doctor.4f0a6c47.mp4": "/static/media/Doctor.4f0a6c47.mp4",
+    "static/media/Engineer.516ee7f2.mp4": "/static/media/Engineer.516ee7f2.mp4",
+    "static/media/Enterpreneur.6e818f5f.mp4": "/static/media/Enterpreneur.6e818f5f.mp4",
+    "static/media/facebook2.13863c99.png": "/static/media/facebook2.13863c99.png",
+    "static/media/faq.4bd4d87c.png": "/static/media/faq.4bd4d87c.png",
+    "static/media/google.95dc49b7.png": "/static/media/google.95dc49b7.png",
+    "static/media/idea_concepts.6c2f868c.png": "/static/media/idea_concepts.6c2f868c.png",
+    "static/media/instagram.e719d8b2.png": "/static/media/instagram.e719d8b2.png",
+    "static/media/linkedin.f249b382.png": "/static/media/linkedin.f249b382.png",
+    "static/media/logo.5fae5889.png": "/static/media/logo.5fae5889.png",
+    "static/media/school_card_background.3f2e7bc1.mp4": "/static/media/school_card_background.3f2e7bc1.mp4",
+    "static/media/send.70bef6d2.png": "/static/media/send.70bef6d2.png",
+    "static/media/twitter.89498832.png": "/static/media/twitter.89498832.png",
+    "static/media/uc.49c346dd.png": "/static/media/uc.49c346dd.png",
+    "static/media/wp.3a98b6b3.png": "/static/media/wp.3a98b6b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88dd8daf.js",
+    "static/js/2.f0b1e807.chunk.js",
+    "static/css/main.21615646.chunk.css",
+    "static/js/main.98d9076b.chunk.js"
+  ]
+}
