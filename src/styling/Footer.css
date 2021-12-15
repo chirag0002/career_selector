@@ -1,15 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
-
-*{
-    margin: 0;
-}
-
-
 
 .footer_cont_6{
     margin-top: 10%;
-    font-family: 'Kanit', sans-serif;
-    /* background:white; */
 }
 
 .test{
@@ -60,7 +51,6 @@
     height:30%;
     border: none;
     border-bottom: 1px solid;
-    font-family: 'Kanit', sans-serif;
     font-size: 1rem;
     margin-left: 18%;
     margin-top: 4%;

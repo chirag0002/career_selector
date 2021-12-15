@@ -8,7 +8,7 @@ import Container4 from './Container4';
 import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
-import Colleges from './Colleges';
+import School from "./School";
 
 
 
@@ -48,9 +48,20 @@ export const routes: Route[] = [
         element:<Login />
     },
 
+
     {
         path: "college",
         element:<Colleges />
+    },
+
+    {
+        path: "cpc1",
+        element:<CPContainer1 />
+    },
+    {
+        path: "school",
+        element:<School />
+
     },
 ];
 
