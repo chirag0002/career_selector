@@ -5,6 +5,7 @@ import {lightTheme, darkTheme ,GlobalStyles} from './themes'
 import MUISwitch from "@material-ui/core/switch"
 import card_video from "../Videos/school_card_background.mp4"
 import Footer from "../Components/Footer.jsx"
+import School_Science from "../Images/School_Science.png"
 
 
 const StyledApp= styled.div`
@@ -53,6 +54,9 @@ const School = () => {
                 <section id="school_container2_heading1">
                     Science
                 </section>
+
+                <img src={School_Science} alt="" />
+                <p>1. What is Science?</p>
                 <p>
                     Those of you who are preparing for the 10th standard board exams are most likely surrounded by questions like which stream
                     to choose? Whether to take a road less travelled or study subjects opted by many? And what are the career prospects in
