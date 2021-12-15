@@ -19,7 +19,7 @@ const Search_box= () => {
 
     return (
         <div className="search-box">
-    <input type="text" placeholder="Type to search..."/>
+    <input type="text" placeholder="Type to search. . ."/>
     <div className="search-btn">
       <i className="fas fa-search"></i>
     </div>

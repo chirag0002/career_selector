@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap%27');
+.heading{
+    font-family: 'Kanit', sans-serif;
+color: black;
+font-size: 70px;
+margin-top: 10px;
+font-weight: bold;
+
+
+}
+
+body{
+    
+    background: url("https://images.unsplash.com/photo-1606636660488-16a8646f012c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVkdWNhdGlvbiUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* .container{
+    position: absolute;
+} */
+
+
+
+.cards{
+    margin-top: 200px;
+    
+}
+.ug_container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.card_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+    height:200px;
+    
+    
+}
+
+.card_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+.card_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+    
+}
+.card_4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+}
+.card_5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+}
+.card_6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+}
+.card_7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+}
+.card_8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+}
+.card_9{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 140px;
+    box-shadow: 0 0 45px purple;
+    /* border:solid silver; */
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+.cards:nth-child(even) img{
+    order: 2;
+}
+.card1_overview,.card2_overview,.card3_overview,.card4_overview,.card5_overview,.card6_overview,.card7_overview,.card8_overview,.card9_overview{
+    margin-top: 30px;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.card1_list,.card2_list,.card3_list,.card4_list,.card5_list,.card6_list,.card7_list,.card8_list,.card9_list{
+    margin-top: 6px;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+.card1_img{
+    height: 200px;
+}
+
+.card2_img{
+    height: 200px;
+    width: 350px;
+}
+
