@@ -9,7 +9,11 @@ import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
 import CPContainer1 from './CP_Container1';
+<<<<<<< HEAD
 import Ug from './Ug';
+=======
+import School from "./School"
+>>>>>>> upstream/main
 
 
 export const routes: Route[] = [
@@ -51,10 +55,16 @@ export const routes: Route[] = [
         path: "cpc1",
         element:<CPContainer1 />
     },
+<<<<<<< HEAD
 
     {
         path: "ug",
         element:<Ug />
+=======
+    {
+        path: "school",
+        element:<School />
+>>>>>>> upstream/main
     },
 ];
 
