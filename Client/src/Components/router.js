@@ -9,6 +9,8 @@ import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
 import School from "./School"
+import Pg from "./PG.js"
+import Ug from "./UG.js"
 
 
 export const routes: Route[] = [
@@ -50,6 +52,14 @@ export const routes: Route[] = [
         path: "school",
         element:<School />
     },
+    {
+        path:"Pg",
+        element: <Pg />
+    },
+    {
+        path:"ug",
+        element: <Ug />
+    }
 ];
 
 export const location = new ReactLocation();
