@@ -8,6 +8,7 @@ import Container4 from './Container4';
 import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
+import Colleges from './Colleges';
 
 
 
@@ -45,6 +46,11 @@ export const routes: Route[] = [
     {
         path: "login",
         element:<Login />
+    },
+
+    {
+        path: "college",
+        element:<Colleges />
     },
 ];
 

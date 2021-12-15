@@ -1,0 +1,36 @@
+.colleges_header{
+    width:95% ;
+    max-height: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+
+}
+.colleges_header_img{
+    width: 80%;
+    height:20rem;
+    z-index: 0;
+    opacity: 1;
+    margin-right:10%;
+}
+.colleges_logo{
+    height:7rem;
+    width:7rem;
+    z-index: 4;
+}
+.colleges_details > .colleges_summary{
+    list-style: none;
+} 
+
+.colleges_navbar{ 
+    text-align: left;
+    cursor: pointer;   
+    font-size: larger;
+    background-color: rgb(243, 245, 247);
+    font-weight: lighter;
+    position:absolute;
+    left:90%;
+}
+.colleges_nav{
+    justify-content: left;
+}
