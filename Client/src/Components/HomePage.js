@@ -20,11 +20,10 @@ const HomePage = () => {
 
     const check=useSelector((state)=>state.check)
     console.log(check);
-const[theme,setTheme]=useState("light");
+    const[theme,setTheme]=useState("light");
         const themeChanger =() =>{
             theme=== "light" ? setTheme ("dark") : setTheme ("light");
         };
-
     return (
         <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />

@@ -1,3 +1,3 @@
 export const getHomePage =(req, res) => {
-    res.send("Changed");
+    res.send("Consoling");
 }
