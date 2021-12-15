@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap%27');
 .heading{
-    font-family: 'Kanit', sans-serif;
+font-family: 'Kanit', sans-serif;
 color: black;
 font-size: 70px;
 margin-top: 10px;
@@ -10,13 +10,7 @@ font-weight: bold;
 
 }
 
-body{
-    
-    background: url("https://images.unsplash.com/photo-1606636660488-16a8646f012c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVkdWNhdGlvbiUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
 /* .container{
     position: absolute;
 } */
