@@ -9,6 +9,7 @@ import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
 import School from "./School";
+import Colleges from './Colleges';
 
 
 
@@ -54,10 +55,6 @@ export const routes: Route[] = [
         element:<Colleges />
     },
 
-    {
-        path: "cpc1",
-        element:<CPContainer1 />
-    },
     {
         path: "school",
         element:<School />
