@@ -25,7 +25,7 @@
 
 }
 
-.ug_card_2,.ug_card_3,.ug_card_4,.ug_card_5{
+.ug_card_2,.ug_card_3,.ug_card_4,.ug_card_5,.ug_card_6,.ug_card_7{
     /* max-width:1000px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -48,7 +48,7 @@
     width:400px;
     height:250px;
 }
-.ug_btn_2,.ug_btn_3,.ug_btn_4,.ug_btn_5{
+.ug_btn_2,.ug_btn_3,.ug_btn_4,.ug_btn_5,.ug_btn_6,.ug_btn_7{
     /* position:absolute; */
     width:150px;
     height:30px;

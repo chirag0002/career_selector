@@ -7,6 +7,9 @@ import Ba from "../Images/Ba.jpg"
 import bca from "../Images/bca.png"
 import bcom from "../Images/bcom.jpg"
 import bsc from "../Images/bsc.jpg"
+import barch from "../Images/barch.jpg"
+import bpharma from "../Images/bpharma.jpg"
+
 
 const UG = () => {
      
@@ -105,6 +108,45 @@ const UG = () => {
                                 <a className="ug_btn_click" href="#">Click Here for more </a>
                                </div>
                            </div>
+
+
+
+                           <div data-aos="fade-right" className="ug_card_6">
+                       <img className="ug_image_mtech"src={barch} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           This course consists of various aspects of different streams of humanities,
+                            engineering, aesthetics, etc. The B.Arch syllabus consists of various theory 
+                            subjects, studio, project work, practical training, and research training.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_6">
+                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+
+                           <div data-aos="fade-left" className="ug_card_7">
+                       <img className="ug_image_mtech"src={bpharma} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           B Pharmacy or Bachelor of Pharmacy is a 4 years Undergraduate
+                            degree program that deals with the intricacies of the pharmaceutical
+                             industry, starting from manufacturing medicines and drugs to dispensing
+                              them across various medical stores, distributors and stockists.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_7">
+                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
                            </div>
                            </div>
                            
