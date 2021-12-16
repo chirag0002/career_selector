@@ -1,0 +1,54 @@
+.pg_heading{
+    
+    color: black;
+    font-size: 5rem;
+    margin-top: 5%;
+    font-weight: bold;
+    }
+    .pg_cards{
+    margin-top: 8% ;
+    
+}
+.pg_container_1{
+   width:80%;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.pg_card_1{
+    /* max-width:1000px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 4%;
+    width:70%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height:250px;
+    margin-left:8%;
+}
+
+.pg_content_para{
+    margin-top: 8%;
+    width:180%;
+    font-size:1.2rem;
+    margin-left:10%;
+}
+.pg_image_mtech{
+    width:400px;
+    height:250px;
+}
+.pg_btn{
+    /* position:absolute; */
+    width:150px;
+    height:30px;
+    background-color: black;
+    margin-top: 70%;
+    margin-left:28%;
+    border-radius: 4px;
+}
+.pg_btn_click{
+    text-decoration: none;
+    color:white;
+}
