@@ -11,7 +11,8 @@ const Accordion=()=>{
   return (
     <>
     <div className="cont-5">
-     <img className="pic" src={faq} alt="" />
+    {/* <h1>Frequently Asked Question</h1> */}
+     <img className="accordion_pic" src={faq} alt="" />
      </div>
 
     <div className="container5">
