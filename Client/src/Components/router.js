@@ -8,7 +8,6 @@ import Container4 from './Container4';
 import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
-// import CPContainer1 from './CP_Container1';
 import School from "./School"
 import Pg from "./PG.js"
 import Ug from "./UG.js"
@@ -49,10 +48,6 @@ export const routes: Route[] = [
         path: "login",
         element:<Login />
     },
-    // {
-    //     path: "cpc1",
-    //     element:<CPContainer1 />
-    // },
     {
         path: "school",
         element:<School />

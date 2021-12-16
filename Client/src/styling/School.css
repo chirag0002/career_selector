@@ -54,6 +54,7 @@
 
 .school_container2_1,.school_container2_2,.school_container2_3{
 border:1px solid white;
+border-radius: 5px;
 margin-top:5%;
 margin-left: 3%;
 margin-right:3%;
@@ -67,3 +68,24 @@ padding-bottom: 3%;
     text-align: justify;
 }
 
+.school_container2_subheading{
+    font-size:2rem;
+    border-top: 1px solid white;
+    padding-top:2%;
+}
+
+.school_container2_subheading_1{
+    font-size:1.5rem;
+    padding-top: 2%;
+}
+
+.padding_bottom{
+    padding-bottom:2%;
+}
+
+.School_Science{
+    margin-bottom: 2%;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top:1%;
+}

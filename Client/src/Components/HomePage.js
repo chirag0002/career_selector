@@ -24,7 +24,6 @@ const[theme,setTheme]=useState("dark");
         const themeChanger =() =>{
             theme=== "light" ? setTheme ("dark") : setTheme ("light");
         };
-
     return (
         <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
