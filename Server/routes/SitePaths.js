@@ -4,4 +4,6 @@ const router = express.Router();
 
 router.get('/', getHomePage);
 
+// router.post('/query',getQuery);
+
 export default router;
