@@ -5,6 +5,11 @@ import logo from "../Images/logo.png"
 import Footer from "./Footer";
 import HeaderV from "../Videos/Header.mp4"
 import headerVed from "../Videos/College_background.mp4"
+import arts from "../Images/arts.png"
+import law from "../Images/law.png"
+import engineer from "../Images/engineer.png"
+import doctor from "../Images/doctor.png"
+import commerce from "../Images/commerece.png"
 // import Card from 'react-animated-3d-card'
 
 
@@ -156,7 +161,7 @@ const Colleges = () => {
                 {/* <Cards/> */}
                 <div className="college_ug_container">
                     <div className="college_ug_container_img">
-                    <img className="college_ug_container_img_img"src="" alt="" />
+                    <img className="college_ug_container_img_img"src={engineer} alt="" />
                     </div>
                     <div className="college_ug_container_content">
                         
@@ -165,7 +170,7 @@ const Colleges = () => {
                 </div>
                 <div className="college_ug_container">
                     <div className="college_ug_container_img">
-                    <img className="college_ug_container_img_img"src="" alt="" />
+                    <img className="college_ug_container_img_img" src={doctor} alt="" />
                     </div>
                     <div className="college_ug_container_content">
                         
@@ -174,7 +179,7 @@ const Colleges = () => {
                 </div>
                 <div className="college_ug_container">
                     <div className="college_ug_container_img">
-                    <img className="college_ug_container_img_img"src="" alt="" />
+                    <img className="college_ug_container_img_img" src={law} alt="" />
                     </div>
                     <div className="college_ug_container_content">
                         
@@ -183,7 +188,7 @@ const Colleges = () => {
                 </div>
                 <div className="college_ug_container">
                     <div className="college_ug_container_img">
-                    <img className="college_ug_container_img_img"src="" alt="" />
+                    <img className="college_ug_container_img_img" src={arts} alt="" />
                     </div>
                     <div className="college_ug_container_content">
                         
@@ -192,7 +197,7 @@ const Colleges = () => {
                 </div>
                 <div className="college_ug_container">
                     <div className="college_ug_container_img">
-                    <img className="college_ug_container_img_img"src="" alt="" />
+                    <img className="college_ug_container_img_img"src={commerce} alt="" />
                     </div>
                     <div className="college_ug_container_content">
                         
