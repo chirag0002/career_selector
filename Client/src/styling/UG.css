@@ -1,153 +1,73 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap%27');
-.heading{
-font-family: 'Kanit', sans-serif;
-color: black;
-font-size: 70px;
-margin-top: 10px;
-font-weight: bold;
-
-
-}
-
-
-/* .container{
-    position: absolute;
-} */
-
-
-
-.cards{
-    margin-top: 200px;
+.ug_heading{
     
-}
-.ug_container{
-    max-width: 1100px;
-    margin: auto;
-    overflow: auto;
-    padding: 0 2rem;
-}
-
-.card_1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-    height:200px;
-    
-    
-}
-
-.card_2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-}
-
-.card_3{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-    
-}
-.card_4{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-}
-.card_5{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-}
-.card_6{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-}
-.card_7{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-}
-.card_8{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-}
-.card_9{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 3rem;
-    margin-bottom: 140px;
-    box-shadow: 0 0 45px purple;
-    /* border:solid silver; */
-    border-radius: 10px;
-    background-color: wheat;
-}
-
-.cards:nth-child(even) img{
-    order: 2;
-}
-.card1_overview,.card2_overview,.card3_overview,.card4_overview,.card5_overview,.card6_overview,.card7_overview,.card8_overview,.card9_overview{
-    margin-top: 30px;
-    font-family: 'Kanit', sans-serif;
-    text-align: left;
+    color: black;
+    font-size: 5rem;
+    margin-top: 1%;
     font-weight: bold;
+    }
+    
+.ug_cards{
+    margin-top: 7%;
+    margin-left: 5%;
+    
+}
+
+.ug_card_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 4%;
+    width:70%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height:250px;
+    margin-left:8%;
 
 }
 
-.card1_list,.card2_list,.card3_list,.card4_list,.card5_list,.card6_list,.card7_list,.card8_list,.card9_list{
-    margin-top: 6px;
-    font-family: 'Kanit', sans-serif;
-    text-align: left;
-    font-weight: bold;
-}
-.card1_img{
-    height: 200px;
+.ug_card_2,.ug_card_3,.ug_card_4,.ug_card_5{
+    /* max-width:1000px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 4%;
+    width:70%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height:250px;
+    margin-left:10%;
 }
 
-.card2_img{
-    height: 200px;
-    width: 350px;
+.ug_content_para{
+    margin-top: 8%;
+    width:180%;
+    font-size:1.2rem;
+    margin-left:10%;
+}
+.ug_image_mtech{
+    width:400px;
+    height:250px;
+}
+.ug_btn_2,.ug_btn_3,.ug_btn_4,.ug_btn_5{
+    /* position:absolute; */
+    width:150px;
+    height:30px;
+    background-color: black;
+    margin-top: 70%;
+    margin-left:28%;
+    border-radius: 4px;
+}
+.ug_btn_1{
+    width:150px;
+    height:30px;
+    background-color: black;
+    margin-top: 70%;
+    margin-left:28%;
+    border-radius: 4px;
+
+}
+.ug_btn_click{
+    text-decoration: none;
+    color:white;
 }
 
