@@ -83,8 +83,11 @@ padding-bottom: 3%;
     padding-bottom:2%;
 }
 
-.School_Science{
+
+.School_Arts{
     margin-bottom: 2%;
+    width: 80%;
+    height: 80%;
     border: 2px solid white;
     border-radius: 5px;
     margin-top:1%;
