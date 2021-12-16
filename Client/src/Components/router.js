@@ -9,8 +9,8 @@ import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
 import School from "./School"
-import Pg from "./PG.js"
-import Ug from "./UG.js"
+import PG from "./PG.js"
+import UG from "./UG.js"
 
 
 export const routes: Route[] = [
@@ -54,11 +54,11 @@ export const routes: Route[] = [
     },
     {
         path:"Pg",
-        element: <Pg />
+        element: <PG />
     },
     {
         path:"ug",
-        element: <Ug />
+        element: <UG/>
     }
 ];
 
