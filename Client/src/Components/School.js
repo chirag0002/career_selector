@@ -300,7 +300,7 @@ const School = () => {
                 <section id="school_container2_heading2">
                     Commerce
                 </section>
-                <img className="School_Science" src={School_Commerce} alt="" />
+                <img className="School_Arts" src={School_Commerce} alt="" />
                 <p className="school_container2_subheading">1. What is Commerce :</p>
                 <p>
                     Commerce is defined as the exchange of goods and services among individuals and business entities.
