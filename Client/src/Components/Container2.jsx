@@ -41,7 +41,16 @@ const Container2 = () => {
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
                 <h3 className="homepage_cont_3_ex_p_head">ENGINEERING</h3>
+<<<<<<< HEAD
                     <p className="homepage_cont_3_ex_p_p_l">Engineering stimulates the mind. Kids get bored easily. They have got to get their hands dirty: make things, dismantle things, fix things. When the schools can offer that, ypu'll have an engineer for life. <br /><a href="">more...</a> </p>
+=======
+                    <p className="homepage_cont_3_ex_p_p">
+                    Engineering stimulates the mind. Kids get bored easily. They have got to get their hands dirty: make things, 
+                    dismantle things, fix things. When the schools can offer that, ypu'll have an engineer for life.
+                    <br />
+                    <a href="">more...</a> 
+                    </p>
+>>>>>>> upstream/main
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
@@ -68,7 +77,11 @@ const Container2 = () => {
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
                 <h3 className="homepage_cont_3_ex_p_head">ENTREPRENEURS</h3>
+<<<<<<< HEAD
                     <p className="homepage_cont_3_ex_p_p_l">"npm Almost everything worthwhile carries with it some sort of risk, whether it’s starting a new business, whether it’s leaving home, whether it’s getting married, or whether it’s flying in space.” – Chris Hadfield, astronaut <br /><a href="">more...</a> </p>
+=======
+                    <p className="homepage_cont_3_ex_p_p">"Almost everything worthwhile carries with it some sort of risk, whether it’s starting a new business, whether it’s leaving home, whether it’s getting married, or whether it’s flying in space.” – Chris Hadfield, astronaut <br /><a href="">more...</a> </p>
+>>>>>>> upstream/main
                 </div>
             </div>
             <div className="homepage_cont_3_ex">

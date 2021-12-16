@@ -12,7 +12,7 @@ const Accordions=({question,answer}) => {
         <>
         
          <div  className="question" onClick = {display}>
-         <h2>{question}</h2>
+         <p className="ques">{question}</p>
          {text?<i class="fas fa-angle-down"></i>:<i class="fas fa-angle-right"></i>}
       </div>
     <div className="answers">
