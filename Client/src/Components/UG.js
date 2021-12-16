@@ -2,13 +2,13 @@ import React ,  { useEffect, useState } from 'react';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import '../styling/UG.css';
-import btech from "../Images/btech.jpg"
-import Ba from "../Images/Ba.jpg"
-import bca from "../Images/bca.png"
-import bcom from "../Images/bcom.jpg"
-import bsc from "../Images/bsc.jpg"
-import barch from "../Images/barch.jpg"
-import bpharma from "../Images/bpharma.jpg"
+// import btech from "../Images/btech.jpg"
+// import Ba from "../Images/Ba.jpg"
+// import bca from "../Images/bca.png"
+// import bcom from "../Images/bcom.jpg"
+// import bsc from "../Images/bsc.jpg"
+// import barch from "../Images/barch.jpg"
+// import bpharma from "../Images/bpharma.jpg"
 
 
 const UG = () => {
@@ -28,7 +28,7 @@ const UG = () => {
                    <div className="ug_cards">
                    
                        <div className="ug_card_1">
-                       <img className="ug_image_mtech"src={btech} alt=""/>
+                       {/* <img className="ug_image_mtech"src={btech} alt=""/> */}
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">
                            Bachelor of Technology (BTech) is a professional undergraduate engineering degree programme awarded to candidates after 
@@ -45,7 +45,7 @@ const UG = () => {
 
         <div className="ug_from_2_till_5">
           <div className="ug_card_2">
-                       <img className="ug_image_mtech"src={bcom} alt=""/>
+                       {/* <img className="ug_image_mtech"src={bcom} alt=""/> */}
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">
                            BCom, having the full form as Bachelor of Commerce, is a three-year UG degree course
@@ -62,7 +62,7 @@ const UG = () => {
 
         
           <div data-aos="fade-left" className="ug_card_3">
-                       <img className="ug_image_mtech"src={Ba} alt=""/>
+                       {/* <img className="ug_image_mtech"src={Ba} alt=""/> */}
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">
                            Bachelor of Arts is a bachelor's 
@@ -79,7 +79,7 @@ const UG = () => {
 
 
                              <div data-aos="fade-right" className="ug_card_4">
-                       <img className="ug_image_mtech"src={bsc} alt=""/>
+                       {/* <img className="ug_image_mtech"src={bsc} alt=""/> */}
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">
                            BSc or Bachelor of Science is an undergraduate degree of three years duration which 
@@ -97,7 +97,7 @@ const UG = () => {
                       
                       
                          <div data-aos="fade-left" className="ug_card_5">
-                       <img className="ug_image_mtech"src={bca} alt=""/>
+                       {/* <img className="ug_image_mtech"src={bca} alt=""/> */}
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">
                            BCA, full form Bachelor of Computer Application, is a 3-year UG course
@@ -112,7 +112,7 @@ const UG = () => {
 
 
                            <div data-aos="fade-right" className="ug_card_6">
-                       <img className="ug_image_mtech"src={barch} alt=""/>
+                       {/* <img className="ug_image_mtech"src={barch} alt=""/> */}
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">
                            This course consists of various aspects of different streams of humanities,
@@ -130,7 +130,7 @@ const UG = () => {
 
 
                            <div data-aos="fade-left" className="ug_card_7">
-                       <img className="ug_image_mtech"src={bpharma} alt=""/>
+                       {/* <img className="ug_image_mtech"src={bpharma} alt=""/> */}
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">
                            B Pharmacy or Bachelor of Pharmacy is a 4 years Undergraduate
