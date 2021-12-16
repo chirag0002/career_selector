@@ -34,14 +34,14 @@ const Container2 = () => {
             <div className="homepage_cont_3_ex">
                 <div className="homepage_cont_3_ex_vdo_div">
                    <a href="">
-                        <video className="homepage_cont_3_ex_vdo" autoPlay loop muted > 
+                        <video className="homepage_cont_3_ex_vdo" autoPlay loop muted controls> 
                             <source src={Engineer} type="video/mp4"/>
                         </video></a>
                 </div>
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
                 <h3 className="homepage_cont_3_ex_p_head">ENGINEERING</h3>
-                    <p className="homepage_cont_3_ex_p_p">Engineering stimulates the mind. Kids get bored easily. They have got to get their hands dirty: make things, dismantle things, fix things. When the schools can offer that, ypu'll have an engineer for life. <br /><a href="">more...</a> </p>
+                    <p className="homepage_cont_3_ex_p_p_l">Engineering stimulates the mind. Kids get bored easily. They have got to get their hands dirty: make things, dismantle things, fix things. When the schools can offer that, ypu'll have an engineer for life. <br /><a href="">more...</a> </p>
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
@@ -68,7 +68,7 @@ const Container2 = () => {
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
                 <h3 className="homepage_cont_3_ex_p_head">ENTREPRENEURS</h3>
-                    <p className="homepage_cont_3_ex_p_p">"npm Almost everything worthwhile carries with it some sort of risk, whether it’s starting a new business, whether it’s leaving home, whether it’s getting married, or whether it’s flying in space.” – Chris Hadfield, astronaut <br /><a href="">more...</a> </p>
+                    <p className="homepage_cont_3_ex_p_p_l">"npm Almost everything worthwhile carries with it some sort of risk, whether it’s starting a new business, whether it’s leaving home, whether it’s getting married, or whether it’s flying in space.” – Chris Hadfield, astronaut <br /><a href="">more...</a> </p>
                 </div>
             </div>
             <div className="homepage_cont_3_ex">
@@ -95,7 +95,7 @@ const Container2 = () => {
                 <hr className="homepage_cont_3_hr" />
                 <div className="homepage_cont_3_ex_p">
                 <h3 className="homepage_cont_3_ex_p_head">CIVIL-SERVICES</h3>
-                    <p className="homepage_cont_3_ex_p_p">It takes hundreds of individuals to show against the law politically impose the right democratic injustice, and because it happens, these persons are civil servants. If even a few civil servant of the country is loyal and faithful to the country, then the place is in safe hands.
+                    <p className="homepage_cont_3_ex_p_p_l">It takes hundreds of individuals to show against the law politically impose the right democratic injustice, and because it happens, these persons are civil servants. If even a few civil servant of the country is loyal and faithful to the country, then the place is in safe hands.
                     <br /><a href="">more...</a> </p>
                 </div>
             </div>

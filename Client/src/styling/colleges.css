@@ -1,22 +1,30 @@
 .colleges_header{
-    width:95% ;
+    width:100% ;
     max-height: 40%;
     display: flex;
-    justify-content: space-between;
+
     margin:0 auto;
 
 }
-.colleges_header_img{
-    width: 80%;
+/* .colleges_header_vdo{
+    z-index: 0;   
     height:20rem;
-    z-index: 0;
-    opacity: 1;
-    margin-right:10%;
+    width:100%;
+} */
+.colleges_header_vdo_div{
+    width:100%;
+    height:20rem;
 }
+/* .colleges_header_vdoo1{
+    width:100%;
+    height:500px;
+} */
 .colleges_logo{
     height:7rem;
     width:7rem;
     z-index: 4;
+    position:absolute;
+
 }
 .colleges_details > .colleges_summary{
     list-style: none;
@@ -33,4 +41,105 @@
 }
 .colleges_nav{
     justify-content: left;
+}
+.college_des_heading{
+    
+}
+.college_des{
+    width:80%;
+    margin:5% auto;
+    text-align: justify;
+    font-size: 17px;
+}
+.colleg_flip {
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    perspective: 100px; 
+  }
+  
+  .college_flip_card_inner {
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  
+  .college_flip:hover .college_flip_card_inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .college_flip_card_front, .college_flip_card_back {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  
+  .college_flip_card_front {
+    background-color: rgb(204, 200, 200);
+    margin:0 auto; 
+    color: black;
+  }
+  
+  
+  .college_flip_card_back {
+    background-color: rgb(93, 96, 99);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .colleges_cards{
+      display:flex;
+      width:90%;
+      margin:0 auto;
+      justify-content: center;
+      background-color: #f3efef;
+  }
+  .college_ug,
+  .college_pg{
+    margin:3%  3% 0 3%;
+    padding:5% 0;
+  }
+  .colleges_cards_heading{
+      position:absolute;
+      left:38%;
+      margin: 2%;
+  }
+
+.college_ug_courses{
+    margin: 3% auto;
+    background-color: #f1f1f1;
+    padding:2%; 
+    width:80%;
+}
+.college_ug_container{
+    background-color: #fff;
+    width:80%;
+    margin:2% auto;
+    border:3px solid #f1f1f1;
+}
+.college_ug_container_img{
+   align-content:flex-start;
+   width:25%;
+}
+.college_pg_courses{
+    margin: 3% auto;
+    background-color: #f1f1f1;
+    padding:2%; 
+    width:80%;
+}
+.college_pg_container{
+    background-color: #fff;
+    width:80%;
+    margin:2% auto;
+    border:3px solid #f1f1f1;
+}
+.college_pg_container_img{
+   align-content:flex-start;
+   width:25%;
 }

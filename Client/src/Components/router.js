@@ -8,14 +8,9 @@ import Container4 from './Container4';
 import Container1 from './Container1';
 import Searchbox from "./Search_box"
 import Login from './Login';
-<<<<<<< HEAD:src/Components/router.js
 import School from "./School";
 import Colleges from './Colleges';
 
-=======
-// import CPContainer1 from './CP_Container1';
-import School from "./School"
->>>>>>> upstream/main:Client/src/Components/router.js
 
 
 export const routes: Route[] = [
@@ -53,7 +48,7 @@ export const routes: Route[] = [
         path: "login",
         element:<Login />
     },
-<<<<<<< HEAD:src/Components/router.js
+
 
 
     {
@@ -65,16 +60,8 @@ export const routes: Route[] = [
         path: "school",
         element:<School />
 
-=======
-    // {
-    //     path: "cpc1",
-    //     element:<CPContainer1 />
-    // },
-    {
-        path: "school",
-        element:<School />
->>>>>>> upstream/main:Client/src/Components/router.js
     },
+   
 ];
 
 export const location = new ReactLocation();
