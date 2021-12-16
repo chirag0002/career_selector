@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "start":"nodemon index.js"
+    "start": "nodemon index.js",
+   "start-server": "nodemon index.js --ignore './client'",
+      "start-client": "npm start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "keywords": [],
+"keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
