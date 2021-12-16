@@ -1,4 +1,7 @@
 export const getHomePage =(req, res) => {
+
+    res.send("Changing");
+
     res.send("Changing");
 
     res.send("Changed");
@@ -25,6 +28,8 @@ export const getQuery=async (req,res)=>{
         console.log(error);
 
     }
+
+
 
     res.send("Consoling");
 }
