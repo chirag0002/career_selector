@@ -6,7 +6,7 @@ import MUISwitch from "@material-ui/core/switch"
 import card_video from "../Videos/school_card_background.mp4"
 import Footer from "../Components/Footer.jsx"
 import School_Science from "../Images/School_Science.png"
-
+import School_Commerce from "../Images/School_Commerce.jpeg"
 
 const StyledApp= styled.div`
 color:${(props) => props.theme.fontColor};
@@ -299,6 +299,8 @@ const School = () => {
                 <section id="school_container2_heading2">
                     Commerce
                 </section>
+                <img className="School_Science" src={School_Commerce} alt="" />
+                <p className="school_container2_subheading">1. What is Commerce :</p>
                 <p>
                     Commerce is defined as the exchange of goods and services among individuals and business entities.
                     In academics, Commerce is considered to be one of the most popular streams of education along with Science and Arts.
@@ -318,6 +320,10 @@ const School = () => {
                     While you may or may not choose to study Mathematics as part of Commerce, numbers form the base for this stream.
                     A strong hold over calculations and fundamentals of maths, and the ability to deal with large amounts of data are
                     critical elements of success in the commerce stream. 
+
+                    Commerce as a teaching medium may be defined as the study of business and marketing activities such as the trade of goods and services 
+                    from the manufacturer to the end client. Students might select this field if they have a genuine passion in these disciplines and a 
+                    strong connection to the economy, business, and statistics.
                 </p>
             </div>        
 
