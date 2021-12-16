@@ -10,8 +10,9 @@ const Accordion=()=>{
    const [data,setData] = useState(Data);  
   return (
     <>
+    <h1>Frequently Asked Question</h1>
     <div className="cont-5">
-    {/* <h1>Frequently Asked Question</h1> */}
+    
      <img className="accordion_pic" src={faq} alt="" />
      </div>
 
