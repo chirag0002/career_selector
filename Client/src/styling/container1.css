@@ -22,6 +22,15 @@
 }
 
 .third{
+<<<<<<< HEAD
+=======
+
+    margin-left: 20px;
+}
+
+.fourth{
+    height: 200px;
+>>>>>>> upstream/main
     position: absolute;
     margin-top: -749px;
     margin-left:1180px;
@@ -40,7 +49,11 @@
     height: 30px;
     margin-top: -750px;
     margin-left:1400px;
+<<<<<<< HEAD
     color: white;
+=======
+
+>>>>>>> upstream/main
 }
 
 .back_img{
