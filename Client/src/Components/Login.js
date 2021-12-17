@@ -1,6 +1,3 @@
-
-
-
 import React,{useState} from 'react'
 import "../styling/login.css"
 import Form from "react-bootstrap/Form";

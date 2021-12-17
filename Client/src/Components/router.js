@@ -12,6 +12,7 @@ import School from "./School"
 import PG from "./PG.js"
 import UG from "./UG.js"
 import College from "./College.jsx";
+import Developers from "./Developers"
 
 
 export const routes: Route[] = [
@@ -64,6 +65,10 @@ export const routes: Route[] = [
     {
         path:"college",
         element:<College/>
+    },
+    {
+        path:"developers",
+        element:<Developers/>
     },
 ];
 

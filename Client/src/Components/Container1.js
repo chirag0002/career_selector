@@ -121,7 +121,6 @@ const PostData=async(e)=>{
                 
                 <div className="second_check">Careers</div>
                <Link to="/login"> <button className="fourth">Login</button></Link>
-            </div>
 
             {isOpen && <Popup
             content={<>
@@ -159,6 +158,7 @@ const PostData=async(e)=>{
             handleClose={togglePopup}
             />}
         
+        </div>
         </div>
     )
 }
