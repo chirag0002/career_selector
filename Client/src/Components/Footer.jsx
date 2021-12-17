@@ -8,6 +8,7 @@ import instagram from "../Images/instagram.png"
 import twitter from "../Images/twitter.png"
 import linkedin from "../Images/linkedin.png"
 import facebook from "../Images/facebook.png"
+import {Link} from "react-location"
 
 
 
@@ -43,7 +44,7 @@ const Footer = () => {
                                 Blogs
                             </b><br />
                             <b>
-                                <a id="footer_togithub" href="https://github.com/chirag0002/career_selector" alt="GitHub">Contribute</a> 
+                                <a className="footer_togithub" href="https://github.com/chirag0002/career_selector" alt="GitHub">Contribute</a> 
                             </b>
                         </td>
                     </tr>
@@ -54,13 +55,13 @@ const Footer = () => {
                     <tr>
                         <td>
                             <b>
-                                Developers
+                                <Link className="footer_togithub" to="/developers"><a class="footer_togithub"  href="" alt="">Developers</a></Link>
                             </b><br />
                             <b>
                                 Help
                             </b><br />
                             <b>
-                                Mail Us
+                                <a className="footer_togithub" href="mailto:varshneychirag24@gmail.com">Mail Us</a>
                             </b>
                         </td>
                     </tr>
@@ -72,10 +73,10 @@ const Footer = () => {
                     <tr>
                         <td>
                             <b>
-                                Follow Us 
+                                <p className="follow_us"> Follow Us </p> 
                             </b><br />
                                 <div className="footer_icons">
-                                    <img className="footer_icons_all1" src={linkedin} alt="" />
+                                    <img className="footer_icons_all" src={linkedin} alt="" />
                                     <img className="footer_icons_all" src={twitter} alt="" />
                                     <img className="footer_icons_all" src={facebook} alt="" />
                                     <img className="footer_icons_all" src={instagram} alt="" />
