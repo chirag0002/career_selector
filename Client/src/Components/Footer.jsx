@@ -9,6 +9,7 @@ import twitter from "../Images/twitter.png"
 import linkedin from "../Images/linkedin.png"
 import facebook from "../Images/facebook.png"
 import {Link} from "react-location"
+import discord from "../Images/Discord.png"
 
 
 
@@ -26,6 +27,16 @@ const Footer = () => {
                     </div>
                 </div>                
                 <img className="footerimg" src={footer_img} alt="" />
+                <div>
+                    <a className="footer_cont_6a_b" target="blank" href="https://discord.gg/TkPQSE2n">
+                        <img src={discord} alt="" 
+                        style={{
+                            cursor:"hover",
+                            width:"50%",
+                            marginTop: "25%"
+                        }}/>
+                    </a>
+                </div>
             </div>
             <div className="footer_cont_6b">
                 <div className="footer_cont_6b_a">
