@@ -3,18 +3,16 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
-<<<<<<< HEAD
+
 // import Search_box from './Search_box';
 // import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-location';
 import School from './School';
 import College from './College';
-=======
-import {Link} from "react-location"
+
 // import Search_box from './Search_box';
-import Search_box from './Search_box';
-import { useMediaQuery } from 'react-responsive'
->>>>>>> upstream/main
+
+
 // import "../big-screen/component"
 // import "../mobile/component"
 // import "../laptop/component"
@@ -140,7 +138,7 @@ const PostData=async(e)=>{
             <div className="side_stuff">
                 <div className="first">About Us</div>
                 
-<<<<<<< HEAD
+
                 <button  onClick={togglePopup} className="second">Ask Us</button>
 
                 <div className="dropdown">
@@ -158,20 +156,16 @@ const PostData=async(e)=>{
   </div>
                 
 
-                    
-                    
+                     </div>
                 
                 
-                </div>
-                
-                </div>
-=======
+
                 <button onClick={togglePopup} className="third">Ask Us</button>
                 
                 <div className="second_check">Careers</div>
                <Link to="/login"> <button className="fourth">Login</button></Link>
             </div>
->>>>>>> upstream/main
+
 
             {isOpen && <Popup
             content={<>
