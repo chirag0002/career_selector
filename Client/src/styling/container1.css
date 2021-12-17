@@ -209,3 +209,68 @@ form .data label{
     padding-right: 20px;
 }
 
+
+
+@media only screen and (max-width:1285px){
+    .side_stuff{
+        margin-left: 780px;
+    }
+
+    
+}
+
+@media only screen and (max-width:1035px){
+    .side_stuff{
+        margin-left: 880px;
+    }
+
+    
+}
+
+@media only screen and (max-width:900px){
+    .side_stuff{
+        margin-left: 880px;
+    }
+
+}
+
+@media only screen and (max-width:880px){
+    .side_stuff{
+        margin-left: 750px;
+    }
+}
+
+@media only screen and (max-width:791px){
+    .side_stuff{
+        margin-left: 620px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .side_stuff{
+        margin-right: 400px;
+    }
+    
+}
+@media only screen and (max-width:400px){
+    .side_stuff{
+        margin-left: 780px;
+    }
+
+    .back_img{
+        width: 900px;
+        margin-right: -250px;
+    }
+    .word{
+        margin-left: 300px;
+    }
+    
+
+   
+
+    
+}
+
+
+
+

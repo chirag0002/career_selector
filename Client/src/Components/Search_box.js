@@ -3,17 +3,17 @@ import "../styling/search_box.css"
 
 const Search_box= () => {
     window.onload = function() {
-        const searchBtn = document.querySelector(".search-btn");
-    const cancelBtn = document.querySelector(".cancel-btn");
-    const searchBox = document.querySelector(".search-box");
-    
-    searchBtn.onclick = () => {
-      searchBox.classList.add("active");
-    }
-    
-    cancelBtn.onclick = () => {
-      searchBox.classList.remove("active");
-     }
+      const searchBtn = document.querySelector(".search-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      const searchBox = document.querySelector(".search-box");
+      
+      searchBtn.onclick = () => {
+        searchBox.classList.add("active");
+      }
+      
+      cancelBtn.onclick = () => {
+        searchBox.classList.remove("active");
+      }
     
     }
 

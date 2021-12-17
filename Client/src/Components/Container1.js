@@ -5,8 +5,36 @@ import workplace from "../Images/wp.png"
 import Popup from './Popup';
 import {Link} from "react-location"
 // import Search_box from './Search_box';
+import Search_box from './Search_box';
+import { useMediaQuery } from 'react-responsive'
+// import "../big-screen/component"
+// import "../mobile/component"
+// import "../laptop/component"
+// import "../tablet-mobile/component"
+// import "../desktop/component"
 
 const Container1 = () => {
+
+
+    // const isMobileDevice = useMediaQuery({
+    //     query: "(min-device-width: 480px)",
+    //   });
+    
+    //   const isTabletDevice = useMediaQuery({
+    //     query: "(min-device-width: 768px)",
+    //   });
+    
+    //   const isLaptop = useMediaQuery({
+    //     query: "(min-device-width: 1024px)",
+    //   });
+    
+    //   const isDesktop = useMediaQuery({
+    //     query: "(min-device-width: 1200px)",
+    //   });
+    
+    //   const isBigScreen = useMediaQuery({
+    //     query: "(min-device-width: 1201px )",
+    //   });
 
    
 
@@ -60,6 +88,20 @@ const PostData=async(e)=>{
     return (
         <div className="container1">
             {/* <Search_box/> */}
+
+    
+{/* {isMobileDevice && <Mobile />}
+  {isTabletDevice && <>
+  <TabletMobile />
+  {isDesktop && <Desktop />}
+  {isLaptop && <Laptop />}
+  {isBigScreen && <BigScreen />}
+</>} */}
+
+
+
+
+            <Search_box/>
              <img className="logo" src={logo}  alt=""/>
             <div className="header">
 
