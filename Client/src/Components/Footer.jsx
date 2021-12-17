@@ -43,7 +43,7 @@ const Footer = () => {
                                 Blogs
                             </b><br />
                             <b>
-                                <a id="footer_togithub" href="https://github.com/chirag0002/career_selector" alt="GitHub">Contribute</a> 
+                                <a id="footer_togithub" target="blank" href="https://github.com/chirag0002/career_selector" alt="GitHub">Contribute</a> 
                             </b>
                         </td>
                     </tr>

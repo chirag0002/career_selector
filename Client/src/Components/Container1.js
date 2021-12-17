@@ -3,7 +3,8 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
-import Search_box from './Search_box';
+import {Link} from "react-location"
+// import Search_box from './Search_box';
 
 const Container1 = () => {
 
@@ -58,7 +59,7 @@ const PostData=async(e)=>{
 
     return (
         <div className="container1">
-            <Search_box/>
+            {/* <Search_box/> */}
              <img className="logo" src={logo}  alt=""/>
             <div className="header">
 
@@ -74,9 +75,10 @@ const PostData=async(e)=>{
             <div className="side_stuff">
                 <div className="first">About Us</div>
                 
-                <button  onClick={togglePopup} className="second">Ask Us</button>
+                <button onClick={togglePopup} className="third">Ask Us</button>
                 
-                <div className="third">Careers</div>
+                <div className="second_check">Careers</div>
+               <Link to="/login"> <button className="fourth">Login</button></Link>
             </div>
 
             {isOpen && <Popup
