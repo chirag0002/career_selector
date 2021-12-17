@@ -2,26 +2,60 @@
     /* color:black; */
     display:flex;
     flex-direction: row;
-    margin-left: 1150px;
-    margin-top: -750px;
     font-size: 22px;
     position: absolute;
+    
     }
 
 
 .first{
-    margin-right: 40px;
+    width: 100px;
+    position: absolute;
+    margin-top: -750px;
+    margin-left:1050px;
+}
+
+.second_check{
+    position: absolute;
+    width: 80px;
+    margin-top: -750px;
+    margin-left:1300px;
 }
 
 .third{
+
     margin-left: 20px;
+}
+
+.fourth{
+    height: 200px;
+    position: absolute;
+    margin-top: -749px;
+    margin-left:1180px;
+    width: 80px;
+    font-size: 1rem;
+    height: 30px;
+    font-weight: 600;
+}
+
+.fourth{
+    position: absolute;
+    padding-left: 2%;
+    width: 80px;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 30px;
+    margin-top: -750px;
+    margin-left:1400px;
 
 }
+
 .back_img{
     width: 100%;
     position: relative;
     height: 630px;
     margin-top: -20px;
+    
 }
 .container{
     
@@ -67,6 +101,7 @@
     height:140px;
     width:140px;
     margin-top: 20px;
+    
     float: left;
 }
 .query{
@@ -186,7 +221,7 @@ form .data label{
 
 
 
-@media only screen and (max-width:1285px){
+/* @media only screen and (max-width:1285px){
     .side_stuff{
         margin-left: 780px;
     }
@@ -244,8 +279,45 @@ form .data label{
    
 
     
-}
+} */
 
-
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
 
 

@@ -3,8 +3,12 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
-import Search_box from './Search_box';
-import { useMediaQuery } from 'react-responsive'
+// import Search_box from './Search_box';
+// import { useMediaQuery } from 'react-responsive'
+import { Link } from 'react-location';
+import School from './School';
+import College from './College';
+// import Search_box from './Search_box';
 // import "../big-screen/component"
 // import "../mobile/component"
 // import "../laptop/component"
@@ -13,6 +17,22 @@ import { useMediaQuery } from 'react-responsive'
 
 const Container1 = () => {
 
+    const myFunction=()=>{
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick=function(event){
+        if(!event.target.matches(".dropbtn")){
+            var dropdowns=document.getElementsByClassName("dropdown-content");
+            var i;
+            for(i=0;i<dropdowns.length;i++){
+                var openDropdown=dropdowns[i];
+                if(openDropdown.classList.contains("show")){
+                    openDropdown.classList.remove("show");
+                }
+            }
+        }
+    }
 
     // const isMobileDevice = useMediaQuery({
     //     query: "(min-device-width: 480px)",
@@ -85,8 +105,8 @@ const PostData=async(e)=>{
 
     return (
         <div className="container1">
+            {/* <Search_box/> */}
 
-    
 {/* {isMobileDevice && <Mobile />}
   {isTabletDevice && <>
   <TabletMobile />
@@ -98,7 +118,7 @@ const PostData=async(e)=>{
 
 
 
-            <Search_box/>
+            
              <img className="logo" src={logo}  alt=""/>
             <div className="header">
 
@@ -114,10 +134,37 @@ const PostData=async(e)=>{
             <div className="side_stuff">
                 <div className="first">About Us</div>
                 
+
                 <button  onClick={togglePopup} className="second">Ask Us</button>
+
+                <div className="dropdown">
+                    
+                    <button  onClick={()=>(myFunction)} className="dropbtn">Careers</button>
+                    <div id="myDropdown" className="dropdown-content">
+                        <ul>
+                       <li><Link to="/college">College</Link></li> 
+                       <li><Link to="/school">School</Link></li> 
+
+                        </ul>
+                        
+
+    
+  </div>
                 
-                <div className="third">Careers</div>
-            </div>
+
+                    
+                    
+                
+                
+                </div>
+                
+                </div>
+
+                <button onClick={togglePopup} className="third">Ask Us</button>
+                
+                <div className="second_check">Careers</div>
+               <Link to="/login"> <button className="fourth">Login</button></Link>
+
 
             {isOpen && <Popup
             content={<>

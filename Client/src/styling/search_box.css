@@ -9,7 +9,7 @@
   
   .search-box.active{
     width: 350px;
-    position: absolute;
+    
     
   }
   
@@ -35,7 +35,7 @@
   
   .search-box .search-btn{
     height:50px;
-    position: absolute;
+    position: relative;
     width:50px;
     background:rebeccapurple;
     color:#664AFF;

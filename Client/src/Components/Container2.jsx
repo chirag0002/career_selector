@@ -16,10 +16,10 @@ const Container2 = () => {
             </h1>
             <div className="homepage_cont_2_images">
                 <div className="homepage_cont_2_img_div_1">
-                    <Link to ="/school"><a className="homepage_cont_2_img_link" href="">
+                    <Link to ="/school" className="homepage_cont_2_img_link">
                         <img className="homepage_cont_2_img" src="https://media.istockphoto.com/vectors/panoramic-background-with-school-building-and-school-bus-in-flat-vector-id485098782?k=6&m=485098782&s=170667a&w=0&h=rQ1ZDA5c4smnhg9QtfG9ZhH2FHJ7DXUxZ5cUfWIAHk4=" alt="" />
                         <h2 className="homepage_cont_2_heading">SCHOOLS</h2>
-                    </a></Link>
+                    </Link>
                 </div>
                 <div className="homepage_cont_2_img_div_2">
                     <a className="homepage_cont_2_img_link" href="">
