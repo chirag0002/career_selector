@@ -6,6 +6,9 @@ import mtech from "../Images/mtech.png"
 import mcom from "../Images/Mcom.png"
 import MA from "../Images/M.A.png"
 import MSC from "../Images/msc.png"
+import MCA from "../Images/MCA.png"
+import MBA from "../Images/Mba.png"
+import Footer from "./Footer.jsx"
 const PG = () => {
       useEffect(()=>{
     Aos.init({
@@ -67,7 +70,7 @@ const PG = () => {
                                </div>
                            </div>
                              <div data-aos="fade-left" className="pg_card_1">
-                       <img className="pg_image_mtech"src={mtech} alt=""/>
+                       <img className="pg_image_mtech"src={MCA} alt=""/>
                           <div  className="about_pg_card1_">
                            <p class="pg_content_para">
                           Master of Computer Applications (MCA) is a two year professional post-graduate programme for candidates wanting to delve deeper into the world of computer application development with the help of learning modern programming language. The programme is a blend of both theoretical and practical knowledge.
@@ -91,7 +94,19 @@ const PG = () => {
                                 <a className="pg_btn_click" href="#">Click Here for more </a>
                                </div>
                            </div>
-                     
+                     <div data-aos="fade-left" className="pg_card_1">
+                       <img className="pg_image_mtech"src={MBA} alt=""/>
+                          <div  className="about_pg_card1_">
+                           <p class="pg_content_para">
+                          The Master of Business Administration (MBA) is an internationally-recognized degree designed to develop the skills required for careers in business and management. The value of the MBA, however, is not limited strictly to the business world. An MBA can also be useful for those pursuing a managerial career in the public sector, government, private industry, and other areas.
+                           </p>
+                           </div>
+                           
+                        <div className="pg_btn">
+                                <a  className="pg_btn_click" href="#">Click Here for more </a>
+                               </div>
+                           </div>
+                      <Footer />
 
 
       
