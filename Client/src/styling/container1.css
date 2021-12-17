@@ -2,8 +2,6 @@
     /* color:black; */
     display:flex;
     flex-direction: row;
-    margin-left: 1150px;
-    margin-top: -750px;
     font-size: 22px;
     position: absolute;
     
@@ -11,16 +9,47 @@
 
 
 .first{
-    margin-right: 40px;
+    width: 100px;
+    position: absolute;
+    margin-top: -750px;
+    margin-left:1050px;
+}
+
+.second_check{
+    position: absolute;
+    width: 80px;
+    margin-top: -750px;
+    margin-left:1300px;
 }
 
 .third{
+
     margin-left: 20px;
 }
 
 .fourth{
     height: 200px;
+    position: absolute;
+    margin-top: -749px;
+    margin-left:1180px;
+    width: 80px;
+    font-size: 1rem;
+    height: 30px;
+    font-weight: 600;
 }
+
+.fourth{
+    position: absolute;
+    padding-left: 2%;
+    width: 80px;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 30px;
+    margin-top: -750px;
+    margin-left:1400px;
+
+}
+
 .back_img{
     width: 100%;
     position: relative;

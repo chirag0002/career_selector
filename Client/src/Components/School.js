@@ -6,6 +6,7 @@ import MUISwitch from "@material-ui/core/switch"
 import card_video from "../Videos/school_card_background.mp4"
 import Footer from "../Components/Footer.jsx"
 import School_Science from "../Images/School_Science.png"
+import School_Arts from "../Images/School_Arts.jpeg"
 import School_Commerce from "../Images/School_Commerce.jpeg"
 
 const StyledApp= styled.div`
@@ -55,7 +56,7 @@ const School = () => {
                     Science
                 </section>
 
-                <img className="School_Science" src={School_Science} alt="" />
+                <img className="School_Arts" src={School_Science} alt="" />
                 <p className="school_container2_subheading" >1. What is Science?</p>
                 <p className="padding_bottom">
                     This is one stream that most of you would have a fair bit of idea about. Not just because everyone studies science
@@ -299,7 +300,7 @@ const School = () => {
                 <section id="school_container2_heading2">
                     Commerce
                 </section>
-                <img className="School_Science" src={School_Commerce} alt="" />
+                <img className="School_Arts" src={School_Commerce} alt="" />
                 <p className="school_container2_subheading">1. What is Commerce :</p>
                 <p>
                     Commerce is defined as the exchange of goods and services among individuals and business entities.
@@ -325,12 +326,201 @@ const School = () => {
                     from the manufacturer to the end client. Students might select this field if they have a genuine passion in these disciplines and a 
                     strong connection to the economy, business, and statistics.
                 </p>
+
+                <p className="school_container2_subheading">2. Commerce Stream Subjects after Class 10th :</p> 
+
+                <p className="school_container2_subheading_1">
+                    I. Accountancy :
+                </p>
+
+                <p>
+                    In any business or corporation, it’s important to analyze the economic success of the endeavour. The field of 
+                    Accountancy or Accounting involves the measurement, processing and communication of the financial data of a particular 
+                    business, corporation or other economic entity. Accountancy measures the results of the economic activities of an 
+                    organization, communicating it to users such as investors, creditors, regulators and management.
+
+                    The study of Accountancy in Class 11-12 will provide you with a comprehensive understanding of accounting and basic 
+                    accounting concepts. You will learn about emerging areas in the preparation of financial statements, expenditure, 
+                    how to design an accounting database and how to record business transactions.
+                    <br />
+                    <br />
+                    <b>Examples of a few topics you will study are:</b>
+                    <br />
+                    <br /><b>• Accounting Processes</b>
+                    <br /><b>• Financial Accounting</b>
+                    <br /><b>• Computers in Accounting</b>
+                    <br /><b>• Financial Statement Analysis</b>
+                    <br /><b>• Accounting for Not-For-Profit organizations, partnership firms and companies</b>
+                    <br />
+                    <br />
+                    There are plenty of benefits of studying Accountancy- it will enable you to record and understand the financial reports 
+                    and status of businesses, along with boosting your critical thinking skills. Every business requires accountants to maintain 
+                    its records and governmental compliance.
+
+                    There are numerous career opportunities you can pursue after studying Accountancy; the most popular is to become a 
+                    Chartered Accountant. Even if you decide not to become a chartered accountant, studying Accountancy will help you in all 
+                    finance-related and business-related fields.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    II. Business Studies :
+                </p>
+
+                <p>
+                    The subject of Business Studies focuses on analyzing, evaluating and responding to the changes that affect businesses 
+                    and the business environment, including social, political, economic and legal influences. At a Class 11-12 level, 
+                    Business Studies will provide you with a basic knowledge of the business world, helping you understand the framework in which a 
+                    business operates and the business processes involved. You will also learn about the interdependent nature of businesses and the 
+                    theoretical foundation of managing operations of a business firm.
+
+                    <br />
+                    <br />
+                    <b>Examples of a few topics you will study are:</b>
+                    <br />
+                    <br /><b>• Evolution and Fundamentals of Business</b>
+                    <br /><b>• Emerging Modes of Business</b>
+                    <br /><b>• Internal Trade</b>
+                    <br /><b>• Principles and Functions of Management</b>
+                    <br /><b>• Business Finance and Marketing</b>
+                    <br />
+                    <br />
+                    By pursuing Business Studies, you will gain a solid foundation in how business functions, which will help you in the long run, 
+                    regardless of the profession you follow. Business Studies will also help you if you are interested in working in management, 
+                    launching your own business or working in a family business.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    III. Economics :
+                </p>
+
+                <p>
+                    An immensely popular subject, Economics is compulsory for Commerce students and optional for Science and Humanities 
+                    streams. Economics is a social science that studies the functioning of the entire economy, at a national and 
+                    international level, as well as basic elements in the economy, such as individual agents, markets and their interactions. 
+                    The subject studies how economies work and the behaviour and interactions of markets.
+
+                    The study of Economics at the Class 11-12 level focuses on introducing basic concepts of the subject, microeconomics, 
+                    macroeconomics and the economic realities that the country is currently facing. You will also learn about basic statistical 
+                    tools and develop economic reasoning skills.
+                    <br />
+                    <br />
+                    <b>Examples of a few topics you will study are:</b>
+                    <br />
+                    <br /><b>• Introductory Microeconomics</b>
+                    <br /><b>• Introductory Macroeconomics</b>
+                    <br /><b>• Statistics for Economies</b>
+                    <br /><b>• Indian Economic Development</b>
+                    <br />
+                    <br />
+                    There are several benefits of studying Economics, especially in India which is still an emerging economy. 
+                    By studying Economics, you will learn how the economy of the nation functions, aiding you when you join the workforce. 
+                    There are a variety of career options available, both in the government sector as economists and private sector as investment 
+                    consultants and actuarial scientists.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    IV. English :
+                </p>
+
+                <p className="padding_bottom">
+                    The subject of English is compulsory with every stream, whether you opt for Commerce, Science or Humanities. 
+                    English is considered to be a ‘global language’ and is the most widely spoken language in the world with a total of 
+                    1.132 billion speakers. Therefore, it is important to have strong English language skills.
+
+                    The English subject at Class 11-12 level is based on reading comprehension, listening and speaking skills, 
+                    writing skills, and grammar. Due to the widespread use of English, it’s beneficial to study the language in depth. 
+                    You can also pursue a variety of careers after studying English, including journalism, media, teaching and more.
+
+                </p>    
+
+                <p className="school_container2_subheading" >3. Optional Subjects with Science :</p>
+                <p>Apart from the 4 compulsory subjects you are required to study in the Commerce stream, you are required to choose at 
+                   least 1 optional subject. You can also select 2 optional subjects, based on your school policy so that you would be 
+                   attempting a total of 6 subjects.
+
+                   Here are some of the optional subjects available with the Commerce Stream:
+
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    I. Mathematics : 
+                </p>
+
+                <p>
+                    The subject of Maths is one that you have been studying from the beginning of your school years, and is based 
+                    primarily on numbers. Topics that you will study in Class 11-12 include Algebra, Calculus, Mathematical Reasoning, 
+                    Statistics & Probability, Relations and Functions, Linear Programming. By including Mathematics as an optional subject, 
+                    you will become eligible for a variety of careers and courses, including Chartered Accountancy, Finance and MBA.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    II. Computer Science : 
+                </p>
+
+                <p>
+                    The study of Computer Science is broadly based on the study of mechanical computation, its applications and programming languages. 
+                    At the Class 11-12 level, you will be studying the basics of computers, computing logic, programming languages like C++, developing 
+                    logic for problem-solving, understanding the working of Relational Databases and the basic concepts for communication and networking 
+                    technologies. After studying Computer Science you can pursue careers in computer applications, software engineering and more.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    III. Informatics Practices : 
+                </p>
+
+                <p>
+                    While similar to the subject of Computer Science, Informatics Practices is based on the study of information and its processing, 
+                    beyond the applications of computers. In Class 11-12, you will learn about computer systems, integrated device electronics, and 
+                    develop the ability to develop simple device applications and use, develop and debug programs. You can opt for this course if you are 
+                    interested in pursuing a career in computer science or to simply expand your knowledge in the field.
+
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    IV. Psychology : 
+                </p>
+
+                <p>
+                    A popular subject, Psychology is the study of the mind, examining the experiences, behaviours and mental processes of people. 
+                    At the Class 11-12 level, the subject will introduce you to the basic concepts, principals and methods in Psychology, grooming your 
+                    critical reasoning and analytical skills. While you can pursue a career in psychology as a psychologist or counsellor, the subject 
+                    will also help you have a better understanding of people, regardless of which career you choose.
+
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    V. Fine Arts : 
+                </p>
+
+                <p>
+                    An ideal course for those who are creatively inclined, the Fine Arts subject will enhance your artistic skills, studying art history, 
+                    techniques and trends. In the Fine Arts subject, you can choose a specialization of Painting, Graphics, Sculpture, or 
+                    Applied Art/Commercial Art. This subject is ideal if you are interested in a career in design, be it graphic design, fashion design, 
+                    interior design, etc.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    VI. Physical Education : 
+                </p>
+
+                <p>
+                    Considered to be a scoring and an easy subject, in Physical Education you will learn about various sports, yoga, physiology, 
+                    physical fitness and changing trends in physical education.
+                </p>
+
+                <p className="school_container2_subheading">4. Career Options after Science Stream :</p>
+                <p className="padding_bottom">
+                    There is a multitude of career options available after pursuing Science stream in Class 11-12, however, 
+                    the subjects are also considerably difficult and will require effort. Thus, you should go for this stream only if you are 
+                    absolutely sure about your interest and aptitude for the subjects.
+                </p>
             </div>        
 
             <div className="school_container2_3">
                 <section id="school_container2_heading3">
                     Arts/Humanities
                 </section>
+                <img className="School_Arts" src={School_Arts} alt="" />
                 <p>
                    Arts is also known as “Humanities”.
 

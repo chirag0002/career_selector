@@ -8,6 +8,7 @@ import Popup from './Popup';
 import { Link } from 'react-location';
 import School from './School';
 import College from './College';
+// import Search_box from './Search_box';
 // import "../big-screen/component"
 // import "../mobile/component"
 // import "../laptop/component"
@@ -133,6 +134,7 @@ const PostData=async(e)=>{
             <div className="side_stuff">
                 <div className="first">About Us</div>
                 
+
                 <button  onClick={togglePopup} className="second">Ask Us</button>
 
                 <div className="dropdown">
@@ -157,6 +159,13 @@ const PostData=async(e)=>{
                 </div>
                 
                 </div>
+
+                <button onClick={togglePopup} className="third">Ask Us</button>
+                
+                <div className="second_check">Careers</div>
+               <Link to="/login"> <button className="fourth">Login</button></Link>
+            </div>
+
 
             {isOpen && <Popup
             content={<>
