@@ -1,17 +1,13 @@
-
-
-
 import React,{useState} from 'react'
 import "../styling/login.css"
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import pic from "../Images/idea_concepts.png";
-import fb from "../Images/facebook2.png";
 import google from "../Images/google.png";
 import logo from "../Images/logo.png"
 import bg from "../Images/bg.jpg";
 import  authentication  from "../firebase"
-import { signInWithPopup,GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth";
+import { signInWithPopup,GoogleAuthProvider} from "firebase/auth";
 
 const Login = () => {
    const signInWithGoogle = () => {
@@ -25,16 +21,6 @@ const Login = () => {
     })
   }
 
-  const signInWithFacebook = () => {
-    const provider = new FacebookAuthProvider();
-    signInWithPopup(authentication, provider)
-      .then((re) => {
-        console.log(re);
-      })
-      .catch((err) => {
-        console.log(err);
-    })
-  }
  
   
 const  [email, setEmail] = useState("");
@@ -81,7 +67,7 @@ const  [email, setEmail] = useState("");
      className="password-1" type="password"  />
   </Form.Group>
   
-  <Button className="login_btn"  disabled={!validateForm()}>
+  <Button className="login_btn"  disabled={!validateForm()}
                 type="submit">
    Login
   </Button>
@@ -93,9 +79,9 @@ const  [email, setEmail] = useState("");
   <Button className="login_google" onClick={signInWithGoogle} type="submit">
   <img className="google" src={google} alt="" /> Login with Google  
   </Button>
-  <Button onClick={signInWithFacebook}  className="login_fb"  type="submit">
+  {/* <Button onClick={signInWithFacebook}  className="login_fb"  type="submit">
     <img className="fb" src={fb} alt="" /> Login with Facebook
-  </Button>
+  </Button> */}
   
   
 </Form>
