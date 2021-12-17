@@ -3,13 +3,14 @@
   border-radius: 3px;
   border-color: white;
   border-style: solid;
-  margin-top:3%;
+  margin-top:1%;
   width:94%;
   height:660px;
   margin-left: 2%;
-  
-  
-} 
+  } 
+  .accordion_heading{
+    margin-top: 3%;
+  }
  .accordion_pic{
    width:400px;
    height: 400px; 
@@ -74,7 +75,7 @@ margin-left: 10%;
    font-size: 1.1rem;
    font-weight:700;
    background-color: whitesmoke;
-   width: 83%;
+   width: 91%;
    margin: 2px auto ;
    border-radius: .5em;
    height:50px;
