@@ -7,8 +7,31 @@ import fb from "../Images/facebook2.png";
 import google from "../Images/google.png";
 import logo from "../Images/logo.png"
 import bg from "../Images/bg.jpg";
+import  authentication  from "../firebase-config"
+import {  signInWithPopup,GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth";
 
 const Login = () => {
+   const signInWithGoogle = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+      .catch((err) => {
+        console.log(err);
+    })
+  }
+
+  const signInWithFacebook = () => {
+    const provider = new FacebookAuthProvider();
+    signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+      .catch((err) => {
+        console.log(err);
+    })
+  }
     return (
      
               <> 

@@ -3,6 +3,8 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
+import {Link} from "react-location"
+// import Search_box from './Search_box';
 import Search_box from './Search_box';
 import { useMediaQuery } from 'react-responsive'
 // import "../big-screen/component"
@@ -85,6 +87,7 @@ const PostData=async(e)=>{
 
     return (
         <div className="container1">
+            {/* <Search_box/> */}
 
     
 {/* {isMobileDevice && <Mobile />}
@@ -114,9 +117,10 @@ const PostData=async(e)=>{
             <div className="side_stuff">
                 <div className="first">About Us</div>
                 
-                <button  onClick={togglePopup} className="second">Ask Us</button>
+                <button onClick={togglePopup} className="third">Ask Us</button>
                 
-                <div className="third">Careers</div>
+                <div className="second_check">Careers</div>
+               <Link to="/login"> <button className="fourth">Login</button></Link>
             </div>
 
             {isOpen && <Popup

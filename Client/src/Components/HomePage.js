@@ -31,7 +31,7 @@ const[theme,setTheme]=useState("dark");
             <MUISwitch
             className="theme_switch"
             onClick={themeChanger}
-            defaultUnChecked />
+            defaultChecked />
             <Container1/>
             <Container2 />
             <Container4 />
