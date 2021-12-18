@@ -3,15 +3,15 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
-<<<<<<< HEAD
+
 import {Link} from "react-location"
 import School from "./School"
 import College from "./College"
 // import { Button } from 'react-bootstrap';
 
-=======
+
 import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
->>>>>>> upstream/main
+
 // import Search_box from './Search_box';
 
 import { useMediaQuery } from 'react-responsive'
@@ -114,16 +114,16 @@ const PostData=async(e)=>{
   {isLaptop && <Laptop />}
   {isBigScreen && <BigScreen />}
 </>} */}
-<<<<<<< HEAD
+
 
 
 
 
             
              <img className="logo" src={logo}  alt=""/>
-=======
+
             <Search_box/>
->>>>>>> upstream/main
+
             <div className="header">
             <Navbar bg="light" expand={false}>
                 <Container fluid>
@@ -160,17 +160,17 @@ const PostData=async(e)=>{
                 </div>
                 
             </div>
-<<<<<<< HEAD
+
             <div className="side_stuff">
                 <button className="first">About Us</button>
-=======
+
             {/* <div className="side_stuff">
             <a href="/login" className="first">About Us</a>
->>>>>>> upstream/main
+
                 
                 <a } className="third" alt="">Ask Us</a>
                 
-<<<<<<< HEAD
+
                 <div className="dropdown">
                 <button  className="second_check">Careers</button>
                 
@@ -192,7 +192,7 @@ const PostData=async(e)=>{
 
                <Link to="/login"> <button className="fourth">Login</button></Link>
             </div>
-=======
+
                 <Dropdown className="second_check">
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                         Careers
@@ -207,7 +207,7 @@ const PostData=async(e)=>{
               <a href="/login" className="fourth">Login</a> */}
 
               
->>>>>>> upstream/main
+
 
             {isOpen && <Popup
             content={<>
@@ -245,6 +245,7 @@ const PostData=async(e)=>{
             handleClose={togglePopup}
             />}
         
+        </div>
         </div>
 
         

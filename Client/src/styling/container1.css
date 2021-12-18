@@ -7,16 +7,6 @@
 .first{
     width: 100px;
     position: absolute;
-<<<<<<< HEAD
-    margin-top: -750px;
-    margin-left:1050px;
-    color: black;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-      font-weight: 600;
-      padding: 4px;
-=======
     margin-top: -740px;
     margin-left: 67%;
     text-decoration: none;
@@ -24,30 +14,14 @@
 
 .first:hover{
     color: #6E3CBC;
->>>>>>> upstream/main
 }
 
 .second_check
 {
     position: absolute;
     width: 80px;
-<<<<<<< HEAD
-    margin-top: -750px;
-    margin-left:1240px;
-    color: black;
-  padding: 4px;
-  border: none;
-  cursor: pointer;
-  border: 0;
-  background-color: #fff;
-  color:#333;
-  outline: 0;
-font-size: 1rem;
-    font-weight: 600;
-=======
     margin-top: -740px;
     margin-left:85%;  
->>>>>>> upstream/main
 }
  
 
@@ -103,10 +77,6 @@ font-size: 1rem;
     position: absolute;
     padding-left: 2%;
     height: 30px;
-<<<<<<< HEAD
-    margin-top: -750px;
-    margin-left:1290px;
-=======
     margin-top: -740px;
     margin-left:92%;
     text-decoration: none;
@@ -114,7 +84,6 @@ font-size: 1rem;
 
 .fourth:hover{
     color: #6E3CBC;
->>>>>>> upstream/main
 }
 
 .back_img{
