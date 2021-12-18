@@ -3,7 +3,7 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
-import {Link} from "react-location"
+import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
 // import Search_box from './Search_box';
 import Search_box from './Search_box';
 import { useMediaQuery } from 'react-responsive'
@@ -97,14 +97,34 @@ const PostData=async(e)=>{
   {isLaptop && <Laptop />}
   {isBigScreen && <BigScreen />}
 </>} */}
-
-
-
-
             <Search_box/>
-             <img className="logo" src={logo}  alt=""/>
             <div className="header">
-
+            <Navbar bg="light" expand={false}>
+                <Container fluid>
+                    <Navbar.Brand href="#"><img className="logo_container1" src={logo} alt="" /></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                    <Navbar.Offcanvas
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel"
+                    placement="end"
+                    >
+                    <Offcanvas.Header closeButton>
+                        <Offcanvas.Title id="offcanvasNavbarLabel">Career Selector</Offcanvas.Title>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                        <Nav.Link href="/login">About Us</Nav.Link>
+                        <Nav.Link onClick={togglePopup}>Ask Us</Nav.Link>
+                        <NavDropdown title="Careers" id="offcanvasNavbarDropdown">
+                            <NavDropdown.Item href="/school">School</NavDropdown.Item>
+                            <NavDropdown.Item href="/ug">Graduation</NavDropdown.Item>
+                            <NavDropdown.Item href="/pg">Post Graduation</NavDropdown.Item>
+                        </NavDropdown>
+                        </Nav>
+                    </Offcanvas.Body>
+                    </Navbar.Offcanvas>
+                </Container>
+                </Navbar>
                 <img className="back_img" src={workplace} alt=""/>
                 <div className="animated_header">
                     <div className="container">
@@ -114,13 +134,25 @@ const PostData=async(e)=>{
                 </div>
                 
             </div>
-            <div className="side_stuff">
-                <div className="first">About Us</div>
+            {/* <div className="side_stuff">
+            <a href="/login" className="first">About Us</a>
                 
-                <button onClick={togglePopup} className="third">Ask Us</button>
+                <a } className="third" alt="">Ask Us</a>
                 
-                <div className="second_check">Careers</div>
-               <Link to="/login"> <button className="fourth">Login</button></Link>
+                <Dropdown className="second_check">
+                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        Careers
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>
+                        <Dropdown.Item href="/school">School</Dropdown.Item>
+                        <Dropdown.Item href="/ug">Undergraduate</Dropdown.Item>
+                        <Dropdown.Item href="/pg">Postgraduate</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
+              <a href="/login" className="fourth">Login</a> */}
+
+              
 
             {isOpen && <Popup
             content={<>
@@ -159,7 +191,8 @@ const PostData=async(e)=>{
             />}
         
         </div>
-        </div>
+
+        
     )
 }
 
