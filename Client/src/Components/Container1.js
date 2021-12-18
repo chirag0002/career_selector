@@ -4,6 +4,7 @@ import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
 import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
+<<<<<<< HEAD
 // import Search_box from './Search_box';
 import Search_box from './Search_box';
 import { useMediaQuery } from 'react-responsive'
@@ -51,6 +52,10 @@ const signInWithGoogle = () => {
 
    
 
+=======
+const Container1 = () => {
+
+>>>>>>> upstream/main
     const[user,setUser]=useState({
         email:" ",phone:" ",query:" "
     })
@@ -100,6 +105,7 @@ const PostData=async(e)=>{
 
     return (
         <div className="container1">
+<<<<<<< HEAD
             {/* <Search_box/> */}
 
     
@@ -112,9 +118,11 @@ const PostData=async(e)=>{
 </>} */}
             <Search_box/>
             <div className="header">
+=======
+>>>>>>> upstream/main
             <Navbar bg="light" expand={false}>
                 <Container fluid>
-                    <Navbar.Brand href="#"><img className="logo_container1" src={logo} alt="" /></Navbar.Brand>
+                    <Navbar.Brand href="/"><img className="logo_container1" src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
                     <Navbar.Offcanvas
                     id="offcanvasNavbar"
@@ -147,6 +155,7 @@ const PostData=async(e)=>{
                         <div className="word">Build Your Future</div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 
             </div>
             {/* <div className="side_stuff">
@@ -169,6 +178,8 @@ const PostData=async(e)=>{
 
               
 
+=======
+>>>>>>> upstream/main
             {isOpen && <Popup
             content={<>
 

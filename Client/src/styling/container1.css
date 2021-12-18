@@ -22,6 +22,28 @@
     margin-top: -740px;
     margin-left:85%;  
 }
+<<<<<<< HEAD
+=======
+ 
+
+.second_check:hover .submenu_1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+
+
+.second_check:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+
+
+>>>>>>> upstream/main
 
 
 .third{
