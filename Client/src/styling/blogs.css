@@ -1,8 +1,10 @@
 .blog_card{
-    width:40%;
+    width:47%;
     background-color: whitesmoke;
-    height:600px;
-    display: inline-block;
+    height:640px;
+   
+    
+   
     /* padding:20px; */
 
     border-color: black;
@@ -12,14 +14,23 @@
 
 .blogs-container_1{
    
+display: flex;
+flex-wrap: wrap;
+ 
   
+  gap:10px;
 }
 
 .engineering_blog{
     width:100%;
 }
-.blog_heading{
+.heading_blog_tag{
+    font-weight: 600;
+    /* width:100%; */
     
+}
+.blog_heading{
+    width:100%;
 }
 .blog_para{
     margin-top: 1%;
@@ -33,7 +44,7 @@
 }
 .blogs-container_1{
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .blogs_card_btn{
     background-color: #3EDD84;
@@ -45,7 +56,7 @@
     border-width: 3px;
     text-decoration: none;
     margin-left:65%;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 .link_blog{
     text-decoration: none;
