@@ -67,11 +67,7 @@
 }
 
 .footer_icons{
-    width:20%;
-    align-items: center;
-    position: absolute;
-    margin-left: -5%;
-    margin-top:-3%;
+    width:150%;
 }
 
 .footer_icons_all{
@@ -80,6 +76,10 @@
     margin-left:8%;
 }
 
+.footer_icons_all1{
+    margin-left:0;
+    width:30px;
+}
 
 b:hover{
 color: #6E3CBC;
@@ -93,14 +93,15 @@ color: #6E3CBC;
     margin-left:-14%;
 }
 
-.footer_togithub{
+#footer_togithub{
     text-decoration: none;
 }
 
-.footer_togithub:hover{ 
+#footer_togithub:hover{ 
     color:#6E3CBC;
 }
-
-.follow_us{
+.footer_cont_6a_b:hover img{
+    transform: scale(1.2);
+    box-shadow: 15px 10px 15px;
 
 }
