@@ -3,18 +3,13 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
-<<<<<<< HEAD
-import {Link} from "react-location"
-import School from "./School"
-import College from "./College"
-// import { Button } from 'react-bootstrap';
-
-=======
 import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
->>>>>>> upstream/main
 // import Search_box from './Search_box';
-
+import Search_box from './Search_box';
 import { useMediaQuery } from 'react-responsive'
+import  authentication  from "../firebase"
+import { signInWithPopup,GoogleAuthProvider} from "firebase/auth";
+ import google from "../Images/google.png";
 // import "../big-screen/component"
 // import "../mobile/component"
 // import "../laptop/component"
@@ -23,15 +18,17 @@ import { useMediaQuery } from 'react-responsive'
 
 const Container1 = () => {
 
-
+const signInWithGoogle = () => {
+   const provider = new GoogleAuthProvider();
+   signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+     .catch((err) => {
+       console.log(err);
+   })
+  }
   
-   
-
-    
-
-    
-
-
     // const isMobileDevice = useMediaQuery({
     //     query: "(min-device-width: 480px)",
     //   });
@@ -103,7 +100,6 @@ const PostData=async(e)=>{
 
     return (
         <div className="container1">
-            
             {/* <Search_box/> */}
 
     
@@ -114,16 +110,7 @@ const PostData=async(e)=>{
   {isLaptop && <Laptop />}
   {isBigScreen && <BigScreen />}
 </>} */}
-<<<<<<< HEAD
-
-
-
-
-            
-             <img className="logo" src={logo}  alt=""/>
-=======
             <Search_box/>
->>>>>>> upstream/main
             <div className="header">
             <Navbar bg="light" expand={false}>
                 <Container fluid>
@@ -141,10 +128,12 @@ const PostData=async(e)=>{
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                         <Nav.Link href="/login">About Us</Nav.Link>
                         <Nav.Link onClick={togglePopup}>Ask Us</Nav.Link>
+                         <Nav.Link className="container_1_login" onClick={signInWithGoogle} type="submit" ><img className="login_google" src={google} alt="" />Login with Google</Nav.Link>
                         <NavDropdown title="Careers" id="offcanvasNavbarDropdown">
                             <NavDropdown.Item href="/school">School</NavDropdown.Item>
                             <NavDropdown.Item href="/ug">Graduation</NavDropdown.Item>
                             <NavDropdown.Item href="/pg">Post Graduation</NavDropdown.Item>
+                            
                         </NavDropdown>
                         </Nav>
                     </Offcanvas.Body>
@@ -160,39 +149,11 @@ const PostData=async(e)=>{
                 </div>
                 
             </div>
-<<<<<<< HEAD
-            <div className="side_stuff">
-                <button className="first">About Us</button>
-=======
             {/* <div className="side_stuff">
             <a href="/login" className="first">About Us</a>
->>>>>>> upstream/main
                 
                 <a } className="third" alt="">Ask Us</a>
                 
-<<<<<<< HEAD
-                <div className="dropdown">
-                <button  className="second_check">Careers</button>
-                
-                <div className="submenu_1">
-                    <ul>
-                    <li><Link to="/school"> School</Link></li>
-                <li> <Link to="/college">College</Link></li>
-                </ul>
-                    
-                </div>
-                    </div>
-
-
-
-                    
-
-                
-                
-
-               <Link to="/login"> <button className="fourth">Login</button></Link>
-            </div>
-=======
                 <Dropdown className="second_check">
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                         Careers
@@ -207,7 +168,6 @@ const PostData=async(e)=>{
               <a href="/login" className="fourth">Login</a> */}
 
               
->>>>>>> upstream/main
 
             {isOpen && <Popup
             content={<>
