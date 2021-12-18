@@ -7,6 +7,9 @@ import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
 // import Search_box from './Search_box';
 import Search_box from './Search_box';
 import { useMediaQuery } from 'react-responsive'
+import  authentication  from "../firebase"
+import { signInWithPopup,GoogleAuthProvider} from "firebase/auth";
+ import google from "../Images/google.png";
 // import "../big-screen/component"
 // import "../mobile/component"
 // import "../laptop/component"
@@ -15,7 +18,17 @@ import { useMediaQuery } from 'react-responsive'
 
 const Container1 = () => {
 
-
+const signInWithGoogle = () => {
+   const provider = new GoogleAuthProvider();
+   signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+     .catch((err) => {
+       console.log(err);
+   })
+  }
+  
     // const isMobileDevice = useMediaQuery({
     //     query: "(min-device-width: 480px)",
     //   });
@@ -115,10 +128,12 @@ const PostData=async(e)=>{
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                         <Nav.Link href="/login">About Us</Nav.Link>
                         <Nav.Link onClick={togglePopup}>Ask Us</Nav.Link>
+                         <Nav.Link className="container_1_login" onClick={signInWithGoogle} type="submit" >Login with Google<img className="login_google" src={google} alt="" /></Nav.Link>
                         <NavDropdown title="Careers" id="offcanvasNavbarDropdown">
                             <NavDropdown.Item href="/school">School</NavDropdown.Item>
                             <NavDropdown.Item href="/ug">Graduation</NavDropdown.Item>
                             <NavDropdown.Item href="/pg">Post Graduation</NavDropdown.Item>
+                            
                         </NavDropdown>
                         </Nav>
                     </Offcanvas.Body>

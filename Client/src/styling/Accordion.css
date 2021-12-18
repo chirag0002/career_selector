@@ -64,11 +64,11 @@ border-style:solid;
    padding-top: 20px;
 }
  
- .jawab{
-   font-size: 1.1rem;
-   font-weight:700;
+ .answers .jawab{
+   font-size: 1rem;
    background-color: whitesmoke;
    width: 89%;
+   font-weight:600;
    margin: 2px auto ;
    border-radius: .5em;
    height:50px;
@@ -85,7 +85,7 @@ border-style:solid;
     border-style: solid;
     margin-top:20px;
     width:95%;
-   height:850px;
+    height:850px;
     margin-left: 3%;
     } 
     .accordion_heading{
@@ -146,10 +146,10 @@ border-style:solid;
   }
    
    .jawab{
-     font-size: 1.1rem;
-     font-weight:700;
+     font-size: 0.9rem;
+     font-weight:400;
      background-color: whitesmoke;
-     width: 90%;
+     /* width: 105%; */
      margin: 2px auto ;
      border-radius: .5em;
      height:50px;
@@ -158,12 +158,12 @@ border-style:solid;
      padding-left: 7px;
       color: black;
   }
- 
-
- 
-  }  
-
-  @media only screen and (max-width: 1275px) {
+  .answers .jawab{
+    width:100%;
+  }
+  
+ }  
+@media only screen and (max-width: 1277px) {
     .cont-5{
       border-radius: 3px;
       border-color: white;
@@ -229,12 +229,11 @@ border-style:solid;
        padding-top: 20px;
        text-align: left;
     }
-     
-     .jawab{
+  .jawab{
        font-size: 1.1rem;
        font-weight:700;
        background-color: whitesmoke;
-       width: 89%;
+       width: 100%;
        margin: 2px auto ;
        border-radius: .5em;
        height:50px;
@@ -243,380 +242,51 @@ border-style:solid;
        padding-left: 7px;
         color: black;
     }
-   
-  
-   
-    }  
-
-  
-  
-
-  /* @media only screen and (max-width: 1035px){
-    .accordion_pic
-    {
-  width:300px;
-  height:300px;
-  margin-top: 3%;
-  margin-left:4%;
-  display: flex;
-  animation:  pic 2s  infinite alternate-reverse ;
-  
-  }
-  
-  @keyframes pic {
-  from{transform: translate(0%);}
-  to {transform: translateY(30%);}
-  }
-  
-  .container5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 7%; 
-    width: 90%;
-    margin-top: -10%;
-      }
-      .question{
-        display: flex;
-        justify-content: space-between;
-        align-items: left;
-        padding: .5em 1em;
-        width: 100%;
-        background-color: black;
-        margin: 1% auto;
-        margin-bottom: .2em;
-        border-radius: .5em;
-       }
-       .question:hover{
-         cursor: pointer;
-       }
-       .fas{
-         font-size: 30px;
-         color:white;
-       }
-       .question .ques{
-         color: #fff;
-         font-size: 1.2rem;
-         text-align: left;
-       }
-       
-       
-       .jawab{
-         font-size: 1.2rem;
-         background-color: whitesmoke;
-         width: 96%;
-         margin: 2px auto ;
-         border-radius: .5em;
-         height:50px;
-         white-space: 0px;
-         text-align: left;
-         padding-left: 7px;
-        
-      }
-    
-  }      
-   */
-
-  /* @media only screen and (max-width: 880px)
-  {
-    .accordion_pic
-    {
-  width:200px;
-  height:200px;
-  margin-top: 3%;
-  margin-left:4%;
-  display: flex;
-  animation:  snap1 2s  infinite alternate-reverse ;
-  
-  }
-  
-  @keyframes snap1 {
-  from{transform: translate(0%);}
-  to {transform: translateY(30%);}
-  }
-  }
-  @media only screen and (max-width: 791px)
-  {
-    .pic
-    {
-  width:200px;
-  height:200px;
-  margin-top: 3%;
-  margin-left:4%;
-  display: flex;
-  animation:  snap1 2s  infinite alternate-reverse ;
-  
-  }
-  
-  @keyframes snap1 {
-  from{transform: translate(0%);}
-  to {transform: translateY(30%);
-  }
-  } */
-/* }
-  @media only screen and (max-width: 600px)
-  {
-    .accordion_pic
-    {
-  width:200px;
-  height:200px;
-  margin-top: 3%;
-  margin-left:6%;
-  display: flex;
-  animation:  image 2s  infinite alternate-reverse ;
-  
-  }
-  
-  @keyframes image{
-  from{transform: translate(0%);}
-  to {transform: translateX(100%);}
-  
-  }
-  .container5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1%; 
-    width: 80%;
-    margin-top: 12%;
-  }
-  .question{
-  display: flex;
-  justify-content: space-between;
-  align-items: left;
-  padding: .5em 1em;
-  width: 80%;
-  background-color: black;
-  margin: 1% auto;
-  margin-bottom: .2em;
-  border-radius: .5em;
 }
-.question:hover{
-  cursor: pointer;
-}
-.fas{
-  font-size: 30px;
-  color:white;
-}
-.question .ques{
-  color: #fff;
-  font-size: 0.9rem;
-  text-align: left;
-}
-
-.jawab{
-  font-size: 1rem;
-  background-color: whitesmoke;
-  width: 96%;
-  margin: 2px auto ;
-  border-radius: .5em;
-  height:50px;
-  white-space: 0px;
-  text-align: left;
-  padding-left: 7px;
-}
-} */
-/* @media only screen and (max-width:400px) {
-  .accordion_pic
-    {
-  width:180px;
-  height:180px;
-  margin-top: 3%;
-  margin-left:6%;
-  display: flex;
-  animation:  image 2s  infinite alternate-reverse ;
-  
-  }
-  
-  @keyframes image{
-  from{transform: translate(0%);}
-  to {transform: translateX(70%);}
-  
-  }
-  .container5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1%; 
-    width: 80%;
-    margin-top: 12%;
-  }
-  .question{
-  display: flex;
-  justify-content: space-between;
-  align-items: left;
-  padding: .5em 1em;
-  width: 80%;
-  background-color: black;
-  margin: 1% auto;
-  margin-bottom: .2em;
-  border-radius: .5em;
-}
-.question:hover{
-  cursor: pointer;
-}
-.fas{
-  font-size: 30px;
-  color:white;
-}
-.question .ques{
-  color: #fff;
-  font-size: 0.8rem;
-  text-align: left;
-}
-
-.jawab{
-  font-size: 0.9rem;
-  background-color: whitesmoke;
-  width: 96%;
-  margin: 2px auto ;
-  border-radius: .5em;
-  height:50px;
-  white-space: 0px;
-  text-align: left;
-  padding-left: 7px;
-}
-   */
-
-/* @media only  screen and (max-width:1217px){
+@media only screen and (max-width:1269)  {
   .cont-5{
     border-radius: 3px;
     border-color: white;
     border-style: solid;
-    margin-top:3%;
-    width:92%;
-    height:750px;
-    margin-left: 2%;
-    
-    
-  } 
+    margin-top:20px;
+    width:95%;
+   height:850px;
+    margin-left: 3%;
+    } 
+    .accordion_heading{
+      margin-top: 100px;
+    }
    .accordion_pic{
-     width:380px;
-     height: 380px; 
-     margin-top: 10%;
+     width:300px;
+     height: 300px; 
+     margin-top: 200px;
      margin-left:4%;
      display: flex;
-  
      animation:  snap  2s  infinite alternate-reverse ;
-     
-   }
+  }
      
   @keyframes snap {
     from{transform: translate(0%);}
-    to {transform: translateY(8%);}
+    to {transform: translateY(30%);}
   }
   .container5{
   display: flex;
-  
-  
   width: 70%; 
- margin-left: 20%;
-  
-  justify-content: center;
-  align-items: center;
-  
-  margin-top: -4%;
-  
+  margin-left: 28%; 
+  margin-top: -80px;
   }
   .accordionBlock{
-  margin-top: -80%;
-  width: 120%;
-  
-  
+  margin-top: -530px;
+  width: 79%;
+  margin-left: 16%;
   }
   .question{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .5em 1em;
-    width: 100%;
-    background-color: black;
-    margin: 0 auto;
-    margin-bottom: .2em;
-    border-radius: .5em;
-    border-color: #fff;
-    border-width: 3px;
-    border-style:solid;
-   }
-   .question:hover{
-     cursor: pointer;
-   }
-   .fas{
-     font-size: 1rem;
-     color:white;
-   }
-   .question .ques{
-     color: #fff;
-     font-size: 0.9rem;
-   }
-   
-   .jawab{
-     font-size: 1.1rem;
-     font-weight:700;
-     background-color: whitesmoke;
-     width: 83%;
-     margin: 2px auto ;
-     border-radius: .5em;
-     height:50px;
-     white-space: 0px;
-     text-align: left;
-     padding-left: 7px;
-      color: black;
-    
-  }
-}
-@media only screen and (max-width:1176px){
-  .cont-5{
-  border-radius: 3px;
-  border-color: white;
-  border-style: solid;
-  margin-top:3%;
-  width:90%;
-  height:660px;
-  margin-left: 2%;
-  
-  
-} 
- .accordion_pic{
-   width:320px;
-   height: 320px; 
-   margin-top: 15%;
-   margin-left:4%;
-   display: flex;
-   
-
-   animation:  snap  2s  infinite alternate-reverse ;
-   
- }
-   
-@keyframes snap {
-  from{transform: translate(0%);}
-  to {transform: translateY(15%);}
-}
-.container5{
-display: flex;
-
-
-width: 70%; 
-
-margin-left: 24%; 
-
-margin-top: -4%;
-
-}
-.accordionBlock{
-margin-top: -62%;
-width: 82%;
-margin-left: 10%;
-
-
-}
-.question{
   display: flex;
+  height:50px;
   justify-content: space-between;
   align-items: center;
   padding: .5em 1em;
-  width: 88%;
+  width: 100%;
   background-color: black;
   margin: 0 auto;
   margin-bottom: .2em;
@@ -624,94 +294,6 @@ margin-left: 10%;
   border-color: #fff;
   border-width: 3px;
   border-style:solid;
- }
- .question:hover{
-   cursor: pointer;
- }
- .fas{
-   font-size: 1rem;
-   color:white;
- }
- .question .ques{
-   color: #fff;
-   font-size: 1.1rem;
- }
- 
- .jawab{
-   font-size: 1.1rem;
-   font-weight:700;
-   background-color: whitesmoke;
-   width: 83%;
-   margin: 2px auto ;
-   border-radius: .5em;
-   height:50px;
-   white-space: 0px;
-   text-align: left;
-   padding-left: 7px;
-    color: black;
-  
-}
-
-}
-@media only screen and (max-width:1167px) {
-  .cont-5{
-    border-radius: 3px;
-    border-color: white;
-    border-style: solid;
-    margin-top:3%;
-    width:90%;
-    height:690px;
-    margin-left: 2%;
-    
-    
-  } 
-   .accordion_pic{
-     width:300px;
-     height: 300px; 
-     margin-top: 15%;
-     margin-left:4%;
-     display: flex;
-     
-  
-     animation:  snap  2s  infinite alternate-reverse ;
-     
-   }
-     
-  @keyframes snap {
-    from{transform: translate(0%);}
-    to {transform: translateY(15%);}
-  }
-  .container5{
-  display: flex;
-  
-  
-  width: 76%; 
-  
-  margin-left: 24%; 
-  
-  margin-top: -4%;
-  
-  }
-  .accordionBlock{
-  margin-top: -60%;
-  width: 82%;
-  margin-left: 1%;
-  
-  
-  }
-  .question{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .5em 1em;
-    width: 88%;
-    background-color: black;
-    margin: 0 auto;
-    margin-bottom: .2em;
-    border-radius: .5em;
-    border-color: #fff;
-    border-width: 3px;
-    border-style:solid;
    }
    .question:hover{
      cursor: pointer;
@@ -721,15 +303,18 @@ margin-left: 10%;
      color:white;
    }
    .question .ques{
+     height: 50px;
      color: #fff;
-     font-size: 0.9rem;
-   }
+     font-size: 1rem;
+     padding-top: 20px;
+     text-align: left;
+  }
    
    .jawab{
-     font-size: 1.1rem;
-     font-weight:700;
+     font-size: 0.9rem;
+     /* font-weight:700; */
      background-color: whitesmoke;
-     width: 83%;
+     width: 100%;
      margin: 2px auto ;
      border-radius: .5em;
      height:50px;
@@ -737,426 +322,266 @@ margin-left: 10%;
      text-align: left;
      padding-left: 7px;
       color: black;
-    
   }
-  
+  .answers{
+    width:105%;
+  }
+
+
 }
-@media only screen and (max-width:1142){
+@media only screen and (max-width:1208){
   .cont-5{
     border-radius: 3px;
     border-color: white;
     border-style: solid;
-    margin-top:3%;
-    width:94%;
-    height:660px;
-    margin-left: 2%;
-    
-    
-  } 
+    margin-top:20px;
+    width:95%;
+   height:850px;
+    margin-left: 3%;
+    } 
+    .accordion_heading{
+      margin-top: 100px;
+    }
    .accordion_pic{
-     width:290px;
-     height: 290px; 
-     margin-top: 3%;
+     width:300px;
+     height: 300px; 
+     margin-top: 200px;
      margin-left:4%;
      display: flex;
      animation:  snap  2s  infinite alternate-reverse ;
-     
-   }
+  }
      
   @keyframes snap {
     from{transform: translate(0%);}
-    to {transform: translateY(15%);}
+    to {transform: translateY(30%);}
   }
   .container5{
   display: flex;
-  
-  
   width: 70%; 
-  
   margin-left: 28%; 
-  
-  margin-top: -4%;
-  
+  margin-top: -80px;
   }
   .accordionBlock{
-  margin-top: -40%;
+  margin-top: -530px;
   width: 79%;
-  margin-left: 10%;
-  
-  
+  margin-left: 16%;
   }
   .question{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .5em 1em;
-    width: 88%;
-    background-color: black;
-    margin: 0 auto;
-    margin-bottom: .2em;
-    border-radius: .5em;
-    border-color: #fff;
-    border-width: 3px;
-    border-style:solid;
-   }
-   .question:hover{
-     cursor: pointer;
-   }
-   .fas{
-     font-size: 0.8rem;
-     color:white;
-   }
-   .question .ques{
-     color: #fff;
-     font-size: 0.9rem;
-   }
-   
-   .jawab{
-     font-size: 1rem;
-     font-weight:700;
-     background-color: whitesmoke;
-     width: 83%;
-     margin: 2px auto ;
-     border-radius: .5em;
-     height:50px;
-     white-space: 0px;
-     text-align: left;
-     padding-left: 7px;
-      color: black;
-    
-  }
-}
-@media only screen and (max-width:1121px) {
-  .cont-5{
-    border-radius: 3px;
-    border-color: white;
-    border-style: solid;
-    margin-top:3%;
-    width:80%;
-    height:810px;
-    margin-left: 5%;
-    
-    
-  } 
-   .accordion_pic{
-     width:300px;
-     height: 300px; 
-     margin-top: 10%;
-     margin-left:12%;
-     display: flex;
-     animation:  pic 2s  infinite alternate-reverse ;
-     
-   }
-     
-  @keyframes pic{
-    from{ transform: translate(0%);}
-    to {transform: translateX(80%);}
-  }
-  .container5{
   display: flex;
-  
-  
-  width: 70%; 
-  
-  margin-left: 28%; 
-  
-  margin-top: -4%;
-  
-  }
-  .accordionBlock{
-  margin-top: -52%;
-  width: 112%;
-  margin-left:-52%;
-  
-  
-  }
-  .question{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .5em 1em;
-    width: 90%;
-    background-color: black;
-    margin: 0 auto;
-    margin-bottom: .2em;
-    border-radius: .5em;
-    border-color: #fff;
-    border-width: 3px;
-    border-style:solid;
-   }
-   .question:hover{
-     cursor: pointer;
-   }
-   .fas{
-     font-size: 1rem;
-     color:white;
-   }
-   .question .ques{
-     color: #fff;
-     font-size: 0.9rem;
-   }
-   
-   .jawab{
-     font-size: 1rem;
-     font-weight:700;
-     background-color: whitesmoke;
-     width: 83%;
-     margin: 2px auto ;
-     border-radius: .5em;
-     height:50px;
-     white-space: 0px;
-     text-align: left;
-     padding-left: 7px;
-      color: black;
-    
-  }
-  
-}
-
-
-
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-width: 900px) {
-  
-  .accordion_pic
-    {
-  width:300px;
-  height:300px;
-  margin-top: 10%;
-  margin-left:4%;
-  display: flex;
-  animation:  pic 2s  infinite alternate-reverse ;
-  
-  }
-  
-  @keyframes pic {
-  from{transform: translate(0%);}
-  to {transform: translateY(30%);}
-  }
-    
-    .container5{
-  display: flex;
-  justify-content: center;
+  height:50px;
+  justify-content: space-between;
   align-items: center;
-  margin-left: 13%; 
-  width: 90%;
-  margin-top: -10%;
-    }
-    .question{
-      display: flex;
-      justify-content: space-between;
-      align-items: left;
-      padding: .5em 1em;
-      width: 90%;
-      background-color: black;
-      margin: 1% auto;
-      margin-bottom: .2em;
-      border-radius: .5em;
-      margin-left: 20%;
-     }
-     .question:hover{
-       cursor: pointer;
-     }
-     .fas{
-       font-size: 30px;
-       color:white;
-     }
-     .question .ques{
-       color: #fff;
-       font-size: 1.1rem;
-       text-align: left;
-     }
+  padding: .5em 1em;
+  width: 106%;
+  background-color: black;
+  margin: 0 auto;
+  margin-bottom: .2em;
+  border-radius: .5em;
+  border-color: #fff;
+  border-width: 3px;
+  border-style:solid;
+   }
+   .question:hover{
+     cursor: pointer;
+   }
+   .fas{
+     font-size: 1rem;
+     color:white;
+   }
+   .question .ques{
+     height: 60px;
+     color: #fff;
+     font-size: 0.9rem;
+     padding-top: 20px;
+     text-align: left;
      
-     
-     
-      .jawab{
-       font-size: 1rem;
-       background-color: whitesmoke;
-       width: 96%;
-       margin: 2px auto ;
-       border-radius: .5em;
-       height:50px;
-       white-space: 0px;
-       text-align: left;
-       padding-left: 7px;
-      
-    }
-  } */
+  }
+   
+   .jawab{
+     font-size: 0.9rem;
+     /* font-weight:700; */
+     background-color: whitesmoke;
+     width: 100%;
+     margin: 2px auto ;
+     border-radius: .5em;
+     height:50px;
+     white-space: 0px;
+     text-align: left;
+     padding-left: 7px;
+      color: black;
+  }
+  .answers .jawab{
+    width:108%;
+  }
+
+  
+}
+
+  
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

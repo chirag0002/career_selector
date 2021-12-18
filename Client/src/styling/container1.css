@@ -216,7 +216,12 @@ form .data label{
     font-size: 23px;
     padding-right: 20px;
 }
-
+.login_google{
+    width:25px;
+    height:25px;
+    position: absolute;
+    margin-left: 1%;
+    }
 
 
 @media only screen and (max-width:1285px){
