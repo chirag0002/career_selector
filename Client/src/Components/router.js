@@ -69,7 +69,7 @@ export const routes: Route[] = [
     },
     {
         path:"developers",
-        element:<Developers/>
+        element:<Developers />
     },
 ];
 

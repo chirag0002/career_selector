@@ -22,7 +22,7 @@ const Container2 = () => {
                     </Link>
                 </div>
                 <div className="homepage_cont_2_img_div_2">
-                    <a className="homepage_cont_2_img_link" href="">
+                    <a className="homepage_cont_2_img_link" href="/college">
                         <img className="homepage_cont_2_img" src="https://th.bing.com/th/id/R.2f3e4067943290aead99c39a38c5a949?rik=u0xPelLuKZ6mVA&riu=http%3a%2f%2fimages.clipartpanda.com%2fcollege-clip-art-1326986427_college_clip_art.jpg&ehk=fE%2fELjF87XCUeX4754nwdgh2k%2bTvhipSP3tTS2ARIQM%3d&risl=&pid=ImgRaw&r=0" alt="" />
                         <h2 className="homepage_cont_2_heading">COLLEGES</h2>   
                     </a>         
