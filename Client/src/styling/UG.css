@@ -21,7 +21,7 @@
     border-radius: 10px;
     background-color: whitesmoke;
     height:250px;
-    margin-left:8%;
+    margin-left:13%;
 
 }
 
@@ -35,7 +35,7 @@
     border-radius: 10px;
     background-color: whitesmoke;
     height:250px;
-    margin-left:10%;
+    margin-left:17%;
 }
 
 .ug_content_para{
@@ -43,6 +43,7 @@
     width:180%;
     font-size:1.2rem;
     margin-left:10%;
+    text-align: left;
 }
 .ug_image_mtech{
     width:400px;

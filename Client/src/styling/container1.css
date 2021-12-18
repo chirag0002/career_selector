@@ -16,12 +16,32 @@
     color: #6E3CBC;
 }
 
-.second_check{
+.second_check
+{
     position: absolute;
     width: 80px;
     margin-top: -740px;
     margin-left:85%;  
 }
+ 
+
+.second_check:hover .submenu_1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+
+
+.second_check:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+
+
 
 
 .third{

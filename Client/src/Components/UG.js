@@ -10,6 +10,7 @@ import bsc from "../Images/bsc.jpg"
 import barch from "../Images/barch.jpg"
 import bpharma from "../Images/bpharma.jpg"
 import Footer from './Footer';
+import Header from "./Header.jsx";
 
 
 const UG = () => {
@@ -22,6 +23,7 @@ const UG = () => {
     return (
         <>
         <div class="ug">
+        <Header />
         <div className="ug_container">
                <div className="ug_heading">
                    Undergraduate
@@ -29,7 +31,7 @@ const UG = () => {
                
                    <div className="ug_cards">
                    
-                       <div className="ug_card_1">
+                       <div  data-aos="fade-left" className="ug_card_1">
                        <img className="ug_image_mtech"src={btech} alt=""/>
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">

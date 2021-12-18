@@ -9,6 +9,7 @@ import MSC from "../Images/msc.png"
 import MCA from "../Images/MCA.png"
 import MBA from "../Images/Mba.png"
 import Footer from "./Footer.jsx"
+import Header from "./Header.jsx";
 const PG = () => {
       useEffect(()=>{
     Aos.init({
@@ -19,6 +20,7 @@ const PG = () => {
     return (
         <>
         <div class="pg">
+        <Header />
         <div className="pg_container">
                <div className="pg_heading">
                    Postgraduate
