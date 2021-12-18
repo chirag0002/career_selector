@@ -2,7 +2,6 @@ import React from 'react'
 import "../styling/Footer.css"
 import footer_img from "../Images/uc.png"
 import footer_img1 from "../Images/send.png"
-import footer_img2 from "../Images/logo.png"
 import { Button } from '@mui/material';
 import instagram from "../Images/instagram.png"
 import twitter from "../Images/twitter.png"
@@ -38,11 +37,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer_cont_6b">
-                <div className="footer_cont_6b_a">
-                    <img className="footer_logo" src={footer_img2} alt="" />
-                    <p className="test_1">Let us help you in making right career choice</p>
-                </div>
-            
+                <div className="footer_res">
                 <div className="footer_cont_6b_b">
                 <table>
                     <tr>
@@ -86,16 +81,20 @@ const Footer = () => {
                                 <p className="follow_us"> Follow Us </p> 
                             </b><br />
                                 <div className="footer_icons">
+                                <div className="footer_icons1">
                                     <img className="footer_icons_all" src={linkedin} alt="" />
                                     <img className="footer_icons_all" src={twitter} alt="" />
+                                </div>
+                                <div className="footer_icons2">    
                                     <img className="footer_icons_all" src={facebook} alt="" />
                                     <img className="footer_icons_all" src={instagram} alt="" />
+                                </div>
                             </div>
                         </td>
                     </tr>
                     </table>
                 </div>
-                
+                </div>
             </div>
         </div>
     )
