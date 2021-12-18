@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import "../styling/Developers.css"
 import group from "../Images/Group_Photo.jpeg"
 import chirag from "../Images/Chirag.JPG"
@@ -24,10 +24,47 @@ const Developers = () => {
         const themeChanger =() =>{
             theme=== "light" ? setTheme ("dark") : setTheme ("light");
         };
+    const [isVisible, setIsVisible] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 150) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
     return (
         <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
         <StyledApp>
+        <div className="scroll-to-top"
+                style={{
+                    float:"right",
+                    position: "-webkit-sticky",
+                    position: "sticky",
+                    top: "0",
+                    height:"100%",
+                    paddingTop: "35%",
+                    paddingRight:"1%",
+                    cursor:"pointer"
+                }}>
+            {isVisible && (
+            <div onClick={scrollToTop}>
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            )}
+        </div>
         <div className="developers">
         <MUISwitch
             className="theme_switch"

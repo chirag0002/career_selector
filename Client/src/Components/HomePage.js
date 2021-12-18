@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import Accordion from './Accordion.js'
 import Container2 from './Container2'
 import Container4 from './Container4'
@@ -17,13 +17,34 @@ color:${(props) => props.theme.fontColor};
 `;
 
 const HomePage = () => {
-
+    
+        
     const check=useSelector((state)=>state.check)
     console.log(check);
-const[theme,setTheme]=useState("dark");
+    const[theme,setTheme]=useState("dark");
         const themeChanger =() =>{
             theme=== "light" ? setTheme ("dark") : setTheme ("light");
         };
+    const [isVisible, setIsVisible] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 150) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
     return (
         <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
@@ -33,6 +54,23 @@ const[theme,setTheme]=useState("dark");
             onClick={themeChanger}
             defaultChecked />
             <Container1/>
+            <div className="scroll-to-top"
+                style={{
+                    float:"right",
+                    position: "-webkit-sticky",
+                    position: "sticky",
+                    top: "0",
+                    height:"100%",
+                    paddingTop: "35%",
+                    paddingRight:"1%",
+                    cursor:"pointer"
+                }}>
+                {isVisible && (
+                <div onClick={scrollToTop}>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                )}
+            </div>
             <Container2 />
             <Container4 />
             <Accordion />
