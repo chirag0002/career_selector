@@ -6,7 +6,7 @@
 .cont4_a_card{
     font-size:1.3rem;
     color: white;
-    margin-top: 2%;
+    margin-top: 5px;
 }
 
 .cont4_1{
@@ -25,7 +25,7 @@
     height:40px;
     width:180px;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 5px;
     animation:Try 4.5s alternate ease-in-out infinite;
 }
 
@@ -37,20 +37,20 @@
     height:40px;
     width:180px;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 5px;
     animation:Try1 4.5s alternate ease-in-out infinite;
 }
 
 .cont4_a{
     display: flex;
     margin-left: 8%;
-    margin-top: 4%;
+    margin-top: 30px;
 }
 
 .cont4_b{
     display: flex;
     margin-left: 3%;
-    margin-top: 4%;
+    margin-top:30px;
 }
 
 @keyframes Try

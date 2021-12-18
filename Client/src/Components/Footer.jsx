@@ -8,6 +8,7 @@ import instagram from "../Images/instagram.png"
 import twitter from "../Images/twitter.png"
 import linkedin from "../Images/linkedin.png"
 import facebook from "../Images/facebook.png"
+import discord from "../Images/Discord.png"
 
 
 
@@ -25,6 +26,16 @@ const Footer = () => {
                     </div>
                 </div>                
                 <img className="footerimg" src={footer_img} alt="" />
+                <div>
+                    <a className="discord" target="blank" href="https://discord.gg/TkPQSE2n">
+                        <img className="discord_img" src={discord} alt="" 
+                        style={{
+                            cursor:"hover",
+                            width:"50%",
+                            marginTop: "25%"
+                        }}/>
+                    </a>
+                </div>
             </div>
             <div className="footer_cont_6b">
                 <div className="footer_cont_6b_a">
@@ -40,10 +51,10 @@ const Footer = () => {
                                 About
                             </b><br />
                             <b>
-                                Blogs
+                               <a className="footer_togithub"  href="/blog" alt="">Blogs</a>
                             </b><br />
                             <b>
-                                <a id="footer_togithub" target="blank" href="https://github.com/chirag0002/career_selector" alt="GitHub">Contribute</a> 
+                                <a className="footer_togithub" target="blank" href="https://github.com/chirag0002/career_selector" alt="GitHub">Contribute</a> 
                             </b>
                         </td>
                     </tr>
@@ -54,13 +65,13 @@ const Footer = () => {
                     <tr>
                         <td>
                             <b>
-                                Developers
+                                <a className="footer_togithub"  href="/developers" alt="">Developers</a>
                             </b><br />
                             <b>
                                 Help
                             </b><br />
                             <b>
-                                Mail Us
+                                <a className="footer_togithub" href="mailto:varshneychirag24@gmail.com">Mail Us</a>
                             </b>
                         </td>
                     </tr>
@@ -72,10 +83,10 @@ const Footer = () => {
                     <tr>
                         <td>
                             <b>
-                                Follow Us 
+                                <p className="follow_us"> Follow Us </p> 
                             </b><br />
                                 <div className="footer_icons">
-                                    <img className="footer_icons_all1" src={linkedin} alt="" />
+                                    <img className="footer_icons_all" src={linkedin} alt="" />
                                     <img className="footer_icons_all" src={twitter} alt="" />
                                     <img className="footer_icons_all" src={facebook} alt="" />
                                     <img className="footer_icons_all" src={instagram} alt="" />

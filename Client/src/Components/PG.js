@@ -9,15 +9,18 @@ import MSC from "../Images/msc.png"
 import MCA from "../Images/MCA.png"
 import MBA from "../Images/Mba.png"
 import Footer from "./Footer.jsx"
+import Header from "./Header.jsx";
 const PG = () => {
       useEffect(()=>{
     Aos.init({
       duration:2000});
 
   },[]);
+  
     return (
         <>
         <div class="pg">
+        <Header />
         <div className="pg_container">
                <div className="pg_heading">
                    Postgraduate
@@ -41,6 +44,7 @@ const PG = () => {
 
 
         </div>
+        
           <div data-aos="fade-right" className="pg_card_1">
                        <img className="pg_image_mtech"src={mcom} alt=""/>
                           <div  className="about_pg_card1_">
