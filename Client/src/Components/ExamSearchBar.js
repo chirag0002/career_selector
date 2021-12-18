@@ -28,7 +28,7 @@ function ExamSearchBar({placeholder,data}){
     return(
         <div className="exam_search">
             <div className="exam_search_input">
-                <input type="text"  id="myInput" placeholder={placeholder} onKeyUp={SearchExams}/>
+                <input type="text"  id="myInput" placeholder={placeholder} onKeyUp={SearchExams} className="exam_input"/>
                 <div className="exam_search_icon"><SearchIcon/></div>
             </div>
             <div className="exam_data_result">
@@ -38,7 +38,7 @@ function ExamSearchBar({placeholder,data}){
                     <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">CAT</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">UCEED</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">NDA</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">JEE</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">IIT</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">CA</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">IES</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">NID</a></li>

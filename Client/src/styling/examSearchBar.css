@@ -4,8 +4,6 @@
 
 }
 
-
-
 .exam_search_icon{
     margin-left: -3.3%;
     background-color:chocolate;
@@ -64,8 +62,7 @@ input:focus{
     background-color: #f9f9f9;
     min-width: 160px;
     overflow: auto;
-    /* box-shadow: 5px 4px 4px 5px rgba(0,0,0,0.2); */
-    display: block;
+    display: none;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
     
@@ -82,3 +79,4 @@ input:focus{
     font-size: 1rem;
 
 }
+
