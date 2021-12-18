@@ -8,7 +8,6 @@ import instagram from "../Images/instagram.png"
 import twitter from "../Images/twitter.png"
 import linkedin from "../Images/linkedin.png"
 import facebook from "../Images/facebook.png"
-import {Link} from "react-location"
 import discord from "../Images/Discord.png"
 
 
@@ -28,8 +27,8 @@ const Footer = () => {
                 </div>                
                 <img className="footerimg" src={footer_img} alt="" />
                 <div>
-                    <a className="footer_cont_6a_b" target="blank" href="https://discord.gg/TkPQSE2n">
-                        <img src={discord} alt="" 
+                    <a className="discord" target="blank" href="https://discord.gg/TkPQSE2n">
+                        <img className="discord_img" src={discord} alt="" 
                         style={{
                             cursor:"hover",
                             width:"50%",
@@ -52,7 +51,7 @@ const Footer = () => {
                                 About
                             </b><br />
                             <b>
-                                Blogs
+                               <a className="footer_togithub"  href="/blog" alt="">Blogs</a>
                             </b><br />
                             <b>
                                 <a className="footer_togithub" target="blank" href="https://github.com/chirag0002/career_selector" alt="GitHub">Contribute</a> 
@@ -66,7 +65,7 @@ const Footer = () => {
                     <tr>
                         <td>
                             <b>
-                                <Link className="footer_togithub" to="/developers"><a class="footer_togithub"  href="" alt="">Developers</a></Link>
+                                <a className="footer_togithub"  href="/developers" alt="">Developers</a>
                             </b><br />
                             <b>
                                 Help
