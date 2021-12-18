@@ -12,6 +12,7 @@ import School from "./School"
 import PG from "./PG.js"
 import UG from "./UG.js"
 import College from "./College.jsx";
+import Blogs from "./Blogs.js";
 import Developers from "./Developers"
 
 
@@ -65,6 +66,10 @@ export const routes: Route[] = [
     {
         path:"college",
         element:<College/>
+    },
+    {
+        path:"blog",
+        element:<Blogs />
     },
     {
         path:"developers",
