@@ -10,6 +10,7 @@ import commerce from "../Images/commerece.png"
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import {Link} from "react-location"
+import Header from "./Header.jsx";
 
 
 
@@ -45,34 +46,7 @@ const College = () => {
 
 return (
         <div>
-            <div className="colleges_header">
-                <img className="colleges_logo" src={logo} alt="" />
-                    <div className="colleges_header_vdo_div">
-        
-                    </div>
-                <div className="colleges_navbar">  
-                <details className="colleges_first_details">  
-                <ul>      
-                    <li className="colleges_nav">
-                        <details className="colleges_details">
-                            <ul>
-                                <li>School</li>
-                                <li>Colleges</li>
-                            </ul>
-                            <summary className="colleges_summary">
-                                Careers
-                            </summary>
-                        </details>
-                    </li>
-                    <li className="colleges_nav">Ask Us</li>
-                    <li className="colleges_nav">About Us</li>
-                </ul>
-                <summary>
-                    Menu
-                </summary>
-                </details>
-                </div>
-            </div>
+            <Header />
             <div className="scroll-to-top"
                 style={{
                     float:"right",
