@@ -4,8 +4,12 @@ import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
 import {Link} from "react-location"
+import School from "./School"
+import College from "./College"
+// import { Button } from 'react-bootstrap';
+
 // import Search_box from './Search_box';
-import Search_box from './Search_box';
+
 import { useMediaQuery } from 'react-responsive'
 // import "../big-screen/component"
 // import "../mobile/component"
@@ -14,6 +18,14 @@ import { useMediaQuery } from 'react-responsive'
 // import "../desktop/component"
 
 const Container1 = () => {
+
+
+  
+   
+
+    
+
+    
 
 
     // const isMobileDevice = useMediaQuery({
@@ -87,6 +99,7 @@ const PostData=async(e)=>{
 
     return (
         <div className="container1">
+            
             {/* <Search_box/> */}
 
     
@@ -101,7 +114,7 @@ const PostData=async(e)=>{
 
 
 
-            <Search_box/>
+            
              <img className="logo" src={logo}  alt=""/>
             <div className="header">
 
@@ -115,11 +128,29 @@ const PostData=async(e)=>{
                 
             </div>
             <div className="side_stuff">
-                <div className="first">About Us</div>
+                <button className="first">About Us</button>
                 
                 <button onClick={togglePopup} className="third">Ask Us</button>
                 
-                <div className="second_check">Careers</div>
+                <div className="dropdown">
+                <button  className="second_check">Careers</button>
+                
+                <div className="submenu_1">
+                    <ul>
+                    <li><Link to="/school"> School</Link></li>
+                <li> <Link to="/college">College</Link></li>
+                </ul>
+                    
+                </div>
+                    </div>
+
+
+
+                    
+
+                
+                
+
                <Link to="/login"> <button className="fourth">Login</button></Link>
             </div>
 

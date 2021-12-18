@@ -12,6 +12,8 @@ import School from "./School"
 import PG from "./PG.js"
 import UG from "./UG.js"
 import College from "./College.jsx";
+import Exams from "./Exams"
+
 
 
 export const routes: Route[] = [
@@ -65,6 +67,11 @@ export const routes: Route[] = [
         path:"college",
         element:<College/>
     },
+    {
+        path:"exams",
+        element:<Exams/>
+    },
+    
 ];
 
 export const location = new ReactLocation();
