@@ -4,22 +4,11 @@ import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
 import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
-<<<<<<< HEAD
-// import Search_box from './Search_box';
-import Search_box from './Search_box';
-import { useMediaQuery } from 'react-responsive'
 import  authentication  from "../firebase"
 import { signInWithPopup,GoogleAuthProvider} from "firebase/auth";
  import google from "../Images/google.png";
-// import "../big-screen/component"
-// import "../mobile/component"
-// import "../laptop/component"
-// import "../tablet-mobile/component"
-// import "../desktop/component"
-
 const Container1 = () => {
-
-const signInWithGoogle = () => {
+    const signInWithGoogle = () => {
    const provider = new GoogleAuthProvider();
    signInWithPopup(authentication, provider)
       .then((re) => {
@@ -29,33 +18,7 @@ const signInWithGoogle = () => {
        console.log(err);
    })
   }
-  
-    // const isMobileDevice = useMediaQuery({
-    //     query: "(min-device-width: 480px)",
-    //   });
-    
-    //   const isTabletDevice = useMediaQuery({
-    //     query: "(min-device-width: 768px)",
-    //   });
-    
-    //   const isLaptop = useMediaQuery({
-    //     query: "(min-device-width: 1024px)",
-    //   });
-    
-    //   const isDesktop = useMediaQuery({
-    //     query: "(min-device-width: 1200px)",
-    //   });
-    
-    //   const isBigScreen = useMediaQuery({
-    //     query: "(min-device-width: 1201px )",
-    //   });
 
-   
-
-=======
-const Container1 = () => {
-
->>>>>>> upstream/main
     const[user,setUser]=useState({
         email:" ",phone:" ",query:" "
     })
@@ -121,12 +84,11 @@ const PostData=async(e)=>{
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                         <Nav.Link href="/login">About Us</Nav.Link>
                         <Nav.Link onClick={togglePopup}>Ask Us</Nav.Link>
-                         <Nav.Link className="container_1_login" onClick={signInWithGoogle} type="submit" >Login with Google<img className="login_google" src={google} alt="" /></Nav.Link>
+                        <Nav.Link className="container_1_login" onClick={signInWithGoogle} type="submit" >Login with Google<img className="login_google" src={google} alt="" /></Nav.Link>
                         <NavDropdown title="Careers" id="offcanvasNavbarDropdown">
                             <NavDropdown.Item href="/school">School</NavDropdown.Item>
                             <NavDropdown.Item href="/ug">Graduation</NavDropdown.Item>
                             <NavDropdown.Item href="/pg">Post Graduation</NavDropdown.Item>
-                            
                         </NavDropdown>
                         </Nav>
                     </Offcanvas.Body>
@@ -177,10 +139,10 @@ const PostData=async(e)=>{
             />}
         
         </div>
+        
 
         
     )
 }
 
 export default Container1
-
