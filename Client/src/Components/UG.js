@@ -10,6 +10,7 @@ import bsc from "../Images/bsc.jpg"
 import barch from "../Images/barch.jpg"
 import bpharma from "../Images/bpharma.jpg"
 import Footer from './Footer';
+import Header from "./Header.jsx";
 
 
 const UG = () => {
@@ -22,6 +23,7 @@ const UG = () => {
     return (
         <>
         <div class="ug">
+        <Header />
         <div className="ug_container">
                <div className="ug_heading">
                    Undergraduate

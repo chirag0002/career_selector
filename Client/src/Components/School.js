@@ -8,6 +8,7 @@ import Footer from "../Components/Footer.jsx"
 import School_Science from "../Images/School_Science.png"
 import School_Arts from "../Images/School_Arts.jpeg"
 import School_Commerce from "../Images/School_Commerce.jpeg"
+import Header from "./Header.jsx";
 
 const StyledApp= styled.div`
 color:${(props) => props.theme.fontColor};
@@ -23,6 +24,7 @@ const School = () => {
         <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
         <StyledApp>
+        <Header />
         <div className="school">
             <p className="heading_school">School</p>
             <MUISwitch
