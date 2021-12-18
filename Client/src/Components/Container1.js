@@ -4,6 +4,7 @@ import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
 import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
+<<<<<<< HEAD
 // import Search_box from './Search_box';
 import Search_box from './Search_box';
 import { useMediaQuery } from 'react-responsive'
@@ -51,6 +52,10 @@ const signInWithGoogle = () => {
 
    
 
+=======
+const Container1 = () => {
+
+>>>>>>> upstream/main
     const[user,setUser]=useState({
         email:" ",phone:" ",query:" "
     })
@@ -100,21 +105,9 @@ const PostData=async(e)=>{
 
     return (
         <div className="container1">
-            {/* <Search_box/> */}
-
-    
-{/* {isMobileDevice && <Mobile />}
-  {isTabletDevice && <>
-  <TabletMobile />
-  {isDesktop && <Desktop />}
-  {isLaptop && <Laptop />}
-  {isBigScreen && <BigScreen />}
-</>} */}
-            <Search_box/>
-            <div className="header">
             <Navbar bg="light" expand={false}>
                 <Container fluid>
-                    <Navbar.Brand href="#"><img className="logo_container1" src={logo} alt="" /></Navbar.Brand>
+                    <Navbar.Brand href="/"><img className="logo_container1" src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
                     <Navbar.Offcanvas
                     id="offcanvasNavbar"
@@ -147,28 +140,6 @@ const PostData=async(e)=>{
                         <div className="word">Build Your Future</div>
                     </div>
                 </div>
-                
-            </div>
-            {/* <div className="side_stuff">
-            <a href="/login" className="first">About Us</a>
-                
-                <a } className="third" alt="">Ask Us</a>
-                
-                <Dropdown className="second_check">
-                    <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Careers
-                    </Dropdown.Toggle>
-
-                    <Dropdown.Menu>
-                        <Dropdown.Item href="/school">School</Dropdown.Item>
-                        <Dropdown.Item href="/ug">Undergraduate</Dropdown.Item>
-                        <Dropdown.Item href="/pg">Postgraduate</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-              <a href="/login" className="fourth">Login</a> */}
-
-              
-
             {isOpen && <Popup
             content={<>
 
