@@ -25,22 +25,6 @@
 }
  
 
-/* .second_check:hover .submenu_1{
-    
-    position: absolute;
-    background: rgb(0,100,0);
-    color: white;
-    display: block;
-     
-} 
-.submenu_1{
-    margin-left: 1240%;
-    margin-top: -680%;
-    display: none;
-
-} */
-
-
 .second_check:hover .submenu_1 ul li{
     width: 150px;
     padding: 10px;
