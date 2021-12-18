@@ -55,7 +55,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.engineeringdaily.net/">Read more</a> </button>
+        <button className="blogs_card_btn"> <a class="link_blog" href="https://www.everydayhealth.com/">Read more</a> </button>
         </div>
         
 
@@ -76,7 +76,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.engineeringdaily.net/">Read more</a> </button>
+        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.simplelegal.com/blog/top-in-house-legal-blogs-to-follow">Read more</a> </button>
         </div>
         
 
@@ -97,7 +97,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.engineeringdaily.net/">Read more</a> </button>
+        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.onstartups.com/">Read more</a> </button>
         </div>
         
 
@@ -116,7 +116,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.engineeringdaily.net/">Read more</a> </button>
+        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.thefashionstudenthub.com/blog/">Read more</a> </button>
         </div>
         
 
@@ -135,7 +135,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.engineeringdaily.net/">Read more</a> </button>
+        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.newsbytesapp.com/news/india/5-blogs-to-aid-upsc-preparation/story">Read more</a> </button>
         </div>
         
 
