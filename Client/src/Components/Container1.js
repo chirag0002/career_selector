@@ -3,7 +3,7 @@ import "../styling/container1.css"
 import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
-import {Navbar,Container,Offcanvas,Nav,NavDropdown,Form,Button,FormControl} from 'react-bootstrap'
+import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
 // import Search_box from './Search_box';
 import Search_box from './Search_box';
 import { useMediaQuery } from 'react-responsive'
