@@ -18,16 +18,16 @@ const Search_box= () => {
     }
 
     return (
-        <div className="search-box">
-  <input type="text" placeholder="Type to search..."></input>
-    <div className="search-btn">
-      <i className="fas fa-search"></i>
-    </div>
-    
-    <div className="cancel-btn">
-      <i className="fas fa-times"></i>
-    </div>
-  </div>
+      <div className="search-box">
+      <input type="text" placeholder="Type to search..."></input>
+        <div className="search-btn">
+          <i className="fas fa-search"></i>
+        </div>
+        
+        <div className="cancel-btn">
+          <i className="fas fa-times"></i>
+        </div>
+      </div>
     )
 };
 

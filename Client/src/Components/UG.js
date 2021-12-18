@@ -31,7 +31,7 @@ const UG = () => {
                
                    <div className="ug_cards">
                    
-                       <div className="ug_card_1">
+                       <div  data-aos="fade-left" className="ug_card_1">
                        <img className="ug_image_mtech"src={btech} alt=""/>
                           <div  className="about_ug_card1_">
                            <p class="ug_content_para">
