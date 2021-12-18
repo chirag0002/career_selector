@@ -3,79 +3,72 @@
   border-radius: 3px;
   border-color: white;
   border-style: solid;
-  margin-top:1%;
+  margin-top:20px;
   width:94%;
-  height:660px;
+ height:850px;
   margin-left: 2%;
   } 
   .accordion_heading{
-    margin-top: 3%;
+    margin-top: 100px;
   }
  .accordion_pic{
    width:400px;
    height: 400px; 
-   margin-top: 3%;
+   margin-top: 90px;
    margin-left:4%;
    display: flex;
-   
-
    animation:  snap  2s  infinite alternate-reverse ;
-   
- }
+}
    
 @keyframes snap {
   from{transform: translate(0%);}
-  to {transform: translateY(15%);}
+  to {transform: translateY(20%);}
 }
 .container5{
 display: flex;
-
-
 width: 70%; 
-
 margin-left: 28%; 
-
-margin-top: -4%;
-
+margin-top: -80px;
 }
 .accordionBlock{
-margin-top: -40%;
+margin-top: -530px;
 width: 79%;
 margin-left: 10%;
-
-
 }
 .question{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: .5em 1em;
-  width: 88%;
-  background-color: black;
-  margin: 0 auto;
-  margin-bottom: .2em;
-  border-radius: .5em;
-  border-color: #fff;
-  border-width: 3px;
-  border-style:solid;
+display: flex;
+height:50px;
+justify-content: space-between;
+align-items: center;
+padding: .5em 1em;
+width: 90%;
+background-color: black;
+margin: 0 auto;
+margin-bottom: .2em;
+border-radius: .5em;
+border-color: #fff;
+border-width: 3px;
+border-style:solid;
  }
  .question:hover{
    cursor: pointer;
  }
  .fas{
-   font-size: 1rem;
+   font-size: 2rem;
    color:white;
  }
  .question .ques{
+   height: 50px;
    color: #fff;
    font-size: 1.1rem;
- }
+   padding-top: 20px;
+}
  
  .jawab{
    font-size: 1.1rem;
    font-weight:700;
    background-color: whitesmoke;
-   width: 91%;
+   width: 89%;
    margin: 2px auto ;
    border-radius: .5em;
    height:50px;
@@ -83,89 +76,80 @@ margin-left: 10%;
    text-align: left;
    padding-left: 7px;
     color: black;
-  
 }
-@media only screen and (max-width: 1287px) {
- 
 
+@media only screen and (max-width: 1287px) {
   .cont-5{
     border-radius: 3px;
     border-color: white;
     border-style: solid;
-    margin-top:10%;
-    width:94%;
-    height:660px;
-    margin-left: 2%;
-  
-    
-    
-  } 
+    margin-top:20px;
+    width:95%;
+   height:850px;
+    margin-left: 3%;
+    } 
+    .accordion_heading{
+      margin-top: 100px;
+    }
    .accordion_pic{
      width:400px;
      height: 400px; 
-     margin-top: 10%;
+     margin-top: 90px;
      margin-left:4%;
      display: flex;
-  
      animation:  snap  2s  infinite alternate-reverse ;
-     
-   }
+  }
      
   @keyframes snap {
     from{transform: translate(0%);}
-    to {transform: translateY(10%);}
+    to {transform: translateY(20%);}
   }
   .container5{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  width: 82%; 
-  
-  margin-left: 15%; 
-  
-   
-  
+  width: 70%; 
+  margin-left: 28%; 
+  margin-top: -80px;
   }
   .accordionBlock{
-  margin-top: -50%;
-  width: 85%;
- margin-left: 28%; 
-  
- 
+  margin-top: -530px;
+  width: 79%;
+  margin-left: 16%;
   }
   .question{
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    padding: .5em 1em;
-    width: 88%;
-    background-color: black;
-    margin: 0 auto;
-    margin-bottom: .2em;
-    border-radius: .5em;
-    border-color: #fff;
-    border-width: 3px;
-    border-style:solid;
+  display: flex;
+  height:50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em 1em;
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
+  margin-bottom: .2em;
+  border-radius: .5em;
+  border-color: #fff;
+  border-width: 3px;
+  border-style:solid;
    }
    .question:hover{
      cursor: pointer;
    }
    .fas{
-     font-size: 1rem;
+     font-size: 1.4rem;
      color:white;
    }
    .question .ques{
+     height: 50px;
      color: #fff;
      font-size: 1rem;
-     font-weight: 800;
-   }
+     padding-top: 20px;
+     text-align: left;
+  }
    
    .jawab{
-     font-size: 1rem;
+     font-size: 1.1rem;
      font-weight:700;
      background-color: whitesmoke;
-     width: 83%;
+     width: 90%;
      margin: 2px auto ;
      border-radius: .5em;
      height:50px;
@@ -173,8 +157,97 @@ margin-left: 10%;
      text-align: left;
      padding-left: 7px;
       color: black;
-   }
+  }
+ 
+
+ 
   }  
+
+  @media only screen and (max-width: 1275px) {
+    .cont-5{
+      border-radius: 3px;
+      border-color: white;
+      border-style: solid;
+      margin-top:20px;
+      width:95%;
+     height:850px;
+      margin-left: 3%;
+      } 
+      .accordion_heading{
+        margin-top: 100px;
+      }
+     .accordion_pic{
+       width:300px;
+       height: 300px; 
+       margin-top: 200px;
+       margin-left:4%;
+       display: flex;
+       animation:  snap  2s  infinite alternate-reverse ;
+    }
+       
+    @keyframes snap {
+      from{transform: translate(0%);}
+      to {transform: translateY(30%);}
+    }
+    .container5{
+    display: flex;
+    width: 70%; 
+    margin-left: 28%; 
+    margin-top: -80px;
+    }
+    .accordionBlock{
+    margin-top: -530px;
+    width: 79%;
+    margin-left: 16%;
+    }
+    .question{
+    display: flex;
+    height:50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 1em;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: .2em;
+    border-radius: .5em;
+    border-color: #fff;
+    border-width: 3px;
+    border-style:solid;
+     }
+     .question:hover{
+       cursor: pointer;
+     }
+     .fas{
+       font-size: 1rem;
+       color:white;
+     }
+     .question .ques{
+       height: 50px;
+       color: #fff;
+       font-size: 1rem;
+       padding-top: 20px;
+       text-align: left;
+    }
+     
+     .jawab{
+       font-size: 1.1rem;
+       font-weight:700;
+       background-color: whitesmoke;
+       width: 89%;
+       margin: 2px auto ;
+       border-radius: .5em;
+       height:50px;
+       white-space: 0px;
+       text-align: left;
+       padding-left: 7px;
+        color: black;
+    }
+   
+  
+   
+    }  
+
   
   
 
@@ -405,7 +478,7 @@ margin-left: 10%;
 }
    */
 
-@media only  screen and (max-width:1217px){
+/* @media only  screen and (max-width:1217px){
   .cont-5{
     border-radius: 3px;
     border-color: white;
@@ -843,7 +916,7 @@ margin-left: 10%;
 
 
 
-
+ */
 
 
 

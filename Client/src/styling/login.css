@@ -1,4 +1,4 @@
-.user{
+/* .user{
     
     position: absolute;
     font-size:1.3rem;
@@ -108,28 +108,8 @@ border-color:white;
 font-size:1rem;
 border: 1px solid black;
 }
-.login_fb{
-position: absolute;
-margin-top:32%;
-background: #2B2B2B;
-height: 42px;
-width: 200px;
-margin-left:-4%;
-color: white;
-border-radius:6px;
-border-style:2px solid;
-border-width: 3px;
-border-color:white;
-font-size:1rem;
-border: 1px solid black;
-padding-top: -60px;
-}
-.fb{
-width:25px;
-height:25px;
-position: absolute;
-margin-left: -14%;
-}
+
+
 
 .google{
 width:25px;
@@ -167,6 +147,6 @@ font-weight: 500;
 line-height: inherit;
 color: white;
 margin: 0 1rem;
-} 
+}  */
 
   

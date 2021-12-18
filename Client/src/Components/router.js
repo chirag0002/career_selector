@@ -7,7 +7,6 @@ import Accordion from './Accordion';
 import Container4 from './Container4';
 import Container1 from './Container1';
 import Searchbox from "./Search_box"
-import Login from './Login';
 import School from "./School"
 import PG from "./PG.js"
 import UG from "./UG.js"
@@ -47,10 +46,7 @@ export const routes: Route[] = [
         element:<Searchbox />
     },
     
-    {
-        path: "login",
-        element:<Login />
-    },
+    
     {
         path: "school",
         element:<School />
