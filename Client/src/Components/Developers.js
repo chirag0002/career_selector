@@ -115,6 +115,9 @@ const Developers = () => {
             </p>
             </div>            
             </div>
+            <br/>
+            <br/>
+            <br/>
             <Chat />
 
             <Footer />

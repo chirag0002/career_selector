@@ -12,7 +12,6 @@ import discord from "../Images/Discord.png"
 
 
 
-
 const Footer = () => {
     return (
         <div className="footer_cont_6">
@@ -63,7 +62,9 @@ const Footer = () => {
                                 <a className="footer_togithub"  href="/developers" alt="">Developers</a>
                             </b><br />
                             <b>
+                            <a href="/Helpus">
                                 Help
+                            </a>
                             </b><br />
                             <b>
                                 <a className="footer_togithub" href="mailto:varshneychirag24@gmail.com">Mail Us</a>

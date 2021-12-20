@@ -164,13 +164,16 @@ width: 600px;
 }
 .close-icon{
     float: right;
-    margin-top: -456px;
+    margin-top: -410px;
     margin-right: -29px;
     background: whitesmoke;
     border: none;
     height:26px;
     width: 30px;
-    font-size: 20px;
+    font-size: 15px;
+    background-color: red;
+    font-weight:700;
+    
     
 }
 .second{
@@ -208,43 +211,10 @@ form .data label{
     width:25px;
     height:25px;
     position: absolute;
-    margin-left: -7%;
+    margin-left: 2%;
     }
-.container_1_login{
- margin-left: 3%;
-}
+
   
-
-
-@media only screen and (max-width:1285px){
-    
-
-    
-}
-
-@media only screen and (max-width:1035px){
-   
-
-    
-}
-
-@media only screen and (max-width:900px){
-    
-
-}
-
-@media only screen and (max-width:880px){
-   
-}
-
-@media only screen and (max-width:791px){
-    
-}
-
-@media only screen and (max-width:600px){
-    
-    
-}
 @media only screen and (max-width:400px){
    
 
