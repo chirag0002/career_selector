@@ -9,6 +9,19 @@ import bcom from "../Images/bcom.jpg"
 import bsc from "../Images/bsc.jpg"
 import barch from "../Images/barch.jpg"
 import bpharma from "../Images/bpharma.jpg"
+import bba from "../Images/bba.jpg"
+import bms from "../Images/bms.jpg"
+import bfa from "../Images/bfa.jpg"
+import animation from "../Images/animation.jpg"
+import bfd from "../Images/bfd.jpg"
+import bsw from "../Images/bsw.jpg"
+import law from "../Images/law.jpg"
+import diploma from "../Images/diploma.jpg"
+import bpt from "../Images/bpt.png"
+import bttm from "../Images/bttm.png"
+import bem from "../Images/bem.png"
+import bbs from "../Images/bbs.png"
+import bjmc from "../Images/bjmc.png"
 import Footer from './Footer';
 import Header from "./Header.jsx";
 import Chat from './Chat'
@@ -103,13 +116,13 @@ const UG = () => {
                            </div>
                            
                                 <div className="ug_btn_1">
-                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                                <a className="ug_btn_click" href="https://www.shiksha.com/b-tech-bachelor-of-technology-chp">Click Here for more </a>
                                </div>
                            </div>
                        </div>
 
 
-        <div className="ug_from_2_till_5">
+        
           <div   data-aos="fade-right" className="ug_card_2">
                        <img className="ug_image_mtech"src={bcom} alt=""/>
                           <div  className="about_ug_card1_">
@@ -120,10 +133,10 @@ const UG = () => {
                            </div>
                            
                                 <div className="ug_btn_2">
-                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                                <a className="ug_btn_click" href="https://www.shiksha.com/b-com-chp">Click Here for more </a>
                                </div>
                            </div>
-                       </div>
+                       
 
 
         
@@ -138,7 +151,7 @@ const UG = () => {
                            </div>
 
                                 <div className="ug_btn_3">
-                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                                <a className="ug_btn_click" href="https://www.shiksha.com/b-a-bachelor-of-arts-chp">Click Here for more </a>
                                </div>
                            </div>
 
@@ -157,7 +170,7 @@ const UG = () => {
                            </div>
                            
                         <div className="ug_btn_4">
-                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                                <a className="ug_btn_click" href="https://www.shiksha.com/b-sc-chp">Click Here for more </a>
                                </div>
                            </div>
                       
@@ -171,7 +184,7 @@ const UG = () => {
                            </p>
                            </div>
                            <div className="ug_btn_5">
-                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                                <a className="ug_btn_click" href="https://collegedunia.com/courses/bachelor-of-computer-applications-bca">Click Here for more </a>
                                </div>
                            </div>
 
@@ -188,7 +201,7 @@ const UG = () => {
                            </div>
                            
                         <div className="ug_btn_6">
-                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                                <a className="ug_btn_click" href="https://www.collegedekho.com/courses/bachelor-of-architecture-barch/?gclid=Cj0KCQiA8ICOBhDmARIsAEGI6o3tKSeBSPYLP2t2P45HowegIBg8YV4DCUIokzLr2GEfPqttxgKpsuUaAj59EALw_wcB">Click Here for more </a>
                                </div>
                            </div>
 
@@ -207,7 +220,253 @@ const UG = () => {
                            </div>
                            
                         <div className="ug_btn_7">
-                                <a className="ug_btn_click" href="#">Click Here for more </a>
+                                <a className="ug_btn_click" href="https://collegedunia.com/courses/bachelor-of-pharmacy-bpharma">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+
+                           <div data-aos="fade-left" className="ug_card_8">
+                       <img className="ug_image_mtech"src={bba} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           The Bachelor of Business Administration (BBA) is a bachelor's
+                            degree in business administration. In the United States, the 
+                            degree is conferred after four years of full-time study in one
+                             or more areas of business concentrations.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_8">
+                                <a className="ug_btn_click" href="https://collegedunia.com/courses/bachelor-of-business-administration-bba">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+
+                           <div data-aos="fade-left" className="ug_card_9">
+                       <img className="ug_image_mtech"src={bms} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           BMS full form Bachelor of Management Studies is a 3 year 
+                           undergraduate course. The course is designed to study analytical
+                            aspects of Business Management and get in-depth knowledge in
+                             several managerial or business-related subjects such as human 
+                             resource management, economics, marketing, business analytics etc.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_9">
+                                <a className="ug_btn_click" href="https://collegedunia.com/courses/bachelor-of-management-studies-bms">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+                           <div data-aos="fade-left" className="ug_card_10">
+                       <img className="ug_image_mtech"src={bfa} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           BFA or Bachelor of Fine Arts is an undergraduate degree course
+                            which deals with the study of Visual or Performing Arts. The
+                             course is sometimes also referred to as Bachelor of Visual
+                              Arts (BVA) in which the study of Visual Arts includes subjects 
+                              such as painting, sculpture, photography, literature, animation,
+                               etc. 
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_10">
+                                <a className="ug_btn_click" href="https://www.shiksha.com/bfa-bachelor-of-fine-arts-chp">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+
+                           <div data-aos="fade-left" className="ug_card_11">
+                       <img className="ug_image_mtech"src={bem} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           Bachelor of Event Management is the process of 
+                           planning of project management to design and
+                            establishment of small and large-scale personal 
+                            or organizational activities such as concerts,
+                             conventions, ceremonies, weddings, etc. 
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_11">
+                                <a className="ug_btn_click" href="https://www.careers360.com/courses/bem-bachelor-of-event-management">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+                           <div data-aos="fade-left" className="ug_card_12">
+                       <img className="ug_image_mtech"src={bjmc} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           BJMC (Bachelor of Journalism and Communication) is a 
+                           three-duration undergraduate degree course for candidates
+                            who wish to build their career in the field of journalism 
+                            and mass communication. ... Career opportunities for students 
+                            in the field of mass communication are very high.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_12">
+                                <a className="ug_btn_click" href="https://www.collegedekho.com/courses/bachelor-of-journalism-and-mass-communication-bjmc/?gclid=Cj0KCQiA8ICOBhDmARIsAEGI6o2Nu_3YzhTrujRECy-oGdU51NWS9FyCIudqAm89USyJiJVgARcX0fAaAsbuEALw_wcB">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+                           <div data-aos="fade-left" className="ug_card_13">
+                       <img className="ug_image_mtech"src={bfd} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           Bachelor of Fashion Design or Bachelor of Fashion 
+                           Designing is an undergraduate Fashion Designing course.
+                            Fashion design is the art of using fabrics, colours and 
+                            ornamentation to craft different fashion items like clothing, 
+                            textiles, jewellery, footwear and other accessories.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_13">
+                                <a className="ug_btn_click" href="https://targetstudy.com/courses/bachelor-of-fashion-design.html">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+                           <div data-aos="fade-left" className="ug_card_14">
+                       <img className="ug_image_mtech"src={bsw} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           Bachelor of Social Work or BSW is a professional
+                            degree that is offered at the undergraduate (UG)
+                             level. The duration of a BSW course is usually three 
+                             years and candidates need to positively complete the 
+                             course within a maximum duration of six years.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_14">
+                                <a className="ug_btn_click" href="https://www.shiksha.com/bsw-bachelor-of-social-work-chp">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+
+                           <div data-aos="fade-left" className="ug_card_15">
+                       <img className="ug_image_mtech"src={bbs} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           Stemming from the area of Business and Management, 
+                           Bachelor of Business Studies is a course that lays the 
+                           foundation for a career in commerce. BBS course has
+                            wide-ranging variants with a core focus on the study of business.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_15">
+                                <a className="ug_btn_click" href="https://www.collegedekho.com/courses/bachelor-business-studies/">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+                           <div data-aos="fade-left" className="ug_card_16">
+                       <img className="ug_image_mtech"src={bttm} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           Bachelor of Tourism and Travel Management, also known 
+                           as B.T.T.M. is an undergraduate degree programme which
+                            is a sought after course for students willing to make
+                             a career in the field of travel and tourism.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_16">
+                                <a className="ug_btn_click" href="https://www.careers360.com/courses/bttm-bachelor-of-tourism-and-travel-management">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+                           <div data-aos="fade-left" className="ug_card_17">
+                       <img className="ug_image_mtech"src={bpt} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           Bachelor of Physiotherapy or BPT is an undergraduate 
+                           programme that deals with the structure of the human body.
+                            The duration of this course is four years and once the duration
+                             of the programme is over, students are required to complete a six months internship.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_17">
+                                <a className="ug_btn_click" href="https://www.shiksha.com/bpt-bachelor-of-physiotherapy-chp">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+                           <div data-aos="fade-left" className="ug_card_18">
+                       <img className="ug_image_mtech"src={animation} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           Animation Courses After 12th In India is basically a 
+                           visual technique course that makes the illusion of motion
+                            by displaying a collection of images in rapid sequence.
+                             As we are getting into the digital world, there are many
+                              new career opportunities coming up. Animation is one of them. 
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_18">
+                                <a className="ug_btn_click" href="https://www.vidhyaa.in/blog/animation-courses-after-12th-in-india">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+
+                           <div data-aos="fade-left" className="ug_card_19">
+                       <img className="ug_image_mtech"src={law} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           BCom LLB is a professional law programme which is of five
+                            years duration. Bachelor of Commerce and Bachelor of
+                             Legislative Law (BCom LLB) is an integrated course
+                              wherein aspirants are taught both commerce and law subjects. 
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_19">
+                                <a className="ug_btn_click" href="https://www.shiksha.com/b-com-ll-b-chp">Click Here for more </a>
+                               </div>
+                           </div>
+
+
+                           <div data-aos="fade-left" className="ug_card_20">
+                       <img className="ug_image_mtech"src={diploma} alt=""/>
+                          <div  className="about_ug_card1_">
+                           <p class="ug_content_para">
+                           Many students opt for diploma courses after graduation
+                            in order to gain training and academic experience in 
+                            a particular field in a shorter duration. This helps
+                             them attain the right set of skills to discover various 
+                             job opportunities in their chosen field.
+                           </p>
+                           </div>
+                           
+                        <div className="ug_btn_20">
+                                <a className="ug_btn_click" href="https://leverageedu.com/blog/diploma-courses-after-graduation/">Click Here for more </a>
                                </div>
                            </div>
                            <Chat />

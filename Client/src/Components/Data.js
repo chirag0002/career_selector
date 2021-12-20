@@ -17,7 +17,7 @@ let Data=[
     {
         id:4,
         question: "Are appearing for JEE-Mains and JEE-Advanced the only option to get into Engineering?",
-         answer: "Jee is not compulsory for engineering as many private colleges takes their own entrance test for admission no matters what u scored in jee.Advanced is for taking Admissions in IIT."
+         answer: "Jee is not compulsory for engineering as many private colleges takes their own entrance test for admission no matters what u scored in Jee mains. JEE Advanced is for taking Admissions in IIT."
     },
     {
         id:5,
