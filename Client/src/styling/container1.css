@@ -16,35 +16,13 @@
     color: #6E3CBC;
 }
 
-.second_check
-{
+.second_check{
     position: absolute;
     width: 80px;
     margin-top: -740px;
     margin-left:85%;  
 }
- 
-
-.second_check:hover .submenu_1 ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-
-
-
-.second_check:hover{
-    background: #2bab0d;
-    border-radius: 3px;
-}
-
-
-
-
-.third{
+ .third{
     position: absolute;
     margin-top: -740px;
     width: 80px;
@@ -230,9 +208,17 @@ form .data label{
     width:25px;
     height:25px;
     position: absolute;
+<<<<<<< HEAD
+    margin-left: -7%;
+    }
+.container_1_login{
+ margin-left: 3%;
+}
+=======
     margin-left: 1%;
     }
 
+>>>>>>> upstream/main
 
 @media only screen and (max-width:1285px){
     
