@@ -17,15 +17,13 @@ import College from "./College.jsx";
 
 
 import Exams from "./Exams"
-<<<<<<< HEAD
 
 
-=======
 import About from './About'
->>>>>>> upstream/main
 import Blogs from "./Blogs.js";
 import Developers from "./Developers";
 import Header from "./Header.jsx";
+import Helpus from "./Helpus";
 
 
 
@@ -102,6 +100,10 @@ export const routes: Route[] = [
     {
         path:"about",
         element:<About/>
+    },
+    {
+        path:"helpus",
+        element:<Helpus/>
     }
 ];
 
