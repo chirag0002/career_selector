@@ -7,6 +7,10 @@ const Container4 = () => {
     return (
         <div className="cont_4">
             <p className="cont4_heading">SOME FAMOUS ENTRANCE/COMPETITIVE EXAMS IN INDIA</p>
+            <a href="/Exams"
+            styles={{
+                textDecoration:"none"
+            }}>
             <div className="cont4_1">
             <div className="cont4_a">
                 <div className="cont4_card">
@@ -80,6 +84,7 @@ const Container4 = () => {
                     </div>
                 </div>
                 </div>
+            </a>
         </div>
     )
 }

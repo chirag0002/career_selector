@@ -1,6 +1,6 @@
 .ug_heading{
     
-    color: black;
+
     font-size: 5rem;
     margin-top: 1%;
     font-weight: bold;
@@ -44,7 +44,9 @@
     width:180%;
     font-size:1.2rem;
     margin-left:10%;
+    color:black;
     text-align: left;
+    font-weight:700;
 }
 .ug_image_mtech{
     width:400px;

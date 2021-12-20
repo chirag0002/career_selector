@@ -48,33 +48,33 @@ function ExamSearchBar({placeholder,data}){
             <div  className="exam_data_result">
                 {hidden &&(
              <ul className="list" id="myUL">
-                    <li><a href="#ias" target="_blank">IAS</a></li>
-                    <li><a href="#clat" target="_blank">CLAT</a></li>
-                    <li><a href="#cat" target="_blank">CAT</a></li>
-                    <li><a href="#uceed" target="_blank">UCEED</a></li>
-                    <li><a href="#nda" target="_blank">NDA</a></li>
-                    <li><a href="#ca" target="_blank">CA</a></li>
-                    <li><a href="ies" target="_blank">IES</a></li>
-                    <li><a href="#nid" target="_blank">NID</a></li>
-                    <li><a href="#nift" target="_blank">NIFT</a></li>
-                    <li><a href="#gate" target="_blank">GATE</a></li>
-                    <li><a href="#aims" target="_blank">AIIMS</a></li>
-                    <li><a href="#bitsat" target="_blank">BITSAT</a></li>
-                    <li><a href="#jipmer" target="_blank">JIPMER</a></li>
-                    <li><a href="#manipal" target="_blank">MANIPAL</a></li>
-                    <li><a href="#navy" target="_blank">NAVY</a></li>
-                    <li><a href="#army" target="_blank">ARMY</a></li>
-                    <li><a href="#aieed" target="_blank">AIEED</a></li>
-                    <li><a href="#hsee" target="_blank">HSEE</a></li>
-                    <li><a href="#jnu" target="_blank">JNU</a></li>
-                    <li><a href="#hotel" target="_blank">HOTEL MANAGEMENT</a></li>
-                    <li><a href="#ailet" target="_blank">AILET</a></li>
-                    <li><a href="#kvpy" target="_blank">KVPY</a></li>
-                    <li><a href="#nest" target="_blank">NEST</a></li>
-                    <li><a href="#bhu" target="_blank">BHU</a></li>
-                    <li><a href="#banasthali" target="_blank">BANASTHALI</a></li>
-                    <li><a href="#jee" target="_blank">IIT</a></li>
-                    <li><a href="#indian" target="_blank">IMUCET</a></li>
+                    <li><a href="#ias" >IAS</a></li>
+                    <li><a href="#clat" >CLAT</a></li>
+                    <li><a href="#cat" >CAT</a></li>
+                    <li><a href="#uceed" >UCEED</a></li>
+                    <li><a href="#nda" >NDA</a></li>
+                    <li><a href="#ca" >CA</a></li>
+                    <li><a href="ies" >IES</a></li>
+                    <li><a href="#nid" >NID</a></li>
+                    <li><a href="#nift" >NIFT</a></li>
+                    <li><a href="#gate" >GATE</a></li>
+                    <li><a href="#aims" >AIIMS</a></li>
+                    <li><a href="#bitsat" >BITSAT</a></li>
+                    <li><a href="#jipmer" >JIPMER</a></li>
+                    <li><a href="#manipal" >MANIPAL</a></li>
+                    <li><a href="#navy" >NAVY</a></li>
+                    <li><a href="#army" >ARMY</a></li>
+                    <li><a href="#aieed" >AIEED</a></li>
+                    <li><a href="#hsee" >HSEE</a></li>
+                    <li><a href="#jnu" >JNU</a></li>
+                    <li><a href="#hotel" >HOTEL MANAGEMENT</a></li>
+                    <li><a href="#ailet" >AILET</a></li>
+                    <li><a href="#kvpy" >KVPY</a></li>
+                    <li><a href="#nest" >NEST</a></li>
+                    <li><a href="#bhu" >BHU</a></li>
+                    <li><a href="#banasthali" >BANASTHALI</a></li>
+                    <li><a href="#jee" >IIT</a></li>
+                    <li><a href="#indian" >IMUCET</a></li>
                     
                     
                 </ul> 

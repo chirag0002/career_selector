@@ -1,11 +1,32 @@
-import React from "react"
+import React, { useEffect, useState } from "react";
 import Header from "./Header"
 import Footer from "./Footer"
 import "../styling/helpus.css"
+import MUISwitch from "@material-ui/core/switch"
+import styled, {ThemeProvider} from 'styled-components'
+import {lightTheme, darkTheme ,GlobalStyles} from './themes'
+import {useSelector} from 'react-redux'
+
+const StyledApp= styled.div`
+color:${(props) => props.theme.fontColor};
+`;
 
 const Helpus=()=>{
+    const check=useSelector((state)=>state.check)
+    console.log(check);
+    const[theme,setTheme]=useState("dark");
+        const themeChanger =() =>{
+            theme=== "light" ? setTheme ("dark") : setTheme ("light");
+        };
     return(
+        <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
+        <GlobalStyles />
+        <StyledApp>
         <div className="help">
+        <MUISwitch
+            className="theme_switch"
+            onClick={themeChanger}
+            defaultChecked />
             <div className="head">
                 <Header/>
             </div>
@@ -24,6 +45,8 @@ We would always love to have new enhancements in our website and that’s why we
 
 
         </div>
+        </StyledApp>
+        </ThemeProvider>
     )
 }
 export default Helpus

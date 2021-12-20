@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,  { useEffect, useState } from 'react';
 import "../styling/blogs.css";
 import EngineeringBlogs from "../Images/Engineering-Blog.png";
 import MedicalBlogs from "../Images/Medical-Blog.png"
@@ -7,15 +7,75 @@ import ES from "../Images/ES.png"
 import DesignBlogs from "../Images/DesignBlogs.png"
 import UPSC from "../Images/UPSC4.jpg"
 import Footer from "./Footer.jsx"
+import Chat from './Chat';
+import Header from "./Header.jsx"
+import styled, {ThemeProvider} from 'styled-components'
+import {lightTheme, darkTheme ,GlobalStyles} from './themes'
+import MUISwitch from "@material-ui/core/switch"
 
 
+
+const StyledApp= styled.div`
+color:${(props) => props.theme.fontColor};
+`;
 
 const Blogs = () => {
+
+  const [isVisible, setIsVisible] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 150) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
+    const[theme,setTheme]=useState("dark");
+        const themeChanger =() =>{
+            theme=== "light" ? setTheme ("dark") : setTheme ("light");
+        };
+
     return (
+
+      <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
+        <GlobalStyles />
+        <StyledApp>
         <>
         
         
-       
+       <Header />
+       <MUISwitch
+            className="school_theme_switch"
+            onClick={themeChanger}
+            defaultChecked />
+            <div className="scroll-to-top"
+                style={{
+                    float:"right",
+                    position: "-webkit-sticky",
+                    position: "sticky",
+                    top: "0",
+                    height:"70%",
+                    paddingTop: "38vw",
+                    paddingRight:"1vw",
+                    cursor:"pointer"
+                }}>
+                {isVisible && (
+                <div onClick={scrollToTop}>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                )}
+            </div>
        <h1 className="blog_title"> Blogs </h1>
        
         <div className="blogs-container_1">
@@ -137,11 +197,13 @@ const Blogs = () => {
         <div className="blog_card_btn"> 
         <button className="blogs_card_btn_6"> <a class="link_blog"href="https://www.newsbytesapp.com/news/india/5-blogs-to-aid-upsc-preparation/story">Read more</a> </button>
         </div>
+      
         
 
       
       </div>
       </div>
+      <Chat />
       <Footer />
       
    
@@ -157,7 +219,8 @@ const Blogs = () => {
     
       
       </>
-
+      </StyledApp>
+      </ThemeProvider>
     )
 }
 
