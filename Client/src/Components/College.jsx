@@ -80,7 +80,7 @@ return (
                     be the only criteria.
                 </p>
                 <br />
-                <h3>Why You Should Not Rely on College Rankings Alone When Selecting a College</h3>
+                <h3 className="college_des_subheading">Why You Should Not Rely on College Rankings Alone When Selecting a College</h3>
                 <br />
                 <p>
                     The process of ranking a college is a mix of subjective and objective analysis of the concerned college.
@@ -105,7 +105,7 @@ return (
                     not automatically result in better teaching.
                 </p>
                 <br />
-                <h3>Other Factors to Consider When Selecting a College</h3>
+                <h3 className="college_des_subheading">Other Factors to Consider When Selecting a College</h3>
                 <br />
                 <p>
                     So, if you are not to rely entirely on the college rankings, then what should be the criteria to select
@@ -122,6 +122,7 @@ return (
             </div>
             <div className="colleges_cards">
             <h1 className="colleges_cards_heading">TYPES OF COURSES</h1>
+            <div className="UG-PG Cards">
                 <div class="college_ug">
                 <a href="#UGCOURSES"
                 style={{textDecoration:"none"}}>
@@ -149,6 +150,7 @@ return (
                 </a>
                 </div>
             </div>
+            </div>
             <div id="UGCOURSES" className="college_ug_courses">
             <h1>Under Graduate Courses</h1>
                 <div data-aos="fade-left" className="college_ug_container">
@@ -158,25 +160,25 @@ return (
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            BACHELOR OF TECHNOLOGY [B.TECH] (MECHANICAL ENGINEERING...
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            BACHELOR OF TECHNOLOGY [B.TECH] (COMPUTER SCIENCE AND ...
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            BACHELOR OF TECHNOLOGY [B.TECH] (CIVIL ENGINEERING)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            BACHELOR OF TECHNOLOGY [B.TECH] (ELECTRONICS & COMMUNIC...
                             </p>
                         </div>
                 
@@ -198,7 +200,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -212,25 +215,25 @@ return (
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            BACHELOR OF MEDICINE, BACHELOR OF SURGERY [MBBS]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            BACHELOR OF AYURVEDIC MEDICINE AND SURGERY [BAMS]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            BACHELOR OF HOMEOPATHIC MEDICINE & SURGERY [BHMS]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            BACHELOR OF PHYSIOTHERAPY [BPT]
                             </p>
                         </div>
                 
@@ -243,7 +246,7 @@ return (
                                 justifyContent:"space-between",
                                 listStyle:"none"
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">5 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -252,6 +255,7 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
+                            float:"right",
                             marginTop:"45%"
                             }}>
                                 View All Course
@@ -266,25 +270,26 @@ return (
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            BACHELOR OF LAWS [L.L.B.]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            BACHELOR OF ARTS + BACHELOR OF LAWS [B.A.L.L.B.]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            BACHELOR OF LAWS [L.L.B.] (HONS.)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            DIPLOMA IN CYBER LAW
+
                             </p>
                         </div>
                 
@@ -297,7 +302,7 @@ return (
                                 justifyContent:"space-between",
                                 listStyle:"none"
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">1-3 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -306,7 +311,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -320,25 +326,25 @@ return (
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            BACHELOR OF ARTS [BA] (ENGLISH)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            BACHELOR OF ARTS [BA] (ECONOMICS)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            BACHELOR OF ARTS [BA] (HISTORY)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                           BACHELOR OF ARTS [BA] (POLITICAL SCIENCE)
                             </p>
                         </div>
                 
@@ -349,9 +355,9 @@ return (
                             style={{
                                 display:"flex",
                                 justifyContent:"space-between",
-                                listStyle:"none"
+                                listStyle:"none",
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">3 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -360,7 +366,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -374,25 +381,25 @@ return (
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            BACHELOR OF COMMERCE [B.COM]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            BACHELOR OF COMMERCE [B.COM] (COMPUTER APPLICATIONS)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            BACHELOR OF COMMERCE [B.COM] (HONS.)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            BACHELOR OF COMMERCE [B.COM] (ACCOUNTING AND FINANCE)
                             </p>
                         </div>
                 
@@ -403,9 +410,10 @@ return (
                             style={{
                                 display:"flex",
                                 justifyContent:"space-between",
-                                listStyle:"none"
+                                listStyle:"none",
+                                float:"right"
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">3 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -414,7 +422,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -432,25 +441,25 @@ return (
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            MASTER OF TECHNOLOGY [M.TECH] (COMPUTER SCIENCE AND ENG...
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            MASTER OF TECHNOLOGY [M.TECH] (STRUCTURAL ENGINEERING)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            MASTER OF TECHNOLOGY [M.TECH] (ELECTRONICS AND COMMUNIC...
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            MASTER OF TECHNOLOGY [M.TECH] (MECHANICAL ENGINEERING)
                             </p>
                         </div>
                 
@@ -463,7 +472,7 @@ return (
                                 justifyContent:"space-between",
                                 listStyle:"none"
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">2 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -472,7 +481,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -486,25 +496,25 @@ return (
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            DOCTORATE OF MEDICINE [MD] (PATHOLOGY)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            DOCTORATE OF MEDICINE [MD] (MICROBIOLOGY)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            MASTER OF SURGERY [MS] (GENERAL SURGERY)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            DOCTORATE OF MEDICINE [MD] (PHYSIOLOGY)
                             </p>
                         </div>
                 
@@ -517,7 +527,7 @@ return (
                                 justifyContent:"space-between",
                                 listStyle:"none"
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">3 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -526,7 +536,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -541,25 +552,25 @@ return (
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            MASTER OF LAWS [L.L.M.]
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            MASTER OF LAWS [L.L.M.] (CRIMINAL LAW)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            MASTER OF LAWS [L.L.M.] (CORPORATE LAW)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            MASTER OF LAWS [L.L.M.] (CONSTITUTIONAL LAW)
                             </p>
                         </div>
                 
@@ -572,7 +583,7 @@ return (
                                 justifyContent:"space-between",
                                 listStyle:"none"
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">2 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -581,7 +592,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -596,25 +608,25 @@ return (
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            MASTER OF ARTS [MA] (ENGLISH)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            MASTER OF ARTS [MA] (ECONOMICS)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            MASTER OF ARTS [MA] (HISTORY)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            MASTER OF ARTS [MA] (POLITICAL SCIENCE)
                             </p>
                         </div>
                 
@@ -627,7 +639,7 @@ return (
                                 justifyContent:"space-between",
                                 listStyle:"none"
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">2 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -636,7 +648,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -651,25 +664,25 @@ return (
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Mechanical Engineering....
+                            MASTER OF COMMERCE [M.COM]
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Computer Science Engineering....
+                            MASTER OF COMMERCE [M.COM] (FINANCE)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Civil Engineering....
+                            MASTER OF COMMERCE [M.COM] (COMPUTER APPLICATIONS)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
                             <p>
-                            Bachelor Of Technology [B.Tech](Electronics Engineering....
+                            MASTER OF COMMERCE [M.COM] (ACCOUNTANCY)
                             </p>
                         </div>
                 
@@ -682,7 +695,7 @@ return (
                                 justifyContent:"space-between",
                                 listStyle:"none"
                             }}>
-                                <li className="college_li">4 YEARS</li>
+                                <li className="college_li">2 YEARS</li>
                                 <li className="college_li">FULL TIME</li>
                             </ul>
                         </div>
@@ -691,7 +704,8 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%"
+                            marginTop:"45%",
+                            float:"right"
                             }}>
                                 View All Course
                             </p>
@@ -703,13 +717,6 @@ return (
                     
             </div>
             < Footer />
-            {/* <div className="scroll-to-top">
-                {isVisible && (
-                <div onClick={scrollToTop}>
-                    <i class="fa fa-chevron-up"></i>
-                </div>
-                )}
-            </div> */}
         </div>
     )
 }

@@ -4,7 +4,20 @@ import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
 import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
+import  authentication  from "../firebase"
+import { signInWithPopup,GoogleAuthProvider} from "firebase/auth";
+ import google from "../Images/google.png";
 const Container1 = () => {
+    const signInWithGoogle = () => {
+   const provider = new GoogleAuthProvider();
+   signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+     .catch((err) => {
+       console.log(err);
+   })
+  }
 
     const[user,setUser]=useState({
         email:" ",phone:" ",query:" "
@@ -74,6 +87,7 @@ const PostData=async(e)=>{
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                         <Nav.Link href="/login">About Us</Nav.Link>
                         <Nav.Link onClick={togglePopup}>Ask Us</Nav.Link>
+                        <Nav.Link className="container_1_login" onClick={signInWithGoogle} type="submit" >Login with Google<img className="login_google" src={google} alt="" /></Nav.Link>
                         <NavDropdown title="Careers" id="offcanvasNavbarDropdown">
                             <NavDropdown.Item href="/school">School</NavDropdown.Item>
                             <NavDropdown.Item href="/ug">Graduation</NavDropdown.Item>

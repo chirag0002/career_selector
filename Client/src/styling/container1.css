@@ -119,16 +119,6 @@ width: 600px;
     padding-top: 1px;
 }
 
-.heading{
-    font-size: 50px;
-    font-weight: 700;
-    margin-right: -20px;
-    margin-top: 5px;
-    text-decoration:none;
-    color:white;
-    
-    
-}
 .query form{
     margin-top: -20px;
 }
@@ -218,11 +208,17 @@ form .data label{
     width:25px;
     height:25px;
     position: absolute;
+<<<<<<< HEAD
     margin-left: -7%;
     }
 .container_1_login{
  margin-left: 3%;
 }
+=======
+    margin-left: 1%;
+    }
+
+>>>>>>> upstream/main
 
 @media only screen and (max-width:1285px){
     
@@ -263,10 +259,6 @@ form .data label{
     .word{
         margin-left: 300px;
     }
-    
-
-   
-
     
 }
 

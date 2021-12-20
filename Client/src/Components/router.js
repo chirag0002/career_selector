@@ -10,7 +10,6 @@ import Accordion from './Accordion';
 import Container4 from './Container4';
 import Container1 from './Container1';
 import Searchbox from "./Search_box"
-import Login from './Login';
 import School from "./School"
 import PG from "./PG.js"
 import UG from "./UG.js"
@@ -18,8 +17,12 @@ import College from "./College.jsx";
 
 
 import Exams from "./Exams"
+<<<<<<< HEAD
 
 
+=======
+import About from './About'
+>>>>>>> upstream/main
 import Blogs from "./Blogs.js";
 import Developers from "./Developers";
 import Header from "./Header.jsx";
@@ -63,16 +66,13 @@ export const routes: Route[] = [
         element:<Searchbox />
     },
     
-    {
-        path: "login",
-        element:<Login />
-    },
+    
     {
         path: "school",
         element:<School />
     },
     {
-        path:"Pg",
+        path:"pg",
         element: <PG />
     },
     {
@@ -99,6 +99,10 @@ export const routes: Route[] = [
         path:"Header",
         element:<Header/>
     },
+    {
+        path:"about",
+        element:<About/>
+    }
 ];
 
 export const location = new ReactLocation();
