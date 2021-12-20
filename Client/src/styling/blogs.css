@@ -2,7 +2,7 @@
     width:47%;
     background-color: whitesmoke;
     height:700px;
-   border-color: black;
+   border-color: white;
     border-style: solid;
     border-width: 3px;
 }
@@ -64,7 +64,7 @@ height:350px;
     margin-top: 20px;
     margin-left: 5%;
 }
-.blogs_card_btn_1,.blogs_card_btn_2,.blogs_card_btn_6{
+.blogs_card_btn_1{
     background-color: #3EDD84;
     height:30px;
     width:10%;
@@ -75,7 +75,33 @@ height:350px;
     border-width: 3px;
     text-decoration: none;
     margin-left:2%;
-    margin-top: -30px;
+    margin-top: 20px;
+}
+.blogs_card_btn_2{
+    background-color: #3EDD84;
+    height:30px;
+    width:10%;
+    outline: none;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 20px;
+}
+.blogs_card_btn_6{
+    background-color: #3EDD84;
+    height:30px;
+    width:10%;
+    outline: none;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 20px;
 }
 .blogs_card_btn_4{
     background-color: #3EDD84;
@@ -88,7 +114,7 @@ height:350px;
     border-width: 3px;
     text-decoration: none;
     margin-left:2%;
-    margin-top: -20px;
+    margin-top: 20px;
 
 }
 .blogs_card_btn_5{
@@ -102,7 +128,7 @@ height:350px;
     border-width: 3px;
     text-decoration: none;
     margin-left:2%;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 .blogs_card_btn_3{
     background-color: #3EDD84;
@@ -115,7 +141,7 @@ height:350px;
     border-width: 3px;
     text-decoration: none;
     margin-left:2%;
-    margin-top: 5px;
+    margin-top: 20px;
 
 }
 .link_blog{
@@ -124,12 +150,169 @@ height:350px;
     font-size: 1.1rem;
    
 }
+@media only screen and (max-width:1440px) {
+     .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:700px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 600;
+        /* width:100%; */
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 70px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 1.1rem;
+       
+    }
+    
+}
+
+
+
 @media only screen and (max-width:1300px)  {
     .blog_card{
         width:47%;
         background-color: whitesmoke;
         height:700px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -283,7 +466,7 @@ height:350px;
         width:47%;
         background-color: whitesmoke;
         height:700px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -436,7 +619,7 @@ height:350px;
         width:47%;
         background-color: whitesmoke;
         height:800px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -589,7 +772,7 @@ height:350px;
         width:47%;
         background-color: whitesmoke;
         height:800px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -742,7 +925,7 @@ height:350px;
         width:47%;
         background-color: whitesmoke;
         height:800px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -896,7 +1079,7 @@ height:350px;
         width:47%;
         background-color: whitesmoke;
         height:800px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -1050,7 +1233,7 @@ height:350px;
         width:47%;
         background-color: whitesmoke;
         height:850px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -1203,7 +1386,7 @@ height:350px;
         width:47%;
         background-color: whitesmoke;
         height:850px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -1356,7 +1539,7 @@ height:350px;
         width:47%;
         background-color: whitesmoke;
         height:850px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -1509,7 +1692,7 @@ height:350px;
         width:80%;
         background-color: whitesmoke;
         height:780px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -1662,7 +1845,7 @@ height:350px;
         width:90%;
         background-color: whitesmoke;
         height:780px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
@@ -1815,7 +1998,7 @@ height:350px;
         width:92%;
         background-color: whitesmoke;
         height:830px;
-       border-color: black;
+        border-color: white;
         border-style: solid;
         border-width: 3px;
     }
