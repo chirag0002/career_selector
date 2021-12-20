@@ -28,13 +28,13 @@ const Blogs = () => {
         <h2 className="heading_blog_tag"> It's time to read more facts about Engineering</h2>
         </div>
         <div className="blog_para">
-        <p className="blog-paragraph"> What is an engineering blog?
-                                       In any given year, engineering blogs provide a great opportunity to stay connected with the larger conversations in your field.These blogs focus on more than just cool gadgets though. These 11 awesome blogs focus a lot more about many companies, including business, ethics and engineering's role in larger societ
+        <p className="blog-paragraph"> 
+                                       In any given year, engineering blogs provide a great opportunity to stay connected with the larger conversations in your field.These blogs focus on more than just cool gadgets though. These 11 awesome blogs focus a lot more about engineering.
         </p>
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://blog.hackbrightacademy.com/blog/software-engineering-blogs/">Read more</a> </button>
+        <button className="blogs_card_btn_1"> <a class="link_blog"href="https://blog.hackbrightacademy.com/blog/software-engineering-blogs/">Read more</a> </button>
         </div>
         
 
@@ -42,20 +42,20 @@ const Blogs = () => {
       </div>
        <div className="blog_card">
         <div className="blog_image">
-        <img src={MedicalBlogs} className="engineering_blog" alt="" />
+        <img src={MedicalBlogs} className="medical_blog" alt="" />
         </div>
      
         <div className="blog_heading">
         <h2 className="heading_blog_tag"> It's time to read more facts about Medical</h2>
         </div>
         <div className="blog_para">
-        <p className="blog-paragraph"> What is an Medical blog?
-                                      A medical blog will typically provide information about common medical concerns. For conditions and diseases, this information most often includes causes, symptoms, diagnosis, and treatment. Each medical blog post should be focused on one topic, and the content should be as thorough as possible.
+        <p className="blog-paragraph">
+                                      A medical blog will typically provide information about common medical concerns. For conditions and diseases, this information most often includes causes, symptoms, diagnosis, and treatment. 
         </p>
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog" href="https://www.everydayhealth.com/">Read more</a> </button>
+        <button className="blogs_card_btn_2"> <a class="link_blog" href="https://www.everydayhealth.com/">Read more</a> </button>
         </div>
         
 
@@ -76,7 +76,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.simplelegal.com/blog/top-in-house-legal-blogs-to-follow">Read more</a> </button>
+        <button className="blogs_card_btn_3"> <a class="link_blog"href="https://www.simplelegal.com/blog/top-in-house-legal-blogs-to-follow">Read more</a> </button>
         </div>
         
 
@@ -84,7 +84,7 @@ const Blogs = () => {
       </div>
        <div className="blog_card">
         <div className="blog_image">
-        <img src={ES} className="engineering_blog" alt="" />
+        <img src={ES} className="ES_blog" alt="" />
         </div>
      
         <div className="upsc_blog_heading">
@@ -97,7 +97,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.onstartups.com/">Read more</a> </button>
+        <button className="blogs_card_btn_4"> <a class="link_blog"href="https://www.onstartups.com/">Read more</a> </button>
         </div>
         
 
@@ -105,7 +105,7 @@ const Blogs = () => {
       </div>
        <div className="blog_card">
         <div className="blog_image">
-        <img src={DesignBlogs} className="engineering_blog" alt="" />
+        <img src={DesignBlogs} className="Design_blog" alt="" />
         </div>
      
         <div className="blog_heading">
@@ -116,7 +116,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.thefashionstudenthub.com/blog/">Read more</a> </button>
+        <button className="blogs_card_btn_5"> <a class="link_blog"href="https://www.thefashionstudenthub.com/blog/">Read more</a> </button>
         </div>
         
 
@@ -135,7 +135,7 @@ const Blogs = () => {
         </div>
         
         <div className="blog_card_btn"> 
-        <button className="blogs_card_btn"> <a class="link_blog"href="https://www.newsbytesapp.com/news/india/5-blogs-to-aid-upsc-preparation/story">Read more</a> </button>
+        <button className="blogs_card_btn_6"> <a class="link_blog"href="https://www.newsbytesapp.com/news/india/5-blogs-to-aid-upsc-preparation/story">Read more</a> </button>
         </div>
         
 
