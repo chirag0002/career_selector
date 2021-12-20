@@ -43,7 +43,7 @@ const Footer = () => {
                     <tr>
                         <td>
                             <b>
-                                About
+                                <a className="footer_togithub"  href="/about" alt="">About</a>
                             </b><br />
                             <b>
                                <a className="footer_togithub"  href="/blog" alt="">Blogs</a>

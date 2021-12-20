@@ -510,7 +510,7 @@ const School = () => {
                     physical fitness and changing trends in physical education.
                 </p>
 
-                <p className="school_container2_subheading">4. Career Options after Science Stream :</p>
+                <p className="school_container2_subheading">4. Career Options after Commerce Stream :</p>
                 <p className="padding_bottom">
                     There is a multitude of career options available after pursuing Science stream in Class 11-12, however, 
                     the subjects are also considerably difficult and will require effort. Thus, you should go for this stream only if you are 
@@ -523,6 +523,7 @@ const School = () => {
                     Arts/Humanities
                 </section>
                 <img className="School_Arts" src={School_Arts} alt="" />
+                <p className="school_container2_subheading">1. What is Arts/Humanities :</p>
                 <p>
                    Arts is also known as “Humanities”.
 
@@ -544,6 +545,228 @@ const School = () => {
                    People can also become a lawyer, sociologist, anthropologist, a judge, language expert, a teacher.
                    They can also become a counsellor, content writer and historian.
                 </p>
+
+                <p className="school_container2_subheading">2. Arts/Humanaties Subjects after Class 10th :</p> 
+                <p> <br /> Science and Commerce streams do not have as many options at the school level as humanities does, which has greater 
+                   diversity to offer.
+
+                   <br /><br /> To bail you out of this baffling dilemma, I have compiled a list of subject options in Humanities to help you choose 
+                   the right set of subjects.
+                </p>   
+                
+                <p className="school_container2_subheading_1">
+                    I. Economics (with/without Maths) :
+                </p>
+                    
+                <p>Economics is the study of processes or systems by which goods and services are produced, sold, and bought and how the
+                   economy is run at the larger level (macroeconomics) and at the smaller individual level (microeconomics).
+
+                   After studying Economics at the undergraduate or postgraduate level, you can enter banking, insurance, 
+                   service and manufacturing firms, real estate, consulting, government agencies, and non-profit organizations.
+
+                </p>    
+
+                <p className="school_container2_subheading_1">
+                    II. History :
+                </p>
+
+                <p>
+                    You must be quite familiar with History as it is a compulsory subject till class 10th. In class 11 history, you study
+                    world history, the industrial revolution, early societies, empires, etc. On the other hand, you take a deep dive into
+                    Indian history in class 12, starting from Harappan civilization going up to British era and post-independence India.
+
+                    Teaching, research, archaeology, conservation management, civil services, public administration are some of the 
+                    professions you can enter with History as a major for undergraduation.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    III. Psychology :
+                </p>
+
+                <p>
+                    Psychology is the scientific study of human mind and behaviour. It specializes in the study of experiences, 
+                    behaviours, and mental processes of human beings within a socio-cultural and historical context.
+
+                    Being a multifaceted discipline, it includes many sub-fields such as child and development psychology, 
+                    sports psychology, health psychology, clinical psychology, social psychology, etc. It is quite interesting for those 
+                    are interested in understanding human behaviour in depth. You can go in for a bachelor’s and master’s Psychology to 
+                    branch out to many different fields.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    IV. Geography :
+                </p>
+
+                <p>
+                    It is the study of the earth’s surface and its relationship with human beings. 
+                    Broadly it covers a) physical geographic concepts like landforms, flora and fauna- their evolution, location, distribution 
+                    and development b) human geography involving population, economy, transport, etc. and c) Cartography– the study of map makin
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    V. Political Science :
+                </p>
+
+                <p>
+                    In Political Science you study political processes, the working of various types of governments and institutional organizations and 
+                    a whole lot of administrative theories and concepts. If power and politics interest you and foreign policies intrigue you, then 
+                    Political Science should be your choice. Opting for History and Public Administration along with Pol. Science is a wise choice, as 
+                    they are all complementary to each other.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    VI. Sociology :
+                </p>
+
+                <p>
+                    For those of you who think critically about human social life, social behaviour and society, 
+                    Sociology should be an interesting subject choice. In this subject, you get to know more about human societies, their 
+                    interactions, and the processes that preserve and change them. Sociology also studies social status, social movements, and 
+                    social change, as well as societal disorder in the form of crime, deviance, and revolution.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    VII. Philosophy :
+                </p>
+
+                <p>
+                    If you are fascinated by great thinkers and have an innate ability to reason, 
+                    debate and prove your point, then Philosophy is one subject that should interest you. 
+                    Philosophy covers issues pertaining to humanity and society, and includes areas like logic, reasoning, knowledge, etc. 
+                    It provides a base for critical and imaginative thinking and richly contributes to the general good of the society. 
+                    It is quite a favourite subject of those who wish to appear for Civil Services examinations later on.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    VIII. Human Rights and Gender Studies :
+                </p>
+
+                <p>
+                    This is a field for interdisciplinary study devoted to understanding gender and gender issues. 
+                    It includes women’s studies (concerning women, feminism, gender, and politics), men’s studies and queer studies. 
+                    You get to study how gender shapes our identities, our social interactions and our world. In Human Rights, you get to know more 
+                    about the essential rights for human development, and how human rights interact with the environment and the world around us.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    IX. Informatics Practices :
+                </p>
+
+                <p>
+                    As part of this subject, you get to learn the basics of computer hardware and software. 
+                    Topics covered under Informatics Practices course includes database management systems, operating systems, 
+                    introduction to programming, and programming languages such as SQL, Oracle, Java for problem-solving, etc. 
+                    If you are in love with computers, you are sure to enjoy studying this subject in class 11 and 12.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    X. Public Administration :
+                </p>
+
+                <p>
+                    It tells you more about the implementation of government policies and the working of the government machinery. 
+                    Those aspiring for civil services/ public administration will find this subject useful. Public administrators are public servants 
+                    working in public departments and agencies, at all levels of government.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    XI. Home Science :
+                </p>
+
+                <p>
+                    Studied both under Science and Arts, it is an interdisciplinary subject that teaches you about human development, 
+                    nutrition and food, family resource management, hygiene, family relations, community living, art, clothing, textiles, 
+                    home management and much more.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    XII.  Legal Studies :
+                </p>
+
+                <p>
+                    If law interests you and you aspire to pursue it for your graduation, then legal studies can give you an early start. 
+                    It gives you an insight into the nature of political institutions, nature and sources of law, evolution of the Indian legal system, 
+                    civil and criminal courts and processes, family justice system, human rights in India, etc.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    XIII. Political Science :
+                </p>
+
+                <p>
+                    In Political Science you study political processes, the working of various types of governments and institutional organizations and 
+                    a whole lot of administrative theories and concepts. If power and politics interest you and foreign policies intrigue you, then 
+                    Political Science should be your choice. Opting for History and Public Administration along with Pol. Science is a wise choice, as 
+                    they are all complementary to each other.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    XIV. Media Studiese :
+                </p>
+
+                <p>
+                    Media Studies is the perfect subject for those aspiring to pursue Journalism, Mass Communication or media courses after class 12. 
+                    It will help you gain fundamental knowledge of various forms of media and communication, such as print media, advertising, radio, 
+                    cinema, television, new media, etc. Besides theoretical knowledge, you will also learn practical skills such as critical thinking, 
+                    interpersonal skills, presentation skills, ability to work within a team, etc.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    XV. Entrepreneurship :
+                </p>
+
+                <p>
+                    This subject resembles Business Studies but also offers basic insights and understanding into the principles of entrepreneurship 
+                    such as definitions, types, requirements, setups, governmental assistance and programs, financial reports, patents, entrepreneurship 
+                    characteristics and traits, etc. This subject can be an interesting addition to your list if you are interested in understanding 
+                    business, or are a budding entrepreneur.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    XVI. Physical Education :
+                </p>
+
+                <p>
+                    An easy to score subject, and an interesting one for those who love sports.  You learn about the world of physical wellness, 
+                    lifestyle and sports. Under this, you cover areas like different types of sports, yoga, physical activity and leadership training, 
+                    sports psychology, sports measurements, fundamentals of anatomy and physiology, sports training, doping, etc.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    XVII. Fashion Studies :
+                </p>
+
+                <p>
+                    If Fashion Design is your area of interest, Fashion Studies is a good subject choice to prepare you for the road ahead. 
+                    This subject gives you a thorough overview of fashion, its theories and fundamentals. 
+                    You study areas such as factors influencing fashion, key concepts and terminologies in fashion, different fashion professionals and 
+                    their roles, consumer segmentation, fashion regulatory bodies in India, etc.
+                </p>
+
+                <p className="school_container2_subheading_1">
+                    XVIII. Fine Arts :
+                </p>
+
+                <p>
+                    This subject is a good fit for those who have a talent for, and wish to pursue a career in the Fine Arts. 
+                    You can opt for any of the following courses under fine arts: Painting, Graphics, Sculpture, and Applied Arts-Commercial Art. 
+                    In these, you study about the history of Indian Art, coupled with specific practical training in your chosen course.
+                </p>
+
+                <p className="school_container2_subheading">4. Career Options after Arts/Humanaties Stream :</p>
+                <p className="padding_bottom">
+                    Looking at the broad range of subjects offered under the humanities stream, it should come as no surprise that the 
+                    number of career options for humanities students are aplenty.
+
+                    All fields from law and government, to management and creative fields, require people from a humanities background 
+                    ecause of their broad education, understanding of the nuances of society, and the ability to research and think out of 
+                    the box. All these qualities can be found in students of the Humanities stream.
+
+                    You may enter a career as journalist, writer, lawyer, fashion designer, graphic designer, public administrator, 
+                    psychologist, economist, lawyer, artist, teacher, political scientist, marketing/advertising professional, 
+                    anthropologist, media and PR professional, geologist, archaeologist, museum curator, social worker…and the list goes on!
+                </p>
+
             </div>                     
             </div>
         </div>
