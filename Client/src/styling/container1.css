@@ -208,17 +208,12 @@ form .data label{
     width:25px;
     height:25px;
     position: absolute;
-<<<<<<< HEAD
     margin-left: -7%;
     }
 .container_1_login{
- margin-left: 3%;
-}
-=======
     margin-left: 1%;
-    }
+}
 
->>>>>>> upstream/main
 
 @media only screen and (max-width:1285px){
     

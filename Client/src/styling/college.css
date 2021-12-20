@@ -46,18 +46,15 @@
       width:90%;
       margin:0 auto;
       justify-content: space-between;
-      background-color: #f3efef;
   }
 
 
 .college_ug_courses{
     margin: 3% auto;
-    background-color: #f1f1f1;
     padding:2%; 
     width:90vw;
 }
 .college_ug_container{
-    background-color: #fff;
     width:80vw;
     margin:2% auto;
     border:3px solid #f1f1f1;
@@ -72,12 +69,10 @@
 }
 .college_pg_courses{
     margin: 3% auto;
-    background-color: #f1f1f1;
     padding:2%; 
     width:90vw;
 }
 .college_pg_container{
-    background-color: #fff;
     width:80vw;
     margin:2% auto;
     border:3px solid #f1f1f1;

@@ -16,13 +16,11 @@ import nift from "../Images/nift.jpg"
 import uceed from "../Images/uceed.jpg"
 import ExamSearchBar from './ExamSearchBar';
 import Footer from './Footer';
-<<<<<<< HEAD
 import Chat from './Chat';
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
 import MUISwitch from "@material-ui/core/switch"
 import Header from "./Header.jsx";
-=======
 import bitsat  from "../Images/bitsat.jpg"
 import indian  from "../Images/indian.jpg"
 import jipmer  from "../Images/jipmer.jpg"
@@ -41,7 +39,6 @@ import banasthali from "../Images/banasthali.jpg"
 
 
 
->>>>>>> upstream/main
 
 
 const StyledApp= styled.div`
@@ -772,11 +769,8 @@ const Exams = () => {
 
 
 
-<<<<<<< HEAD
                        </div>
                       
-=======
->>>>>>> upstream/main
 
                            <div id="banasthali"  className="exam_card_27">
                        <img className="exam_image_card27"src={banasthali} alt=""/>
@@ -802,8 +796,7 @@ const Exams = () => {
                        </div>
                        
                         <Chat />
-                </div>
-
+                
 
         
                            
