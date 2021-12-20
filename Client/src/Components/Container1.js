@@ -125,7 +125,7 @@ const PostData=async(e)=>{
             />}
         
         </div>
-        </div>
+        
 
         
     )
