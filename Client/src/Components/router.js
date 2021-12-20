@@ -12,7 +12,7 @@ import PG from "./PG.js"
 import UG from "./UG.js"
 import College from "./College.jsx";
 import Exams from "./Exams"
-
+import About from './About'
 import Blogs from "./Blogs.js";
 import Developers from "./Developers";
 import Header from "./Header.jsx";
@@ -55,7 +55,7 @@ export const routes: Route[] = [
         element:<School />
     },
     {
-        path:"Pg",
+        path:"pg",
         element: <PG />
     },
     {
@@ -82,6 +82,10 @@ export const routes: Route[] = [
         path:"Header",
         element:<Header/>
     },
+    {
+        path:"about",
+        element:<About/>
+    }
 ];
 
 export const location = new ReactLocation();
