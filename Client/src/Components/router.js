@@ -17,10 +17,13 @@ import College from "./College.jsx";
 
 
 import Exams from "./Exams"
+
+
 import About from './About'
 import Blogs from "./Blogs.js";
 import Developers from "./Developers";
 import Header from "./Header.jsx";
+import Helpus from "./Helpus";
 
 
 
@@ -97,6 +100,10 @@ export const routes: Route[] = [
     {
         path:"about",
         element:<About/>
+    },
+    {
+        path:"helpus",
+        element:<Helpus/>
     }
 ];
 
