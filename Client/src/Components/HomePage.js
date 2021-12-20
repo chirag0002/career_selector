@@ -61,8 +61,8 @@ const HomePage = () => {
                     position: "sticky",
                     top: "0",
                     height:"100%",
-                    paddingTop: "35%",
-                    paddingRight:"1%",
+                    paddingTop: "40vw",
+                    paddingRight:"1vw",
                     cursor:"pointer"
                 }}>
                 {isVisible && (
@@ -75,7 +75,7 @@ const HomePage = () => {
             <Container4 />
             <Accordion />
             <Footer />
-            <Chat/>
+            <Chat />
         </StyledApp>
         </ThemeProvider>
     )

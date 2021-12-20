@@ -11,6 +11,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import {Link} from "react-location"
 import Header from "./Header.jsx";
+import Chat from './Chat'
 
 
 
@@ -54,8 +55,8 @@ return (
                     position: "sticky",
                     top: "0",
                     height:"100%",
-                    paddingTop: "40%",
-                    paddingRight:"1%",
+                    paddingTop: "40vw",
+                    paddingRight:"1vw",
                     cursor:"pointer",
                 }}>
             {isVisible && (
@@ -123,15 +124,13 @@ return (
             <div className="colleges_cards">
             <h1 className="colleges_cards_heading">TYPES OF COURSES</h1>
             <div className="UG-PG Cards">
-                <div class="college_ug">
+                <div className="college_ug">
                 <a href="#UGCOURSES"
                 style={{textDecoration:"none"}}>
                 <div class="college_flip">
-                    <div class="college_flip_card_inner">
-                        <div class="college_flip_card_front">
-                            <img className="flip_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLppzgey3U2YUMBSMWjDgR34-Z5y_OzYRC_OS6dlyULKnb3k6wgpAoy_JZ7h32-DMAN4&usqp=CAU" alt="" className="colleges_ug_img" />
-                            <h3>Under Graduate</h3>
-                        </div>
+                    <div className="college_flip_card_inner">
+                        <img className="flip_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLppzgey3U2YUMBSMWjDgR34-Z5y_OzYRC_OS6dlyULKnb3k6wgpAoy_JZ7h32-DMAN4&usqp=CAU" alt="" className="colleges_ug_img" />
+                        <h3>Under Graduate</h3>
                     </div>
                 </div>
                 </a>
@@ -139,12 +138,10 @@ return (
                 <div class="college_pg">
                 <a href="#PGCOURSES"
                 style={{textDecoration:"none"}}>
-                <div class="college_flip">
-                    <div class="college_flip_card_inner">
-                        <div class="college_flip_card_front">
-                            <img className="flip_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLppzgey3U2YUMBSMWjDgR34-Z5y_OzYRC_OS6dlyULKnb3k6wgpAoy_JZ7h32-DMAN4&usqp=CAU" alt="" className="colleges_pg_img" />
-                             <h3>Post Graduate</h3>
-                        </div>
+                <div className="college_flip">
+                    <div className="college_flip_card_inner">
+                        <img className="flip_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLppzgey3U2YUMBSMWjDgR34-Z5y_OzYRC_OS6dlyULKnb3k6wgpAoy_JZ7h32-DMAN4&usqp=CAU" alt="" className="colleges_pg_img" />
+                        <h3>Post Graduate</h3>
                     </div>
                 </div>
                 </a>
@@ -158,26 +155,26 @@ return (
                         <img className="college_ug_container_img_img"src={engineer} alt="" />
                     </div>
                     <div className="college_ug_container_content">
-                        <div className="college_ug_container_subcontent">
-                            <p>
+                        <div className="college_pg_container_subcontent">
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF TECHNOLOGY [B.TECH] (MECHANICAL ENGINEERING...
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF TECHNOLOGY [B.TECH] (COMPUTER SCIENCE AND ...
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF TECHNOLOGY [B.TECH] (CIVIL ENGINEERING)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF TECHNOLOGY [B.TECH] (ELECTRONICS & COMMUNIC...
                             </p>
                         </div>
@@ -200,8 +197,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -214,25 +213,25 @@ return (
                     </div>
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF MEDICINE, BACHELOR OF SURGERY [MBBS]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF AYURVEDIC MEDICINE AND SURGERY [BAMS]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF HOMEOPATHIC MEDICINE & SURGERY [BHMS]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF PHYSIOTHERAPY [BPT]
                             </p>
                         </div>
@@ -255,8 +254,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
                             float:"right",
-                            marginTop:"45%"
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -269,25 +270,25 @@ return (
                     </div>
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF LAWS [L.L.B.]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF ARTS + BACHELOR OF LAWS [B.A.L.L.B.]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF LAWS [L.L.B.] (HONS.)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             DIPLOMA IN CYBER LAW
 
                             </p>
@@ -311,8 +312,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -325,25 +328,25 @@ return (
                     </div>
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF ARTS [BA] (ENGLISH)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF ARTS [BA] (ECONOMICS)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF ARTS [BA] (HISTORY)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                            BACHELOR OF ARTS [BA] (POLITICAL SCIENCE)
                             </p>
                         </div>
@@ -366,8 +369,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -380,25 +385,25 @@ return (
                     </div>
                     <div className="college_ug_container_content">
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF COMMERCE [B.COM]
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF COMMERCE [B.COM] (COMPUTER APPLICATIONS)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF COMMERCE [B.COM] (HONS.)
                             </p>
                         </div>
                         <hr className="college_ug_line" />
                         <div className="college_ug_container_subcontent">
-                            <p>
+                            <p className="college_ug_container_subcontent">
                             BACHELOR OF COMMERCE [B.COM] (ACCOUNTING AND FINANCE)
                             </p>
                         </div>
@@ -422,8 +427,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -440,25 +447,25 @@ return (
                         </div>
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF TECHNOLOGY [M.TECH] (COMPUTER SCIENCE AND ENG...
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF TECHNOLOGY [M.TECH] (STRUCTURAL ENGINEERING)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF TECHNOLOGY [M.TECH] (ELECTRONICS AND COMMUNIC...
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF TECHNOLOGY [M.TECH] (MECHANICAL ENGINEERING)
                             </p>
                         </div>
@@ -481,8 +488,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -495,25 +504,25 @@ return (
                         </div>
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             DOCTORATE OF MEDICINE [MD] (PATHOLOGY)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             DOCTORATE OF MEDICINE [MD] (MICROBIOLOGY)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF SURGERY [MS] (GENERAL SURGERY)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             DOCTORATE OF MEDICINE [MD] (PHYSIOLOGY)
                             </p>
                         </div>
@@ -536,8 +545,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -551,25 +562,25 @@ return (
                         </div>
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF LAWS [L.L.M.]
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF LAWS [L.L.M.] (CRIMINAL LAW)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF LAWS [L.L.M.] (CORPORATE LAW)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF LAWS [L.L.M.] (CONSTITUTIONAL LAW)
                             </p>
                         </div>
@@ -592,8 +603,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -607,25 +620,25 @@ return (
                         </div>
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF ARTS [MA] (ENGLISH)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF ARTS [MA] (ECONOMICS)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF ARTS [MA] (HISTORY)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF ARTS [MA] (POLITICAL SCIENCE)
                             </p>
                         </div>
@@ -648,8 +661,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -663,25 +678,25 @@ return (
                         </div>
                         <div className="college_pg_container_content">
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF COMMERCE [M.COM]
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF COMMERCE [M.COM] (FINANCE)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF COMMERCE [M.COM] (COMPUTER APPLICATIONS)
                             </p>
                         </div>
                         <hr className="college_pg_line" />
                         <div className="college_pg_container_subcontent">
-                            <p>
+                            <p className="college_pg_container_subcontent">
                             MASTER OF COMMERCE [M.COM] (ACCOUNTANCY)
                             </p>
                         </div>
@@ -704,8 +719,10 @@ return (
                             style={{
                             backgroundColor:"Grey",
                             borderRadius:"25px",
-                            marginTop:"45%",
-                            float:"right"
+                            marginTop:"4.9vw",
+                            marginRight:"1vw",
+                            float:"right",
+                            fontSize:"1vw"
                             }}>
                                 View All Course
                             </p>
@@ -716,6 +733,7 @@ return (
                     <p><a href="/PG">Click for more courses...</a></p>    
                     
             </div>
+            <Chat/>
             < Footer />
         </div>
     )

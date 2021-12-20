@@ -16,18 +16,77 @@ import nift from "../Images/nift.jpg"
 import uceed from "../Images/uceed.jpg"
 import ExamSearchBar from './ExamSearchBar';
 import Footer from './Footer';
+import Chat from './Chat';
+import styled, {ThemeProvider} from 'styled-components'
+import {lightTheme, darkTheme ,GlobalStyles} from './themes'
+import MUISwitch from "@material-ui/core/switch"
+import Header from "./Header.jsx";
 
 
+const StyledApp= styled.div`
+color:${(props) => props.theme.fontColor};
+`;
 
 const Exams = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 150) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
+    const[theme,setTheme]=useState("dark");
+        const themeChanger =() =>{
+            theme=== "light" ? setTheme ("dark") : setTheme ("light");
+        };
+
      
     useEffect(()=>{
         Aos.init({duration:2000});
     
       },[]);
     return (
+        <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
+        <GlobalStyles />
+        <StyledApp>
+        <Header />
+        <div className="scroll-to-top"
+                style={{
+                    float:"right",
+                    position: "-webkit-sticky",
+                    position: "sticky",
+                    top: "0",
+                    height:"70%",
+                    paddingTop: "38vw",
+                    paddingRight:"1vw",
+                    cursor:"pointer"
+                }}>
+                {isVisible && (
+                <div onClick={scrollToTop}>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                )}
+            </div>
         <>
+        <MUISwitch
+            className="school_theme_switch"
+            onClick={themeChanger}
+            defaultChecked />
         <div class="exam">
+        
         <div className="exam_container">
                <div className="exam_heading">
                    Competetive Exams
@@ -781,18 +840,22 @@ const Exams = () => {
 
 
                        </div>
+                      
 
 {/* 
                        <Footer/> */}
                        </div>
                        
-                       
+                        <Chat />
                 </div>
 
 
         
                            
         </>
+        <Footer />
+        </StyledApp>
+        </ThemeProvider>
         )
     }
 

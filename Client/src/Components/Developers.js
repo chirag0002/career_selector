@@ -10,6 +10,8 @@ import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
 import Footer from './Footer.jsx'
 import {Button} from "react-bootstrap"
+import Chat from './Chat'
+
 
 
 
@@ -113,6 +115,8 @@ const Developers = () => {
             </p>
             </div>            
             </div>
+            <Chat />
+
             <Footer />
         </div>
         </StyledApp>

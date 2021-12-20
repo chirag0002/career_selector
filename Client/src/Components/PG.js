@@ -10,7 +10,44 @@ import MCA from "../Images/MCA.png"
 import MBA from "../Images/Mba.png"
 import Footer from "./Footer.jsx"
 import Header from "./Header.jsx";
+import Chat from './Chat'
+import styled, {ThemeProvider} from 'styled-components'
+import {lightTheme, darkTheme ,GlobalStyles} from './themes'
+import MUISwitch from "@material-ui/core/switch"
+
+
+
+
+const StyledApp= styled.div`
+color:${(props) => props.theme.fontColor};
+`;
+
+
 const PG = () => {
+  const [isVisible, setIsVisible] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 150) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
+    const[theme,setTheme]=useState("dark");
+        const themeChanger =() =>{
+            theme=== "light" ? setTheme ("dark") : setTheme ("light");
+        };
       useEffect(()=>{
     Aos.init({
       duration:2000});
@@ -18,13 +55,40 @@ const PG = () => {
   },[]);
   
     return (
+      <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
+        <GlobalStyles />
+        <StyledApp>
+        <div className="scroll-to-top"
+                style={{
+                    float:"right",
+                    position: "-webkit-sticky",
+                    position: "sticky",
+                    top: "38rem",
+                    height:"100%",
+                    paddingTop: "0vw",
+                    paddingRight:"1vw",
+                    cursor:"pointer"
+                }}>
+                {isVisible && (
+                <div onClick={scrollToTop}>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                )}
+            </div>
+        
         <>
         <div class="pg">
+        
         <Header />
+        <MUISwitch
+            className="school_theme_switch"
+            onClick={themeChanger}
+            defaultChecked />
         <div className="pg_container">
                <div className="pg_heading">
                    Postgraduate
                </div>
+               
                <div className="Pg_container_1">
                    <div className="pg_cards">
                    
@@ -110,6 +174,7 @@ const PG = () => {
                                 <a  className="pg_btn_click" href="#">Click Here for more </a>
                                </div>
                            </div>
+                           <Chat />
                       <Footer />
 
 
@@ -123,6 +188,8 @@ const PG = () => {
 
             
         </>
+        </StyledApp>
+        </ThemeProvider>
     )
 }
 

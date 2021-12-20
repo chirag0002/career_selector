@@ -11,9 +11,45 @@ import barch from "../Images/barch.jpg"
 import bpharma from "../Images/bpharma.jpg"
 import Footer from './Footer';
 import Header from "./Header.jsx";
+import Chat from './Chat'
+import MUISwitch from "@material-ui/core/switch"
+import styled, {ThemeProvider} from 'styled-components'
+import {lightTheme, darkTheme ,GlobalStyles} from './themes'
+import {useSelector} from 'react-redux'
+
+const StyledApp= styled.div`
+color:${(props) => props.theme.fontColor};
+`;
+
 
 
 const UG = () => {
+    const check=useSelector((state)=>state.check)
+    console.log(check);
+    const[theme,setTheme]=useState("dark");
+        const themeChanger =() =>{
+            theme=== "light" ? setTheme ("dark") : setTheme ("light");
+        };
+    const [isVisible, setIsVisible] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 150) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
      
     useEffect(()=>{
         Aos.init({duration:2000});
@@ -21,13 +57,39 @@ const UG = () => {
       },[]);
       
     return (
+        <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
+        <GlobalStyles />
+        <StyledApp>
         <>
+        <MUISwitch
+            className="theme_switch"
+            onClick={themeChanger}
+            defaultChecked />
         <div class="ug">
+        
         <Header />
+        
         <div className="ug_container">
                <div className="ug_heading">
                    Undergraduate
                </div>
+               <div className="scroll-to-top"
+                style={{
+                    float:"right",
+                    position: "-webkit-sticky",
+                    position: "sticky",
+                    top: "0",
+                    height:"70%",
+                    paddingTop: "38vw",
+                    paddingRight:"1vw",
+                    cursor:"pointer"
+                }}>
+                {isVisible && (
+                <div onClick={scrollToTop}>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                )}
+            </div>
                
                    <div className="ug_cards">
                    
@@ -148,16 +210,20 @@ const UG = () => {
                                 <a className="ug_btn_click" href="#">Click Here for more </a>
                                </div>
                            </div>
-
+                           <Chat />
                            <Footer/>
+                           
 
 
 
                            </div>
                            </div>
+                            </>
+                           </StyledApp>
+                           </ThemeProvider>
                            
                            
-        </>
+        
         )
     }
 
