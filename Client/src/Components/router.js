@@ -2,7 +2,7 @@ import React from 'react'
 import {  Route,  ReactLocation } from "react-location";
 import Container2 from './Container2';
 import HomePage from './HomePage';
-
+import Helpus from "./Helpus"
 import Footer from './Footer';
 
 import Accordion from './Accordion';
@@ -17,12 +17,9 @@ import College from "./College.jsx";
 
 
 import Exams from "./Exams"
-<<<<<<< HEAD
 
 
-=======
 import About from './About'
->>>>>>> upstream/main
 import Blogs from "./Blogs.js";
 import Developers from "./Developers";
 import Header from "./Header.jsx";
@@ -102,6 +99,10 @@ export const routes: Route[] = [
     {
         path:"about",
         element:<About/>
+    }
+    {
+        path:"help",
+        element:<Helpus/>
     }
 ];
 

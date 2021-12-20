@@ -102,8 +102,7 @@ const UG = () => {
                            BSc or Bachelor of Science is an undergraduate degree of three years duration which 
                                is universally offered across institutes and universities across India. BSc is one
                                 of the most popular courses opted by students who have a flair for scientific 
-                                aptitude and zeal for research-oriented and calculative approaches based on 
-                                a proven systematic method.
+                                aptitude.
                            </p>
                            </div>
                            
@@ -211,8 +210,7 @@ const UG = () => {
                             which deals with the study of Visual or Performing Arts. The
                              course is sometimes also referred to as Bachelor of Visual
                               Arts (BVA) in which the study of Visual Arts includes subjects 
-                              such as painting, sculpture, photography, literature, animation,
-                               etc. 
+                              such as painting, sculpture etc.
                            </p>
                            </div>
                            
@@ -270,7 +268,7 @@ const UG = () => {
                            Designing is an undergraduate Fashion Designing course.
                             Fashion design is the art of using fabrics, colours and 
                             ornamentation to craft different fashion items like clothing, 
-                            textiles, jewellery, footwear and other accessories.
+                            textiles, jewellery.
                            </p>
                            </div>
                            
