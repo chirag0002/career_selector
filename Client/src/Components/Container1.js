@@ -4,58 +4,8 @@ import logo from "../Images/logo.png"
 import workplace from "../Images/wp.png"
 import Popup from './Popup';
 import {Navbar,Container,Offcanvas,Nav,NavDropdown} from 'react-bootstrap'
-<<<<<<< HEAD
-// import Search_box from './Search_box';
-import Search_box from './Search_box';
-import { useMediaQuery } from 'react-responsive'
-import  authentication  from "../firebase"
-import { signInWithPopup,GoogleAuthProvider} from "firebase/auth";
- import google from "../Images/google.png";
-// import "../big-screen/component"
-// import "../mobile/component"
-// import "../laptop/component"
-// import "../tablet-mobile/component"
-// import "../desktop/component"
-
 const Container1 = () => {
 
-const signInWithGoogle = () => {
-   const provider = new GoogleAuthProvider();
-   signInWithPopup(authentication, provider)
-      .then((re) => {
-        console.log(re);
-      })
-     .catch((err) => {
-       console.log(err);
-   })
-  }
-  
-    // const isMobileDevice = useMediaQuery({
-    //     query: "(min-device-width: 480px)",
-    //   });
-    
-    //   const isTabletDevice = useMediaQuery({
-    //     query: "(min-device-width: 768px)",
-    //   });
-    
-    //   const isLaptop = useMediaQuery({
-    //     query: "(min-device-width: 1024px)",
-    //   });
-    
-    //   const isDesktop = useMediaQuery({
-    //     query: "(min-device-width: 1200px)",
-    //   });
-    
-    //   const isBigScreen = useMediaQuery({
-    //     query: "(min-device-width: 1201px )",
-    //   });
-
-   
-
-=======
-const Container1 = () => {
-
->>>>>>> upstream/main
     const[user,setUser]=useState({
         email:" ",phone:" ",query:" "
     })
@@ -70,6 +20,7 @@ const Container1 = () => {
 const PostData=async(e)=>{
     e.preventDefault();
     const{email,phone,query}=user;
+    setUser(" ");
     const res=await fetch("/query",{
         method:"POST",
         header:{
@@ -93,6 +44,8 @@ const PostData=async(e)=>{
         window.alert("Query was successful");
         console.log("Query was successful");
         }
+
+        
 }
     
 
@@ -105,21 +58,6 @@ const PostData=async(e)=>{
 
     return (
         <div className="container1">
-<<<<<<< HEAD
-            {/* <Search_box/> */}
-
-    
-{/* {isMobileDevice && <Mobile />}
-  {isTabletDevice && <>
-  <TabletMobile />
-  {isDesktop && <Desktop />}
-  {isLaptop && <Laptop />}
-  {isBigScreen && <BigScreen />}
-</>} */}
-            <Search_box/>
-            <div className="header">
-=======
->>>>>>> upstream/main
             <Navbar bg="light" expand={false}>
                 <Container fluid>
                     <Navbar.Brand href="/"><img className="logo_container1" src={logo} alt="" /></Navbar.Brand>
@@ -136,12 +74,10 @@ const PostData=async(e)=>{
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                         <Nav.Link href="/login">About Us</Nav.Link>
                         <Nav.Link onClick={togglePopup}>Ask Us</Nav.Link>
-                         <Nav.Link className="container_1_login" onClick={signInWithGoogle} type="submit" ><img className="login_google" src={google} alt="" />Login with Google</Nav.Link>
                         <NavDropdown title="Careers" id="offcanvasNavbarDropdown">
                             <NavDropdown.Item href="/school">School</NavDropdown.Item>
                             <NavDropdown.Item href="/ug">Graduation</NavDropdown.Item>
                             <NavDropdown.Item href="/pg">Post Graduation</NavDropdown.Item>
-                            
                         </NavDropdown>
                         </Nav>
                     </Offcanvas.Body>
@@ -155,31 +91,6 @@ const PostData=async(e)=>{
                         <div className="word">Build Your Future</div>
                     </div>
                 </div>
-<<<<<<< HEAD
-                
-            </div>
-            {/* <div className="side_stuff">
-            <a href="/login" className="first">About Us</a>
-                
-                <a } className="third" alt="">Ask Us</a>
-                
-                <Dropdown className="second_check">
-                    <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Careers
-                    </Dropdown.Toggle>
-
-                    <Dropdown.Menu>
-                        <Dropdown.Item href="/school">School</Dropdown.Item>
-                        <Dropdown.Item href="/ug">Undergraduate</Dropdown.Item>
-                        <Dropdown.Item href="/pg">Postgraduate</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-              <a href="/login" className="fourth">Login</a> */}
-
-              
-
-=======
->>>>>>> upstream/main
             {isOpen && <Popup
             content={<>
 
@@ -217,10 +128,10 @@ const PostData=async(e)=>{
             />}
         
         </div>
+        
 
         
     )
 }
 
 export default Container1
-
