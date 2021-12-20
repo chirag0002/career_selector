@@ -72,7 +72,7 @@ const HomePage = () => {
                 )}
             </div>
             <Container2 />
-            {/* <Container4 /> */}
+            <Container4 />
             <Accordion />
             <Footer />
             <Chat/>

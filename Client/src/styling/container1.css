@@ -141,16 +141,6 @@ width: 600px;
     padding-top: 1px;
 }
 
-.heading{
-    font-size: 50px;
-    font-weight: 700;
-    margin-right: -20px;
-    margin-top: 5px;
-    text-decoration:none;
-    color:white;
-    
-    
-}
 .query form{
     margin-top: -20px;
 }
@@ -236,7 +226,12 @@ form .data label{
     font-size: 23px;
     padding-right: 20px;
 }
-
+.login_google{
+    width:25px;
+    height:25px;
+    position: absolute;
+    margin-left: 1%;
+    }
 
 
 @media only screen and (max-width:1285px){
@@ -278,10 +273,6 @@ form .data label{
     .word{
         margin-left: 300px;
     }
-    
-
-   
-
     
 }
 
