@@ -1,13 +1,13 @@
 import React from 'react'
 import "../styling/header.css";
 import logo from '../Images/logo.png';
-import search from "../Images/search.png";
+import man from "../Images/headerMan.png";
 import walk from "../Videos/header.mp4"
 
 const Header = () => {
     return (
         <>
-        <div>
+        <div style={{height:"80%"}}>
             <div className="header_1">
                 <img src={logo} alt="" className="header_img" />
                 <navbar className="header">
@@ -17,18 +17,17 @@ const Header = () => {
                         <li className="navbar_point">Careers</li>
                     </ul>
                 </navbar>
-                <span className="search_bar">
-                <input className="header_search" type="input" placeholder="Search here..."/>
-                <button className="search_btn"><img className="search_img" src={search} alt="" /></button>
-                </span>
             </div>
             <div className="header_2">
                 <div className="header_2_head">
-                    <h1 className="header_2_heading">Decide Your Best Future</h1>
+                    <h1 className="header_2_heading">Decide <br />
+                    Your
+                    <br />
+                     Best Future</h1>
                     <p
                     style={{
                         textAlign:"left",
-                        fontSize:"1.3rem",
+                        fontSize:"1rem",
                         paddingLeft:"5%"
                     }}
                     >
@@ -38,18 +37,18 @@ const Header = () => {
                     style={{
                         display:"flex",
                         paddingLeft:"5%",
-                        paddingTop:"20%"
+                        paddingTop:"0%"
                     }}>
                     <p 
                     style={{
-                        fontSize:"4rem"
+                        fontSize:"3rem"
                     }}>
                     4X
                     </p>
                     <p
                     style={{
                         width:"30%",
-                        paddingTop:"5%",
+                        paddingTop:"2%",
                         fontWeight:"bold",
                         float:"left"
                     }}>
@@ -62,8 +61,17 @@ const Header = () => {
                         <source src={walk} type="video/mp4"/>
                     </video>
                 </div>
+                <div className="header_2_last">
+                    <img src={man} alt="" 
+                    style={{
+                        width:"40%",
+                        height:"80%"
+                    }}/>
+                    <p>Nothing Will Work Unless You Do.</p>
+                </div>
             </div>
-            <hr />
+            <hr 
+            style={{margin:"0"}}/>
         </div>
         </>
 
