@@ -1,7 +1,6 @@
 import React ,{useState} from "react"
 import "../styling/examSearchBar.css"
 import SearchIcon from '@mui/icons-material/Search';
-import Exams from "./Exams";
 import OutsideClickHandler from 'react-outside-click-handler';
 
 function ExamSearchBar({placeholder,data}){
