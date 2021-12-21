@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styling/college.css";
-import logo from "../Images/logo.png"
+
 import Footer from "./Footer";
 import arts from "../Images/arts.png"
 import law from "../Images/law.png"
@@ -9,13 +9,13 @@ import doctor from "../Images/doctor.png"
 import commerce from "../Images/commerece.png"
 import Aos from "aos";
 import 'aos/dist/aos.css';
-import {Link} from "react-location"
+
 import Header from "./Header.jsx";
 import Chat from './Chat'
 import MUISwitch from "@material-ui/core/switch"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
-import {useSelector} from 'react-redux'
+
 
 
 
@@ -25,8 +25,8 @@ color:${(props) => props.theme.fontColor};
 `;
 
 const College = () => {
-    const check=useSelector((state)=>state.check)
-    console.log(check);
+    
+    
     const[theme,setTheme]=useState("dark");
         const themeChanger =() =>{
             theme=== "light" ? setTheme ("dark") : setTheme ("light");

@@ -19,47 +19,44 @@ const Container1 = () => {
    })
   }
 
-    const[user,setUser]=useState({
-        email:" ",phone:" ",query:" "
-    })
+//     const[user,setUser]=useState({
+//         email:" ",phone:" ",query:" "
+//     })
 
-    let name, value;
-    const handleInputs=(e)=>{
-        name=e.target.name;
-        value=e.target.value;
-        setUser({...user,[name]:value});
-}
+//     let name, value;
+//     const handleInputs=(e)=>{
+//         name=e.target.name;
+//         value=e.target.value;
+//         setUser({...user,[name]:value});
+// }
 
-const PostData=async(e)=>{
-    e.preventDefault();
-    const{email,phone,query}=user;
-    setUser(" ");
-    const res=await fetch("/query",{
-        method:"POST",
-        header:{
-            "Contect-Type":"application/json"
-        },
-        body:JSON.stringify({
+// const PostData=async(e)=>{
+//     e.preventDefault();
+//     const{email,phone,query}=user;
+//     setUser(" ");
+//     const res=await fetch("/query",{
+//         method:"POST",
+//         header:{
+//             "Contect-Type":"application/json"
+//         },
+//         body:JSON.stringify({
 
-            email:email,
-            phone:phone,
-            query:query,
-        })
-
-        
-    });
-
-    const data=await res.json();
-    if(res.status===422|| !data){
-        window.alert("Error");
-        console.log("Error");
-    }else{
-        window.alert("Query was successful");
-        console.log("Query was successful");
-        }
+//             email:email,
+//             phone:phone,
+//             query:query,
+//         })
 
         
-}
+//     });
+
+    // const data=await res.json();
+    // if(res.status===422|| !data){
+    //     window.alert("Error");
+    //     console.log("Error");
+    // }else{
+    //     window.alert("Query was successful");
+    //     console.log("Query was successful");
+    //     }
     
 
     const[isOpen,setIsOpen]=useState(false);
@@ -116,24 +113,20 @@ const PostData=async(e)=>{
                 <div className="first_q">
                     <label className="email" >Enter your Email-Id</label>
                     <input  name="email"
-                    value={user.email}
-                    onChange={handleInputs}
                      className="email_in" type="text" placeholder='Email'></input>
                 </div>
                 <div className="second_q">
                     <label className="phone">Enter your Phone No.</label>
                     <input name="phone" 
-                    value={user.phone}
-                    onChange={handleInputs} className="phone_in" type="text" placeholder='Phone'></input>
+             className="phone_in" type="text" placeholder='Phone'></input>
                 </div>
                 <div className="third_q">
                     <label className="q">Enter your Query</label>
                     <input name="query" 
-                     value={user.query}
-                    onChange={handleInputs} className="q_in" type="text" placeholder='Ask'></input>
+                      className="q_in" type="text" placeholder='Ask'></input>
                 </div>
                 <button  data-close-button className="close-icon">x</button>
-                <button  onClick={PostData} className="submit" type="submit">Submit</button>
+                <button   className="submit" type="submit">Submit</button>
                 </div>
                 </form>
             </div>
