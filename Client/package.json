@@ -1,4 +1,5 @@
 {
+  "homepage":"http://chirag0002.github.io/career_selector",
   "name": "career_selector",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +20,7 @@
     "bootstrap": "^5.1.3",
     "firebase": "^9.6.1",
     "framer-motion": "4.1.17",
+    "gh-pages": "^3.2.3",
     "i18next": "^21.6.0",
     "i18next-browser-languagedetector": "^6.1.2",
     "i18next-http-backend": "^1.3.1",
@@ -44,6 +46,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
