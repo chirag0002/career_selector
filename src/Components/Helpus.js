@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Header from "./Header"
 import Footer from "./Footer"
 import "../styling/helpus.css"
@@ -24,6 +24,7 @@ const Helpus=()=>{
         <div className="help">
             <div className="head">
                 <Header/>
+                <button onClick={themeChanger}></button>
             </div>
             <div className="help_content">
             Welcome!!!

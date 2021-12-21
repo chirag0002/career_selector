@@ -51,10 +51,10 @@ const Developers = () => {
         <GlobalStyles />
         <StyledApp>
         <Header />
+        <button onClick={themeChanger}></button>
         <div className="scroll-to-top"
                 style={{
                     float:"right",
-                    position: "-webkit-sticky",
                     position: "sticky",
                     top: "0",
                     height:"100%",
