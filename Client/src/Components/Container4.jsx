@@ -7,10 +7,7 @@ const Container4 = () => {
     return (
         <div className="cont_4">
             <p className="cont4_heading">SOME FAMOUS ENTRANCE/COMPETITIVE EXAMS IN INDIA</p>
-            <a href="/Exams"
-            styles={{
-                textDecoration:"none"
-            }}>
+            <a className="to_exams" href="/Exams">
             <div className="cont4_1">
             <div className="cont4_a">
                 <div className="cont4_card">

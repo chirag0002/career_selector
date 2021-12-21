@@ -3,16 +3,18 @@ import "../styling/header.css";
 import logo from '../Images/logo.png';
 import man from "../Images/headerMan.png";
 import walk from "../Videos/header.mp4"
+import {Link} from "react-location"
+
 
 const Header = () => {
     return (
         <>
         <div style={{height:"80%"}}>
             <div className="header_1">
-                <img src={logo} alt="" className="header_img" />
+                <Link to="/"> <img src={logo} alt="" className="header_img" /></Link>
                 <navbar className="header">
                     <ul className="navbar_points">
-                        <li className="navbar_point">About</li>
+                        <li className="navbar_point"><a className="footer_togithub"  href="/about" alt="">About</a></li>
                         <li className="navbar_point">Ask</li>
                         <li className="navbar_point">Careers</li>
                     </ul>

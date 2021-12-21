@@ -100,7 +100,7 @@ const Exams = () => {
             </div>
         <>
         <MUISwitch
-            className="school_theme_switch"
+            className="exam_theme_switch"
             onClick={themeChanger}
             defaultChecked />
         <div class="exam">
@@ -801,7 +801,6 @@ const Exams = () => {
         
                            
         </>
-        <Footer />
         </StyledApp>
         </ThemeProvider>
         )

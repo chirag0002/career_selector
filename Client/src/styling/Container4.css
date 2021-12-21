@@ -18,7 +18,7 @@
 }
 
 .cont4_card{
-    border: 1px solid;
+    border: 1px solid white;
     background:black;
     margin-left: 3%;
     margin-right:5%;
@@ -30,7 +30,7 @@
 }
 
 .cont4_card_1{
-    border: 1px solid;
+    border: 1px solid white;
     background:black;
     margin-left: 3%;
     margin-right:5%;
@@ -39,6 +39,10 @@
     justify-content: center;
     margin-top: 5px;
     animation:Try1 4.5s alternate ease-in-out infinite;
+}
+
+.to_exams{
+    text-decoration: none;
 }
 
 .cont4_a{
@@ -73,4 +77,47 @@ from
 to{
     transform:translateX(0%);
 }
+}
+
+@media only screen and (max-width:1267px) {
+    .cont4_1{
+        flex-direction:column;
+    }
+    
+    .cont4_2{
+        flex-direction:column;
+    }
+
+    .cont4_b{
+        margin-left:8%;
+    }
+}
+
+@media only screen and (max-width:872px) {
+    @keyframes Try
+{
+from
+{
+    transform:translateX(0%);
+}
+to{
+    transform:translateX(0%);
+}
+}
+
+@keyframes Try1
+{
+from
+{
+    transform:translateX(0%);
+}
+to{
+    transform:translateX(0%);
+}
+}
+
+.cont4_heading{
+    font-size:1.5rem;
+}
+
 }

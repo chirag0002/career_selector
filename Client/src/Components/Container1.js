@@ -85,7 +85,7 @@ const PostData=async(e)=>{
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                        <Nav.Link href="/login">About Us</Nav.Link>
+                        <Nav.Link href="/about">About Us</Nav.Link>
                         <Nav.Link onClick={togglePopup}>Ask Us</Nav.Link>
                         <Nav.Link className="container_1_login" onClick={signInWithGoogle} type="submit" >Login with Google<img className="login_google" src={google} alt="" /></Nav.Link>
                         <NavDropdown title="Careers" id="offcanvasNavbarDropdown">

@@ -15,6 +15,10 @@
     
 }
 
+.exam_theme_switch{
+    margin-left: 80%;
+}
+
 .exam_card_1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;

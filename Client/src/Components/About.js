@@ -22,6 +22,10 @@ const About = () => {
         <StyledApp>
         <Header />
         <div>
+          <MUISwitch
+            className="about_theme_switch"
+            onClick={themeChanger}
+            defaultChecked />
           <ReactPlayer className="about_us_vid" url='https://youtu.be/6gVjEZpAoAc' />            
         </div>
         <Footer />

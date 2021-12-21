@@ -65,24 +65,26 @@
     margin-top: -610px;
 }
 .word{
-    max-width: 100%;
+    margin-top:100px;
     letter-spacing: 5px;
     position: absolute;
     animation:word 6s infinite ease-in-out;
     margin-left: 10%;
 }
+
 .word:nth-child(1){
     animation-delay:-15s ;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 5rem;
     align-items: center;
-
 }
+
 .word:nth-child(2){
     animation-delay:-12s ;
     font-size: 40px;
     
 }
+
 @keyframes word{
     0%,5%, 100%{
         filter:blur(0px);
@@ -214,7 +216,66 @@ form .data label{
     margin-left: 2%;
     }
 
+<<<<<<< HEAD
+
+@media only screen and (max-width:1415px){
+    
+.word{
+    margin-left:13%;
+}
+    
+}
+
+@media only screen and (max-width:914px){
+   
+    .word{
+
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width:995px){
+    
+    .word{
+        margin-left:25%;
+    }
+
+    .word:nth-child(1){
+        animation-delay:-15s ;
+        font-weight: bold;
+        font-size: 4rem;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:764px){
+   
+    .word:nth-child(1){
+        animation-delay:-15s ;
+        font-weight: bold;
+        font-size: 3rem;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:6231px){
+    
+    .word{
+        margin-left:5%;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    
+    
+}
+=======
   
+>>>>>>> upstream/main
 @media only screen and (max-width:400px){
    
 
