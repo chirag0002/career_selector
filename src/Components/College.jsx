@@ -12,7 +12,6 @@ import 'aos/dist/aos.css';
 
 import Header from "./Header.jsx";
 import Chat from './Chat'
-import MUISwitch from "@material-ui/core/switch"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
 
@@ -62,11 +61,6 @@ return (
         <GlobalStyles />
         <StyledApp>
         <div>
-        <MUISwitch
-            className="theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
-            <Header />
             
             <div className="scroll-to-top"
                 style={{

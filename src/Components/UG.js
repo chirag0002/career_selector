@@ -25,7 +25,6 @@ import bjmc from "../Images/bjmc.png"
 import Footer from './Footer';
 import Header from "./Header.jsx";
 import Chat from './Chat'
-import MUISwitch from "@material-ui/core/switch"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
 import {useSelector} from 'react-redux'
@@ -74,10 +73,6 @@ const UG = () => {
         <GlobalStyles />
         <StyledApp>
         <>
-        <MUISwitch
-            className="theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
         <div class="ug">
         
         <Header />

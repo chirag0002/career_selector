@@ -4,7 +4,6 @@ import Container2 from './Container2'
 import Container4 from './Container4'
 import "../styling/homepage.css"
 import Footer from './Footer'
-import MUISwitch from "@material-ui/core/switch"
 import Container1 from './Container1'
 import Chat from './Chat'
 import styled, {ThemeProvider} from 'styled-components'
@@ -45,10 +44,6 @@ const HomePage = () => {
         <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
         <StyledApp>
-            <MUISwitch
-            className="theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
             <Container1/>
             <div className="scroll-to-top"
                 style={{

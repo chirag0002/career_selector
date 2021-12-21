@@ -4,7 +4,6 @@ import group from "../Images/Group_Photo.jpeg"
 import chirag from "../Images/Chirag.JPG"
 import kanika from "../Images/Kanika.JPG"
 import bhavya from "../Images/Bhavya.JPG"
-import MUISwitch from "@material-ui/core/switch"
 import aayush from "../Images/Aayush.JPG"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
@@ -70,10 +69,6 @@ const Developers = () => {
             )}
         </div>
         <div className="developers">
-        <MUISwitch
-            className="theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
             <div className="developers_cont">
             <p class="developers_heading">Team SuperContributors</p>
             <img className="Group_Photo" src={group} alt="" />

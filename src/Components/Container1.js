@@ -19,46 +19,6 @@ const Container1 = () => {
    })
   }
 
-//     const[user,setUser]=useState({
-//         email:" ",phone:" ",query:" "
-//     })
-
-//     let name, value;
-//     const handleInputs=(e)=>{
-//         name=e.target.name;
-//         value=e.target.value;
-//         setUser({...user,[name]:value});
-// }
-
-// const PostData=async(e)=>{
-//     e.preventDefault();
-//     const{email,phone,query}=user;
-//     setUser(" ");
-//     const res=await fetch("/query",{
-//         method:"POST",
-//         header:{
-//             "Contect-Type":"application/json"
-//         },
-//         body:JSON.stringify({
-
-//             email:email,
-//             phone:phone,
-//             query:query,
-//         })
-
-        
-//     });
-
-    // const data=await res.json();
-    // if(res.status===422|| !data){
-    //     window.alert("Error");
-    //     console.log("Error");
-    // }else{
-    //     window.alert("Query was successful");
-    //     console.log("Query was successful");
-    //     }
-    
-
     const[isOpen,setIsOpen]=useState(false);
 
     const togglePopup=()=>{

@@ -3,7 +3,6 @@ import ReactPlayer from 'react-player'
 import "../styling/about.css"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
-import MUISwitch from "@material-ui/core/switch"
 import Footer from "./Footer.jsx"
 import Header from "./Header.jsx";
 
@@ -22,10 +21,6 @@ const About = () => {
         <StyledApp>
         <Header />
         <div>
-          <MUISwitch
-            className="about_theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
           <ReactPlayer className="about_us_vid" url='https://youtu.be/6gVjEZpAoAc' />            
         </div>
         <Footer />

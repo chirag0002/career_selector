@@ -15,7 +15,6 @@ import Header from "./Header.jsx";
 import Chat from './Chat'
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
-// import MUISwitch from "@material-ui/core/switch"
 import MArch from "../Images/MArch.png"
 import MFM from "../Images/MFM.png"
 import Journalism from "../Images/Journalism.jpg"
@@ -90,10 +89,6 @@ const PG = () => {
         <div class="pg">
         
         <Header />
-        {/* <MUISwitch
-            className="school_theme_switch"
-            onClick={themeChanger}
-            defaultChecked /> */}
         <div className="pg_container">
                <div className="pg_heading">
                    Postgraduate

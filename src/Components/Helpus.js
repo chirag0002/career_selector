@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Header from "./Header"
 import Footer from "./Footer"
 import "../styling/helpus.css"
-import MUISwitch from "@material-ui/core/switch"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
 import {useSelector} from 'react-redux'
@@ -23,10 +22,6 @@ const Helpus=()=>{
         <GlobalStyles />
         <StyledApp>
         <div className="help">
-        <MUISwitch
-            className="theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
             <div className="head">
                 <Header/>
             </div>
