@@ -21,6 +21,7 @@ const About = () => {
         <StyledApp>
         <Header />
         <div>
+        <button onClick={themeChanger}></button>
           <ReactPlayer className="about_us_vid" url='https://youtu.be/6gVjEZpAoAc' />            
         </div>
         <Footer />

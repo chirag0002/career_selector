@@ -67,10 +67,10 @@ const PG = () => {
       <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
         <StyledApp>
+        <button onClick={themeChanger}></button>
         <div className="scroll-to-top"
                 style={{
                     float:"right",
-                    position: "-webkit-sticky",
                     position: "sticky",
                     top: "38rem",
                     height:"100%",

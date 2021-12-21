@@ -80,10 +80,10 @@ const Exams = () => {
         <GlobalStyles />
         <StyledApp>
         <Header />
+        <button onClick={themeChanger}></button>
         <div className="scroll-to-top"
                 style={{
                     float:"right",
-                    position: "-webkit-sticky",
                     position: "sticky",
                     top: "0",
                     height:"70%",
@@ -124,7 +124,7 @@ const Exams = () => {
                            </p>
                            </div>
                            <div className="exam_link_1">
-                                <a className="exam_link_click1" href="#">Click Here for more Information </a>
+                                <a className="exam_link_click1" href=" ">Click Here for more Information </a>
                                </div>
                            </div>
 
@@ -145,7 +145,7 @@ const Exams = () => {
                            </div>
                            
                                 <div className="exam_link_2">
-                                <a className="exam_link_click2" href="#">Click Here for more Information </a>
+                                <a className="exam_link_click2" href=" ">Click Here for more Information </a>
                                </div>
                            </div>
 
@@ -166,7 +166,7 @@ const Exams = () => {
                            </div>
                            
                                 <div className="exam_link_3">
-                                <a className="exam_link_click3" href="#">Click Here for more Information </a>
+                                <a className="exam_link_click3" href= " " >Click Here for more Information </a>
                                </div>
                            </div>
 

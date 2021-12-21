@@ -44,11 +44,11 @@ const HomePage = () => {
         <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
         <StyledApp>
+        <button onClick={themeChanger}></button>
             <Container1/>
             <div className="scroll-to-top"
                 style={{
                     float:"right",
-                    position: "-webkit-sticky",
                     position: "sticky",
                     top: "0",
                     height:"100%",

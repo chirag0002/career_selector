@@ -76,7 +76,7 @@ const UG = () => {
         <div class="ug">
         
         <Header />
-        
+        <button onClick={themeChanger}></button>
         <div className="ug_container">
                <div className="ug_heading">
                    Undergraduate
@@ -84,7 +84,6 @@ const UG = () => {
                <div className="scroll-to-top"
                 style={{
                     float:"right",
-                    position: "-webkit-sticky",
                     position: "sticky",
                     top: "0",
                     height:"70%",

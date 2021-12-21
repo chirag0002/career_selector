@@ -60,12 +60,12 @@ return (
     <ThemeProvider theme={theme=== "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
         <StyledApp>
+        <Header />
         <div>
-            
+            <button onClick={themeChanger}></button>
             <div className="scroll-to-top"
                 style={{
                     float:"right",
-                    position: "-webkit-sticky",
                     position: "sticky",
                     top: "0",
                     height:"100%",
@@ -143,7 +143,7 @@ return (
                 style={{textDecoration:"none"}}>
                 <div class="college_flip">
                     <div className="college_flip_card_inner">
-                        <img className="flip_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLppzgey3U2YUMBSMWjDgR34-Z5y_OzYRC_OS6dlyULKnb3k6wgpAoy_JZ7h32-DMAN4&usqp=CAU" alt="" className="colleges_ug_img" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLppzgey3U2YUMBSMWjDgR34-Z5y_OzYRC_OS6dlyULKnb3k6wgpAoy_JZ7h32-DMAN4&usqp=CAU" alt="" className="colleges_ug_img" />
                         <h3>Under Graduate</h3>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ return (
                 style={{textDecoration:"none"}}>
                 <div className="college_flip">
                     <div className="college_flip_card_inner">
-                        <img className="flip_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLppzgey3U2YUMBSMWjDgR34-Z5y_OzYRC_OS6dlyULKnb3k6wgpAoy_JZ7h32-DMAN4&usqp=CAU" alt="" className="colleges_pg_img" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLppzgey3U2YUMBSMWjDgR34-Z5y_OzYRC_OS6dlyULKnb3k6wgpAoy_JZ7h32-DMAN4&usqp=CAU" alt="" className="colleges_pg_img" />
                         <h3>Post Graduate</h3>
                     </div>
                 </div>
