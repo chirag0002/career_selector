@@ -12,7 +12,6 @@ import discord from "../Images/Discord.png"
 
 
 
-
 const Footer = () => {
     return (
         <div className="footer_cont_6">
@@ -20,7 +19,7 @@ const Footer = () => {
                 <div className="footer_cont_6a_a">
                     <p className="footer_contribute">Help Us Contribute More</p>
                     <div className="footer_cont_6a_a1">
-                        <input placeholder="Send us Your Email" className="footer_email" type="email" />
+                        <input className="footer_email" type="email" placeholder="Any Suggestions" />
                         <Button><img className="footer_send" src={footer_img1} alt="" /></Button>
                     </div>
                 </div>                
@@ -63,7 +62,9 @@ const Footer = () => {
                                 <a className="footer_togithub"  href="/developers" alt="">Developers</a>
                             </b><br />
                             <b>
+                            <a className="footer_togithub" href="/Helpus">
                                 Help
+                            </a>
                             </b><br />
                             <b>
                                 <a className="footer_togithub" href="mailto:varshneychirag24@gmail.com">Mail Us</a>

@@ -33,6 +33,7 @@ const Container1 = () => {
 const PostData=async(e)=>{
     e.preventDefault();
     const{email,phone,query}=user;
+    setUser(" ");
     const res=await fetch("/query",{
         method:"POST",
         header:{
@@ -56,6 +57,8 @@ const PostData=async(e)=>{
         window.alert("Query was successful");
         console.log("Query was successful");
         }
+
+        
 }
     
 

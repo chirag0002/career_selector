@@ -11,6 +11,9 @@ import {lightTheme, darkTheme ,GlobalStyles} from './themes'
 import Footer from './Footer.jsx'
 import {Button} from "react-bootstrap"
 import Header from './Header.jsx'
+import Chat from './Chat'
+
+
 
 
 const StyledApp= styled.div`
@@ -114,6 +117,11 @@ const Developers = () => {
             </p>
             </div>            
             </div>
+            <br/>
+            <br/>
+            <br/>
+            <Chat />
+
             <Footer />
         </div>
         </StyledApp>

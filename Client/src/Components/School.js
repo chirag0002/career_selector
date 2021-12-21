@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React ,  { useEffect, useState } from 'react';
 import "../styling/School.css"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
@@ -9,12 +9,33 @@ import School_Science from "../Images/School_Science.png"
 import School_Arts from "../Images/School_Arts.jpeg"
 import School_Commerce from "../Images/School_Commerce.jpeg"
 import Header from "./Header.jsx";
+import Chat from './Chat'
 
 const StyledApp= styled.div`
 color:${(props) => props.theme.fontColor};
 `;
 
 const School = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 150) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
     const[theme,setTheme]=useState("dark");
         const themeChanger =() =>{
             theme=== "light" ? setTheme ("dark") : setTheme ("light");
@@ -31,6 +52,23 @@ const School = () => {
             className="school_theme_switch"
             onClick={themeChanger}
             defaultChecked />
+            <div className="scroll-to-top"
+                style={{
+                    float:"right",
+                    position: "-webkit-sticky",
+                    position: "sticky",
+                    top: "0",
+                    height:"70%",
+                    paddingTop: "38vw",
+                    paddingRight:"1vw",
+                    cursor:"pointer"
+                }}>
+                {isVisible && (
+                <div onClick={scrollToTop}>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                )}
+            </div>
             <div className="school_container1">
                 <div className="school_container1_card1">
                 <video className="card_vid" autoPlay loop muted>
@@ -770,6 +808,7 @@ const School = () => {
             </div>                     
             </div>
         </div>
+        <Chat />
         <Footer />
         </StyledApp>
         </ThemeProvider>

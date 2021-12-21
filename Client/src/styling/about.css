@@ -5,6 +5,10 @@
     margin-top: 100px;
 }
 
+.about_theme_switch{
+    margin-left:80%;
+}
+
 @media only screen and (max-width:1196px) {
     .about_us_vid{ 
         margin-left:20%;

@@ -18,7 +18,7 @@
 }
 
 .cont4_card{
-    border: 1px solid;
+    border: 1px solid white;
     background:black;
     margin-left: 3%;
     margin-right:5%;
@@ -30,7 +30,7 @@
 }
 
 .cont4_card_1{
-    border: 1px solid;
+    border: 1px solid white;
     background:black;
     margin-left: 3%;
     margin-right:5%;
@@ -39,6 +39,10 @@
     justify-content: center;
     margin-top: 5px;
     animation:Try1 4.5s alternate ease-in-out infinite;
+}
+
+.to_exams{
+    text-decoration: none;
 }
 
 .cont4_a{

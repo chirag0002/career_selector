@@ -1,8 +1,15 @@
-import React from "react"
+import React ,{useState} from "react"
 import "../styling/examSearchBar.css"
 import SearchIcon from '@mui/icons-material/Search';
+import Exams from "./Exams";
+import OutsideClickHandler from 'react-outside-click-handler';
 
 function ExamSearchBar({placeholder,data}){
+
+    
+    const[hidden,setHidden]=useState(false);
+
+  
 
     const SearchExams=()=>{
         let filter=document.getElementById("myInput").value.toUpperCase();
@@ -13,7 +20,7 @@ function ExamSearchBar({placeholder,data}){
 
             let a=li[i].getElementsByTagName('a')[0];
             let textValue=a.textContent|| a.innerHTML;
-            if(textValue.toUpperCase().indexOf(filter)>-1){
+            if(textValue.toUpperCase().indexOf(filter)>-1 ){
                 li[i].style.display="";
 
             }else{
@@ -25,31 +32,64 @@ function ExamSearchBar({placeholder,data}){
     }
 
     
+
+    
     return(
         <div className="exam_search">
             <div className="exam_search_input">
-                <input type="text"  id="myInput" placeholder={placeholder} onKeyUp={SearchExams}/>
-                <div className="exam_search_icon"><SearchIcon/></div>
-            </div>
-            <div className="exam_data_result">
-                <ul id="myUL">
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test" target="_blank">IAS</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">CLAT</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">CAT</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">UCEED</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">NDA</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">JEE</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">CA</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">IES</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">NID</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">NIFT</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">GATE</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Common_Law_Admission_Test">AIIMS</a></li>
+                <OutsideClickHandler onOutsideClick={()=>{
+                    setHidden(false);
+                }}>
+
+                <input onClick={()=>setHidden(true)}  type="text"  id="myInput" placeholder={placeholder} onKeyUp={SearchExams} className="exam_input"/>
+                 
+               
+            
+            <div  className="exam_data_result">
+                {hidden &&(
+             <ul className="list" id="myUL">
+                    <li><a href="#ias" >IAS</a></li>
+                    <li><a href="#clat" >CLAT</a></li>
+                    <li><a href="#cat" >CAT</a></li>
+                    <li><a href="#uceed" >UCEED</a></li>
+                    <li><a href="#nda" >NDA</a></li>
+                    <li><a href="#ca" >CA</a></li>
+                    <li><a href="ies" >IES</a></li>
+                    <li><a href="#nid" >NID</a></li>
+                    <li><a href="#nift" >NIFT</a></li>
+                    <li><a href="#gate" >GATE</a></li>
+                    <li><a href="#aims" >AIIMS</a></li>
+                    <li><a href="#bitsat" >BITSAT</a></li>
+                    <li><a href="#jipmer" >JIPMER</a></li>
+                    <li><a href="#manipal" >MANIPAL</a></li>
+                    <li><a href="#navy" >NAVY</a></li>
+                    <li><a href="#army" >ARMY</a></li>
+                    <li><a href="#aieed" >AIEED</a></li>
+                    <li><a href="#hsee" >HSEE</a></li>
+                    <li><a href="#jnu" >JNU</a></li>
+                    <li><a href="#hotel" >HOTEL MANAGEMENT</a></li>
+                    <li><a href="#ailet" >AILET</a></li>
+                    <li><a href="#kvpy" >KVPY</a></li>
+                    <li><a href="#nest" >NEST</a></li>
+                    <li><a href="#bhu" >BHU</a></li>
+                    <li><a href="#banasthali" >BANASTHALI</a></li>
+                    <li><a href="#jee" >IIT</a></li>
+                    <li><a href="#indian" >IMUCET</a></li>
                     
                     
-                </ul>
+                </ul> 
+                )}
+                </div>
+                 </OutsideClickHandler>
+                 
+                
+
                 
             </div>
+            <div className="icon">
+            <div className="exam_search_icon"><SearchIcon/></div>
+            </div>
+            
         </div>
 
     );
