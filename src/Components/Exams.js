@@ -19,7 +19,6 @@ import Footer from './Footer';
 import Chat from './Chat';
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
-import MUISwitch from "@material-ui/core/switch"
 import Header from "./Header.jsx";
 import bitsat  from "../Images/bitsat.jpg"
 import indian  from "../Images/indian.jpg"
@@ -99,10 +98,6 @@ const Exams = () => {
                 )}
             </div>
         <>
-        <MUISwitch
-            className="exam_theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
         <div class="exam">
         
         <div className="exam_container">

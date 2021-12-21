@@ -11,7 +11,6 @@ import Chat from './Chat';
 import Header from "./Header.jsx"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
-import MUISwitch from "@material-ui/core/switch"
 
 
 
@@ -55,10 +54,6 @@ const Blogs = () => {
         
         
        <Header />
-       <MUISwitch
-            className="school_theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
             <div className="scroll-to-top"
                 style={{
                     float:"right",

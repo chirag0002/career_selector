@@ -2,7 +2,6 @@ import React ,  { useEffect, useState } from 'react';
 import "../styling/School.css"
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
-import MUISwitch from "@material-ui/core/switch"
 import card_video from "../Videos/school_card_background.mp4"
 import Footer from "../Components/Footer.jsx"
 import School_Science from "../Images/School_Science.png"
@@ -48,10 +47,6 @@ const School = () => {
         <Header />
         <div className="school">
             <p className="heading_school">School</p>
-            <MUISwitch
-            className="school_theme_switch"
-            onClick={themeChanger}
-            defaultChecked />
             <div className="scroll-to-top"
                 style={{
                     float:"right",
