@@ -74,3 +74,46 @@ to{
     transform:translateX(0%);
 }
 }
+
+@media only screen and (max-width:1267px) {
+    .cont4_1{
+        flex-direction:column;
+    }
+    
+    .cont4_2{
+        flex-direction:column;
+    }
+
+    .cont4_b{
+        margin-left:8%;
+    }
+}
+
+@media only screen and (max-width:872px) {
+    @keyframes Try
+{
+from
+{
+    transform:translateX(0%);
+}
+to{
+    transform:translateX(0%);
+}
+}
+
+@keyframes Try1
+{
+from
+{
+    transform:translateX(0%);
+}
+to{
+    transform:translateX(0%);
+}
+}
+
+.cont4_heading{
+    font-size:1.5rem;
+}
+
+}

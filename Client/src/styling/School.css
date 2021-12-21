@@ -92,3 +92,124 @@ padding-bottom: 3%;
     border-radius: 5px;
     margin-top:1%;
 }
+
+@media only screen and (max-width:1350px) {
+
+    .card_vid{
+        width:80%;
+        border-radius:10px;
+        border: 1px solid white;
+    }
+
+    .school_container1_card1_para1{
+        margin-left:-18%;
+        margin-top: 6%;
+        font-size:2rem;
+    }
+    
+    .school_container1_card1_para2{
+        margin-left: -19%;
+        font-size:2rem;
+    }
+    
+    .school_container1_card1_para3{
+        font-size:2rem;
+        margin-left:-22.5%;
+    }
+}
+
+@media only screen and (max-width:1111px) {
+
+    .school_container1_card1_para1{
+        margin-top: 5%;
+        font-size:1.5rem;
+    }
+    
+    .school_container1_card1_para2{
+        margin-top: 5%;
+        font-size:1.5rem;
+    }
+    
+    .school_container1_card1_para3{
+        margin-top: 5%;
+        font-size:1.5rem;
+    }
+}
+@media only screen and (max-width:900px) {
+
+    .card_vid{
+        width:50%;
+        border-radius:10px;
+        border: 1px solid white;
+    }
+
+    .school_container1{
+        flex-direction: column;
+    }
+
+    .school_container1_card1_para1{
+        margin-top: 10%;
+        font-size:3rem;
+        margin-left:-35%;
+    }
+    
+    .school_container1_card1_para2{
+        margin-top: 10%;
+        font-size:3rem;
+        margin-left:-40%;
+    }
+    
+    .school_container1_card1_para3{
+        margin-top: 10%;
+        font-size:3rem;
+        margin-left:-45%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+
+    .school_container1_card1_para1{
+        font-size:2rem;
+        margin-left:-30%;
+    }
+    
+    .school_container1_card1_para2{
+        font-size:2rem;
+        margin-left:-35%;
+    }
+    
+    .school_container1_card1_para3{
+        font-size:2rem;
+        margin-left:-40%;
+    }
+
+    .school_container2_subheading{
+        font-size:1.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .school_container1_card1_para1{
+        font-size:1rem;
+        margin-left:-30%;
+        margin-top: 12%;
+    }
+    
+    .school_container1_card1_para2{
+        font-size:1rem;
+        margin-top: 12%;
+        margin-left:-30%;
+    }
+    
+    .school_container1_card1_para3{
+        font-size:1rem;
+        margin-top: 12%;
+        margin-left:-35%;
+    }
+
+
+}
+
