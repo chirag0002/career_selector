@@ -1,0 +1,294 @@
+.side_stuff{
+    display:flex;
+    font-size: 22px;
+    }
+
+
+.first{
+    width: 100px;
+    position: absolute;
+    margin-top: -740px;
+    margin-left: 67%;
+    text-decoration: none;
+}
+
+.first:hover{
+    color: #6E3CBC;
+}
+
+.second_check{
+    position: absolute;
+    width: 80px;
+    margin-top: -740px;
+    margin-left:85%;  
+}
+ .third{
+    position: absolute;
+    margin-top: -740px;
+    width: 80px;
+    height: 30px;
+    margin-left: 76%;
+    text-decoration: none;
+}
+
+.third:hover{
+    color: #6E3CBC;
+}
+
+.fourth{
+    position: absolute;
+    padding-left: 2%;
+    height: 30px;
+    margin-top: -740px;
+    margin-left:92%;
+    text-decoration: none;
+}
+
+.fourth:hover{
+    color: #6E3CBC;
+}
+
+.back_img{
+    width: 100%;
+    position: relative;
+    height: 630px;
+    margin-top: 40px;
+}
+.container{
+    
+    position: absolute;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -610px;
+}
+.word{
+    margin-top:100px;
+    letter-spacing: 5px;
+    position: absolute;
+    animation:word 6s infinite ease-in-out;
+    margin-left: 10%;
+}
+
+.word:nth-child(1){
+    animation-delay:-15s ;
+    font-weight: bold;
+    font-size: 5rem;
+    align-items: center;
+}
+
+.word:nth-child(2){
+    animation-delay:-12s ;
+    font-size: 40px;
+    
+}
+
+@keyframes word{
+    0%,5%, 100%{
+        filter:blur(0px);
+        opacity: 1;
+    }
+    20%, 80%{
+        filter:blur(30px);
+        opacity: 0;
+    }
+}
+
+.logo_container1{
+    width: 20%;
+    float: left;
+}
+
+
+.query{
+position: absolute;
+top:3%;
+left:27%;
+background: #fff;
+width:410px;
+padding: 30px;
+box-shadow: 0 0 8px #00008B;
+background-image: url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVkdWNhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+width: 600px;
+}
+
+.data{
+    padding-top: 1px;
+}
+
+.query form{
+    margin-top: -20px;
+}
+
+
+.query form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+    color:white;
+
+}
+.first_q{
+    margin-top: 40px;
+    color:white;
+}
+.second_q{
+    margin-top: 40px;
+    color:white;
+}
+
+.third_q{
+    color:white;
+    margin-top: 40px;
+}
+
+.submit{
+    margin-top: 40px;
+    align-items: center;
+    height:100%;
+    width: 40%;
+    background: none;
+    border:none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color:white;
+    box-shadow: 0 0 8px whitesmoke;
+    
+
+}
+.close-icon{
+    float: right;
+    margin-top: -410px;
+    margin-right: -29px;
+    background: whitesmoke;
+    border: none;
+    height:26px;
+    width: 30px;
+    font-size: 15px;
+    background-color: red;
+    font-weight:700;
+    
+    
+}
+.second{
+    font-size: 22px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 10px;
+
+}
+
+.phone{
+    padding-left: -20px;
+}
+.q{
+    padding-left: 20px;
+}
+
+form .data input{
+    height: 30px;
+    border-radius: 5px;
+    width: 400px;
+    padding-left: 13px;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+}
+
+form .data label{
+    color:white;
+    font-size: 23px;
+    padding-right: 20px;
+}
+.login_google{
+    width:25px;
+    height:25px;
+    position: absolute;
+    margin-left: 2%;
+    }
+
+<<<<<<< HEAD
+
+@media only screen and (max-width:1415px){
+    
+.word{
+    margin-left:13%;
+}
+    
+}
+
+@media only screen and (max-width:914px){
+   
+    .word{
+
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width:995px){
+    
+    .word{
+        margin-left:25%;
+    }
+
+    .word:nth-child(1){
+        animation-delay:-15s ;
+        font-weight: bold;
+        font-size: 4rem;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:764px){
+   
+    .word:nth-child(1){
+        animation-delay:-15s ;
+        font-weight: bold;
+        font-size: 3rem;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:6231px){
+    
+    .word{
+        margin-left:5%;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    
+    
+}
+=======
+  
+>>>>>>> upstream/main
+@media only screen and (max-width:400px){
+   
+
+    .back_img{
+        width: 900px;
+        margin-right: -250px;
+    }
+    .word{
+        margin-left: 300px;
+    }
+    
+}
+
+
+
+

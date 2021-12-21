@@ -1,0 +1,1403 @@
+.pg_heading{
+    
+    color: white;
+    font-size: 5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    }
+    .pg_cards{
+    margin-top: 60px ;
+    
+}
+.pg_container_1{
+   width:80%;
+    margin: auto;
+    
+    padding: 0 2rem;
+}
+
+.pg_card_1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 4%;
+    width:70%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height:auto;
+    margin-left:15%;
+}
+
+.pg_content_para{
+    color:black;
+    margin-top: 10px;
+    width:180%;
+    font-size:1.2rem;
+    font-weight: 700;
+    margin-left:10%;
+    text-align: justify;
+    text-justify: inter-word;
+    height: auto;
+}
+.pg_image_mtech{
+    width:400px;
+    height:250px;
+}
+.pg_btn{
+    /* position:absolute; */
+    width:150px;
+  height:30px;
+    
+    background-color: black;
+    margin-top: 200px;
+    margin-left:28%;
+    border-radius: 4px;
+}
+.pg_btn_click{
+    text-decoration: none;
+    color:white;
+   
+}
+@media only screen and (max-width:1300px) {
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:70%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:auto;
+        margin-left:15%;
+    }
+    
+    .pg_content_para{
+        margin-top: 10px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:400px;
+        height:250px;
+    }
+    .pg_btn{
+     
+        width:150px;
+      height:30px;
+        font-size: 0.9rem;
+        background-color: black;
+        margin-top: 190px;
+        margin-left:5%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+       
+    }
+}
+    @media only screen and (max-width:1200px) {
+        .pg_heading{
+    
+            color: white;
+            font-size: 5rem;
+            margin-top: 20px;
+            font-weight: bold;
+            }
+            .pg_cards{
+            margin-top: 60px ;
+            
+        }
+        .pg_container_1{
+           width:80%;
+            margin: auto;
+            
+            padding: 0 2rem;
+        }
+        
+        .pg_card_1{
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-gap: 3rem;
+            margin-bottom: 4%;
+            width:70%;
+            border-radius: 10px;
+            background-color: whitesmoke;
+            height:auto;
+            margin-left:20%;
+        }
+        
+        .pg_content_para{
+            margin-top: 10px;
+            width:180%;
+            font-size:0.9rem;
+           color:black;
+            margin-left:10%;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .pg_image_mtech{
+            width:400px;
+            height:250px;
+        }
+        .pg_btn{
+         
+            width:150px;
+          height:30px;
+            font-size: 0.9rem;
+            background-color: black;
+            margin-top: 190px;
+            margin-left:5%;
+            border-radius: 4px;
+        }
+        .pg_btn_click{
+            text-decoration: none;
+            color:white;
+           
+        }
+        
+    }
+    
+@media only screen and (max-width:1180px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:70%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:auto;
+        margin-left:25%;
+    }
+    
+    .pg_content_para{
+        margin-top: 10px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:350px;
+        height:250px;
+    }
+    .pg_btn{
+     
+        width:150px;
+      height:30px;
+        font-size: 0.9rem;
+        background-color: black;
+        margin-top: 200px;
+        margin-left:10%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+       
+    }
+}
+    
+
+@media only screen and (max-width:1122px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:70%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:400px;
+        margin-left:25%;
+    }
+    
+    .pg_content_para{
+        margin-top: 10px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:5%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:400px;
+        height:400px;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+      height:30px;
+     
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 350px;
+        margin-left:-20%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:1018px) {
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:70%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:450px;
+    
+        margin-left:25%;
+    }
+    
+    .pg_content_para{
+        margin-top: 10px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:350px;
+        height:450px;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+      height:30px;
+     
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 400px;
+        margin-left:-50%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+    
+}
+@media only screen and (max-width:931px) {
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:70%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:300px;
+        margin-left:30%;
+    }
+    
+    .pg_content_para{
+        margin-top: 10px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:200px;
+        height:200px;
+    }
+    .pg_btn{
+     
+      width: 110px;
+      text-align: left;
+      height:30px;
+      font-size: 0.8rem;
+      background-color: black;
+      margin-top: 200px;
+      margin-left:30%;
+     border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+    
+}
+@media only screen and (max-width:828px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:100%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:430px;
+        margin-left:20%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:430px;
+        /* margin-top: 100px;
+        margin-left: 5%; */
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 350px;
+        margin-left:-30%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+    
+}
+@media only screen and (max-width:773px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:90%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:430px;
+        margin-left:30%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:430px;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 380px;
+        margin-left:-30%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:717px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:90%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:500px;
+        margin-left:33%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:430px;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 440px;
+        margin-left:-30%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+
+ 
+@media only screen and (max-width:682px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:100%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:700px;
+        margin-left:35%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:430px;
+        margin-top:60px;
+        margin-left: 6%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 600px;
+        margin-left:-30%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+
+
+@media only screen and (max-width:605px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:120%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:600px;
+        margin-left:24%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 480px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+ 
+@media only screen and (max-width:550px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:120%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:600px;
+        margin-left:30%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 480px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:510px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:140%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:600px;
+        margin-left:23%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1.1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 480px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:510px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:140%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:600px;
+        margin-left:23%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1.1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 480px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:500px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:140%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:600px;
+        margin-left:29%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1.1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 480px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:492px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:140%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:600px;
+        margin-left:35%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1.1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 480px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:455px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:170%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:640px;
+        margin-left:25%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1.1rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-top:20px;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:80px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 530px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:375px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:180%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:790px;
+        margin-left:35%;
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1.2rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 680px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:325px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:200%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:790px;
+        /* margin-left:35%; */
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:180%;
+        font-size:1.2rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 680px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:300px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:230%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:790px;
+        /* margin-left:35%; */
+    }
+    
+    .pg_content_para{
+        margin-top: 100px;
+        width:190%;
+        font-size:1.2rem;
+       color:black;
+        margin-left:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.8rem;
+        background-color: black;
+        margin-top: 680px;
+        margin-left:-80%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}
+@media only screen and (max-width:273px){
+    .pg_heading{
+    
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .pg_cards{
+        margin-top: 60px ;
+        
+    }
+    .pg_container_1{
+       width:80%;
+        margin: auto;
+        
+        padding: 0 2rem;
+    }
+    
+    .pg_card_1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 3rem;
+        margin-bottom: 4%;
+        width:230%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        height:1500px;
+        /* margin-left:35%; */
+    }
+    
+    .pg_content_para{
+        margin-top: 400px;
+        /* width:190%; */
+        font-size:1.5rem;
+       color:black;
+        margin-left:-200%;
+        text-align: left;
+        
+        text-justify: inter-word;
+    }
+    .pg_image_mtech{
+        width:300px;
+        height:330px;
+        margin-top:50px;
+        margin-left:8%;
+    }
+    .pg_btn{
+     
+        width: 110px;
+        text-align: left;
+        height:30px;
+        font-size: 0.9rem;
+        background-color: black;
+        margin-top: 1200px;
+        margin-left:-300%;
+        border-radius: 4px;
+    }
+    .pg_btn_click{
+        text-decoration: none;
+        color:white;
+        padding-left:1px;
+    }
+}

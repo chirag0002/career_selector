@@ -1,0 +1,123 @@
+.cont4_heading{
+    font-size:2rem;
+    text-align: center;
+}
+
+.cont4_a_card{
+    font-size:1.3rem;
+    color: white;
+    margin-top: 5px;
+}
+
+.cont4_1{
+    display: flex;
+}
+
+.cont4_2{
+    display: flex;
+}
+
+.cont4_card{
+    border: 1px solid white;
+    background:black;
+    margin-left: 3%;
+    margin-right:5%;
+    height:40px;
+    width:180px;
+    justify-content: center;
+    margin-top: 5px;
+    animation:Try 4.5s alternate ease-in-out infinite;
+}
+
+.cont4_card_1{
+    border: 1px solid white;
+    background:black;
+    margin-left: 3%;
+    margin-right:5%;
+    height:40px;
+    width:180px;
+    justify-content: center;
+    margin-top: 5px;
+    animation:Try1 4.5s alternate ease-in-out infinite;
+}
+
+.to_exams{
+    text-decoration: none;
+}
+
+.cont4_a{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 30px;
+}
+
+.cont4_b{
+    display: flex;
+    margin-left: 3%;
+    margin-top:30px;
+}
+
+@keyframes Try
+{
+from
+{
+    transform:translateX(0%);
+}
+to{
+    transform:translateX(50%);
+}
+}
+
+@keyframes Try1
+{
+from
+{
+    transform:translateX(50%);
+}
+to{
+    transform:translateX(0%);
+}
+}
+
+@media only screen and (max-width:1267px) {
+    .cont4_1{
+        flex-direction:column;
+    }
+    
+    .cont4_2{
+        flex-direction:column;
+    }
+
+    .cont4_b{
+        margin-left:8%;
+    }
+}
+
+@media only screen and (max-width:872px) {
+    @keyframes Try
+{
+from
+{
+    transform:translateX(0%);
+}
+to{
+    transform:translateX(0%);
+}
+}
+
+@keyframes Try1
+{
+from
+{
+    transform:translateX(0%);
+}
+to{
+    transform:translateX(0%);
+}
+}
+
+.cont4_heading{
+    font-size:1.5rem;
+}
+
+}
