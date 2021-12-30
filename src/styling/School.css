@@ -1,0 +1,219 @@
+.heading_school{
+    font-size:5rem;
+    font-weight:900;
+}
+
+.school_container1{
+    display: flex;
+}
+
+.school_container1_card1{
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.card_vid{
+    width:90%;
+    border-radius:10px;
+    border: 1px solid white;
+}
+
+.school_container1_card1_para1{
+    color: white;
+    position: absolute;
+    margin-left:-21%;
+    text-decoration: none;
+    margin-top: 6%;
+    font-size:3rem;
+}
+
+.school_container1_card1_para2{
+    color: white;
+    position: absolute;
+    margin-left: -23%;
+    margin-top: 6%;
+    text-decoration: none;
+    font-size:3rem;
+}
+
+.school_container1_card1_para3{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size:3rem;
+    margin-left:-27%;
+    margin-top: 6%;
+}
+
+
+
+#school_container2_heading1,#school_container2_heading2,#school_container2_heading3{
+    font-size:3rem;
+    font-weight:550;
+}
+
+.school_container2_1,.school_container2_2,.school_container2_3{
+border:1px solid white;
+border-radius: 5px;
+margin-top:5%;
+margin-left: 3%;
+margin-right:3%;
+padding-bottom: 3%;
+}
+
+.school_container2_1 p,.school_container2_2 p,.school_container2_3 p{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right:5%;
+    text-align: justify;
+}
+
+.school_container2_subheading{
+    font-size:2rem;
+    border-top: 1px solid white;
+    padding-top:2%;
+}
+
+.school_theme_switch{
+    margin-left: 80%;
+}
+
+.school_container2_subheading_1{
+    font-size:1.5rem;
+    padding-top: 2%;
+}
+
+.padding_bottom{
+    padding-bottom:2%;
+}
+
+
+.School_Arts{
+    margin-bottom: 2%;
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top:1%;
+}
+
+@media only screen and (max-width:1350px) {
+
+    .card_vid{
+        width:80%;
+        border-radius:10px;
+        border: 1px solid white;
+    }
+
+    .school_container1_card1_para1{
+        margin-left:-18%;
+        margin-top: 6%;
+        font-size:2rem;
+    }
+    
+    .school_container1_card1_para2{
+        margin-left: -19%;
+        font-size:2rem;
+    }
+    
+    .school_container1_card1_para3{
+        font-size:2rem;
+        margin-left:-22.5%;
+    }
+}
+
+@media only screen and (max-width:1111px) {
+
+    .school_container1_card1_para1{
+        margin-top: 5%;
+        font-size:1.5rem;
+    }
+    
+    .school_container1_card1_para2{
+        margin-top: 5%;
+        font-size:1.5rem;
+    }
+    
+    .school_container1_card1_para3{
+        margin-top: 5%;
+        font-size:1.5rem;
+    }
+}
+@media only screen and (max-width:900px) {
+
+    .card_vid{
+        width:50%;
+        border-radius:10px;
+        border: 1px solid white;
+    }
+
+    .school_container1{
+        flex-direction: column;
+    }
+
+    .school_container1_card1_para1{
+        margin-top: 10%;
+        font-size:3rem;
+        margin-left:-35%;
+    }
+    
+    .school_container1_card1_para2{
+        margin-top: 10%;
+        font-size:3rem;
+        margin-left:-40%;
+    }
+    
+    .school_container1_card1_para3{
+        margin-top: 10%;
+        font-size:3rem;
+        margin-left:-45%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+
+    .school_container1_card1_para1{
+        font-size:2rem;
+        margin-left:-30%;
+    }
+    
+    .school_container1_card1_para2{
+        font-size:2rem;
+        margin-left:-35%;
+    }
+    
+    .school_container1_card1_para3{
+        font-size:2rem;
+        margin-left:-40%;
+    }
+
+    .school_container2_subheading{
+        font-size:1.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .school_container1_card1_para1{
+        font-size:1rem;
+        margin-left:-30%;
+        margin-top: 12%;
+    }
+    
+    .school_container1_card1_para2{
+        font-size:1rem;
+        margin-top: 12%;
+        margin-left:-30%;
+    }
+    
+    .school_container1_card1_para3{
+        font-size:1rem;
+        margin-top: 12%;
+        margin-left:-35%;
+    }
+
+
+}
+

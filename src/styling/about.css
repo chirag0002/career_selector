@@ -1,0 +1,40 @@
+.about_us_vid{ 
+    margin-left: 28%;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.about_theme_switch{
+    margin-left:80%;
+}
+
+@media only screen and (max-width:1196px) {
+    .about_us_vid{ 
+        margin-left:20%;
+    }
+ }
+
+ @media only screen and (max-width:992px) {
+    .about_us_vid{ 
+        margin-left:15%;
+    }
+ }
+
+ @media only screen and (max-width:845px) {
+    .about_us_vid{ 
+        margin-left:10%;
+    }
+ }
+
+ @media only screen and (max-width:760px) {
+    .about_us_vid{ 
+        margin-left:3%;
+    }
+ }
+
+ @media only screen and (max-width:680px) {
+    .about_us_vid{ 
+        width:200%;
+    }
+ }

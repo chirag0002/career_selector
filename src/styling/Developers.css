@@ -1,0 +1,267 @@
+
+.Group_Photo{
+    width:55%;
+    height:45%;
+    margin-top:2%;
+    border:2px solid white;
+    border-radius:5px;
+}
+
+.developers_heading{
+    font-size:4rem;
+}
+
+
+.developers_cont1{
+    display: flex;
+    align-items:center;
+    margin-top: 4%;
+    padding-bottom: 270px;
+}
+
+.chirag{
+    width:15%;
+    margin-left: 8%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.kanika{
+    width:15%;
+    border-radius: 50%;
+    margin-left: 8%;
+    border: 2px solid white;
+}
+
+.bhavya{
+    width:15%;
+    margin-left:8%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.aayush{
+    width:15%;
+    margin-left:8%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.chirag_name{
+    position: absolute;
+    margin-top:500px;
+    margin-left:8%;
+    font-size: 1.5rem;
+    width:15%;
+}
+
+.kanika_name{
+    position: absolute;
+    margin-top:500px;
+    margin-left: 31%;
+    font-size: 1.5rem;
+    width:15%;
+}
+
+.aayush_name{
+    margin-top:500px;
+    position: absolute;
+    margin-left: 55%;
+    font-size: 1.5rem;
+    width:15%;
+}
+
+.bhavya_name{
+    margin-top:500px;
+    margin-left:77.2%;
+    position: absolute;
+    font-size: 1.5rem;
+    width:15%;
+}
+
+#fas1,#fas2,#fas3,#fas4{ 
+    color:black;
+}
+
+.developers_buttons1{
+    background-color:white;
+    border-color: #0e76a8;
+    color:#0e76a8;
+    font-size: 1.3rem;
+    width: 90%;
+}
+
+.developers_buttons1:hover{
+    background-color:#0e76a8;
+    border-color: white;
+    color:white;
+}
+
+.developers_buttons2{
+    background-color:white;
+    border-color: #1DA1F2;
+    color:#1DA1F2;
+    font-size: 1.3rem;
+    width: 90%;
+}
+
+.developers_buttons2:hover{
+    background-color:#1DA1F2;
+    border-color: white;
+    color:white;
+}
+
+.developers_buttons3{
+    background-color:white;
+    border-color: #833AB4;
+    color:#833AB4;
+    font-size: 1.3rem;
+    width: 90%;
+}
+
+
+.developers_buttons3:hover{
+    background-color:#833AB4;
+    border-color: white;
+    color:white;
+}
+
+.developers_buttons4{
+    background-color:white;
+    border-color: gray;
+    color:gray;
+    font-size: 1.3rem;
+    width: 90%;
+}
+
+.developers_buttons4:hover{
+    background-color:gray;
+    border-color: white;
+    color:white;
+}
+
+.quote_developers{
+    margin-top:20px;
+}
+
+@media only screen and (max-width:1205px) {
+   .bhavya_name{
+       width:18%;
+       margin-top:450px;
+       margin-left:76.2%;
+   }
+
+   .chirag_name{
+       margin-top:450px;
+    }
+
+   .aayush_name{
+    margin-top:450px;
+    }
+
+    .kanika_name{
+    margin-top:450px;
+    }   
+}
+
+@media only screen and (max-width:1125px) {
+    .chirag_name{
+        width:18%;
+    }
+    .aayush_name{
+        margin-left: 53%;
+    }
+
+    .chirag_name{
+        margin-left: 6%;
+    }
+ }
+
+ @media only screen and (max-width:1108px) {
+    .aayush_name{
+        width:18%;
+    }
+
+    .kanika_name{
+        width:18%;
+    }
+ }
+
+ @media only screen and (max-width:1005px) {
+    .aayush_name{
+        font-size:1rem;
+        margin-top: 400px;
+    }
+
+    .kanika_name{
+        font-size:1rem;
+        margin-top: 400px;
+    }
+
+    .bhavya_name{
+        font-size:1rem;
+        margin-top: 400px;
+    }
+
+    .chirag_name{
+        font-size:1rem;
+        margin-top: 400px;
+    }
+ }
+
+ @media only screen and (max-width:670px) {
+        .developers_cont1{
+            flex-direction: column;
+        }
+
+        .chirag{
+            margin-top:30px;
+            margin-bottom: 100px;
+            margin-left: -30%;
+            width:25%;
+        }
+        .chirag_name{
+            margin-top: 0;
+            margin-left: 33%;
+            width:30%;
+        }
+
+        .kanika{
+            margin-left:-30%;
+            width:25%;
+            margin-bottom: 100px;
+        }
+
+        .kanika_name{
+            margin-top: 43%;
+            width:30%;
+            margin-left:33%;
+        }
+
+        .aayush{
+            margin-left:-30%;
+            width:25%;
+            margin-bottom: 100px;
+        }
+
+        .aayush_name{
+            margin-top: 86%;
+            width:30%;
+            margin-left:33%;
+        }
+
+        .bhavya{
+            margin-left:-30%;
+            width:25%;
+        }
+
+        .bhavya_name{
+            margin-top: 128%;
+            width:30%;
+            margin-left:33%;
+        }
+
+        .developers_cont1{
+            padding-bottom: 70px;
+        }
+ }

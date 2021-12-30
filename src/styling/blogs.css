@@ -1,0 +1,2149 @@
+.blog_card{
+    width:47%;
+    background-color: whitesmoke;
+    height:700px;
+   border-color: white;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.blogs-container_1{
+display: flex;
+flex-wrap: wrap;
+gap:10px;
+}
+
+.engineering_blog{
+width:100%;
+height:350px;
+}
+.medical_blog{
+width:100%;
+height:350px;
+}
+.ES_blog{
+    width:100%;
+    height:350px;
+}
+.Design_blog{
+    width:100%;
+    height:350px;
+}
+.law_blog{
+    width:100%;
+    height:350px;
+}
+.Upsc_blog{
+    width:100%;
+height:350px;
+}
+.upsc_blog_heading{
+    text-align: left;
+    
+}
+
+.heading_blog_tag{
+    color:black;
+    font-weight: 600;
+    /* width:100%; */
+    
+}
+.blog_heading{
+    width:100%;
+}
+.blog_para{
+    margin-top: 80px;
+}
+.blog-paragraph{
+    color:black;
+    margin-top: 1px;
+    justify-content: left;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.2rem;
+}
+.blogs-container_1{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.blogs_card_btn_1{
+    background-color: #3EDD84;
+    height:30px;
+    width:10%;
+    outline: none;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 20px;
+}
+.blogs_card_btn_2{
+    background-color: #3EDD84;
+    height:30px;
+    width:10%;
+    outline: none;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 20px;
+}
+.blogs_card_btn_6{
+    background-color: #3EDD84;
+    height:30px;
+    width:10%;
+    outline: none;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 20px;
+}
+.blogs_card_btn_4{
+    background-color: #3EDD84;
+    height:30px;
+    width:10%;
+    outline: none;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 20px;
+
+}
+.blogs_card_btn_5{
+    background-color: #3EDD84;
+    height:30px;
+    width:10%;
+    outline: none;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 10px;
+}
+.blogs_card_btn_3{
+    background-color: #3EDD84;
+    height:30px;
+    width:10%;
+    outline: none;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 20px;
+
+}
+.link_blog{
+    text-decoration: none;
+    font-size: 1.1rem;
+   
+}
+@media only screen and (max-width:1440px) {
+     .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:700px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 600;
+        /* width:100%; */
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 70px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 1.1rem;
+       
+    }
+    
+}
+
+
+
+@media only screen and (max-width:1300px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:700px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 600;
+        /* width:100%; */
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 70px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 1.1rem;
+       
+    }
+    
+}
+@media only screen and (max-width:1285px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:700px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:350px;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 600;
+        /* width:100%; */
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 80px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -20px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -40px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width:1158px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:800px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:350px;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 600;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 80px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 1rem;
+  }
+}
+@media only screen and (max-width:932px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:800px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:350px;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 600;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 80px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width:830px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:800px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:350px;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 600;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 80px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:10%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width:830px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:800px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:350px;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 600;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 80px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:12%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:12%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:12%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:12%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:12%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:12%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width:580px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:850px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:350px;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 200;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 80px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 0.9rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:14%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:14%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:14%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:14%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:14%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:14%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width:508px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:850px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:350px;
+    }
+    .medical_blog{
+    width:100%;
+    height:350px;
+    }
+    .ES_blog{
+        width:100%;
+        height:350px;
+    }
+    .Design_blog{
+        width:100%;
+        height:350px;
+    }
+    .law_blog{
+        width:100%;
+        height:350px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:350px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 200;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 80px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 0.9rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:18%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:18%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:18%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:18%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:18%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:18%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width:435px)  {
+    .blog_card{
+        width:47%;
+        background-color: whitesmoke;
+        height:850px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:300px;
+    }
+    .medical_blog{
+    width:100%;
+    height:300px;
+    }
+    .ES_blog{
+        width:100%;
+        height:300px;
+    }
+    .Design_blog{
+        width:100%;
+        height:300px;
+    }
+    .law_blog{
+        width:100%;
+        height:300px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:300px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 200;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 30px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 0.8rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:19%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:19%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:19%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:19%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:19%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:19%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width:342px)  {
+    .blog_card{
+        width:80%;
+        background-color: whitesmoke;
+        height:780px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:300px;
+    }
+    .medical_blog{
+    width:100%;
+    height:300px;
+    }
+    .ES_blog{
+        width:100%;
+        height:300px;
+    }
+    .Design_blog{
+        width:100%;
+        height:300px;
+    }
+    .law_blog{
+        width:100%;
+        height:300px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:300px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 200;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 30px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:27%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:27%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:27%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:27%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:27%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:27%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width:291px)  {
+    .blog_card{
+        width:90%;
+        background-color: whitesmoke;
+        height:780px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:300px;
+    }
+    .medical_blog{
+    width:100%;
+    height:300px;
+    }
+    .ES_blog{
+        width:100%;
+        height:300px;
+    }
+    .Design_blog{
+        width:100%;
+        height:300px;
+    }
+    .law_blog{
+        width:100%;
+        height:300px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:300px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 200;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 30px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:32%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:32%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:32%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:32%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:32%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:32%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width:221px)  {
+    .blog_card{
+        width:92%;
+        background-color: whitesmoke;
+        height:830px;
+        border-color: white;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .blogs-container_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+    
+    .engineering_blog{
+    width:100%;
+    height:300px;
+    }
+    .medical_blog{
+    width:100%;
+    height:300px;
+    }
+    .ES_blog{
+        width:100%;
+        height:300px;
+    }
+    .Design_blog{
+        width:100%;
+        height:300px;
+    }
+    .law_blog{
+        width:100%;
+        height:300px;
+    }
+    .Upsc_blog{
+        width:100%;
+    height:300px;
+    }
+    .upsc_blog_heading{
+        text-align: left;
+        
+    }
+    
+    .heading_blog_tag{
+        font-weight: 200;
+      
+        
+    }
+    .blog_heading{
+        width:100%;
+    }
+    .blog_para{
+        margin-top: 30px;
+    }
+    .blog-paragraph{
+        margin-top: 1px;
+        justify-content: left;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1rem;
+    }
+    .blogs-container_1{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .blogs_card_btn_1{
+        background-color: #3EDD84;
+        height:30px;
+        width:40%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: -10px;
+    }
+    .blogs_card_btn_2{
+        background-color: #3EDD84;
+        height:30px;
+        width:40%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_6{
+        background-color: #3EDD84;
+        height:30px;
+        width:40%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    }
+    .blogs_card_btn_4{
+        background-color: #3EDD84;
+        height:30px;
+        width:40%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 20px;
+    
+    }
+    .blogs_card_btn_5{
+        background-color: #3EDD84;
+        height:30px;
+        width:40%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 10px;
+    }
+    .blogs_card_btn_3{
+        background-color: #3EDD84;
+        height:30px;
+        width:40%;
+        outline: none;
+        position: absolute;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        text-decoration: none;
+        margin-left:2%;
+        margin-top: 5px;
+    
+    }
+    .link_blog{
+        text-decoration: none;
+        color:white;
+        font-size: 0.7rem;
+  }
+}

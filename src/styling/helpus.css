@@ -1,0 +1,12 @@
+.help_content{
+    font-size: 1.4rem;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}

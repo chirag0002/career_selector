@@ -1,0 +1,208 @@
+.college_des{
+    width:80%;
+    margin:5% auto;
+    margin-top: 0;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: bold;
+}
+.college_des_heading{
+    text-align: center;
+    font-weight:1000;
+    font-size:5rem;
+}
+.college_flip {
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    perspective: 100000px; 
+  }
+  .college_des_subheading{
+      font-weight:900;
+  }
+  
+  .college_flip_card_inner {
+    
+    width: 100%;
+    text-align: center;
+    transition: transform 1.4s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  
+  .college_flip:hover .college_flip_card_inner {
+    transform: rotateY(360deg);
+  }
+  .UG-PG{
+      display:flex;
+      margin :0 auto;
+      width:100%;
+      justify-content: space-between;
+  }
+  
+
+  .colleges_cards{
+      width:90%;
+      margin:0 auto;
+      justify-content: space-between;
+  }
+
+
+.college_ug_courses{
+    margin: 3% auto;
+    padding:2%; 
+    width:90vw;
+}
+.college_ug_container{
+    width:80vw;
+    margin:2% auto;
+    border:3px solid #f1f1f1;
+    display:flex;
+    height:12vw;
+}
+.college_ug_container_img{
+   width:25vw;
+   background-image: url("https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?size=626&ext=jpg");
+   overflow:hidden;
+   height:11.5vw;
+}
+.college_pg_courses{
+    margin: 3% auto;
+    padding:2%; 
+    width:90vw;
+}
+.college_pg_container{
+    width:80vw;
+    margin:2% auto;
+    border:3px solid #f1f1f1;
+    display:flex;
+    height:12vw;
+}
+.college_pg_container_img{
+    width:30vw;
+    background-image: url("https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?size=626&ext=jpg");
+    overflow:hidden;
+    height:11.5vw;
+}
+.college_ug_container_img_img{
+    width:10vw;
+    height:10vw;
+    margin:1rem auto;
+}
+.college_ug_container:hover img{
+    transform: scale(1.4);
+    cursor:pointer;
+}
+.college_pg_container:hover img{
+    transform: scale(1.4);
+    cursor:pointer;
+}
+.college_pg_container_img_img{
+    width:10vw;
+    height:10vw;
+    margin:1rem auto;
+}
+.college_ug{
+    width:100%;
+}
+.college_pg{
+    width:100%;
+}
+.college_li{
+    margin:0 1rem;
+    font-size:1vw;
+}
+.college_ug_line{
+    width:30vw;
+    margin:0;
+    size:2px;
+    color:rgb(70, 70, 66);
+}
+.college_pg_line{
+    width:30vw;
+    margin:0;
+    size:2px;
+    color:rgb(70, 70, 66);
+}
+.college_ug_container_content{
+    text-align: left;
+    margin-left:1rem;
+    width:70vw;
+}
+.college_pg_container_content{
+    text-align: left;
+    margin-left:1rem;
+    width:70vw;
+}
+.college_ug_container_subcontent{
+    font-size:1.1vw;
+    margin:.5vw 0;
+}
+.college_pg_container_subcontent{
+    font-size:1.1vw;
+    margin:.5vw 0;
+}
+
+@media (max-width:950px){
+    .college_des_heading{
+        font-size: 3rem;
+    }
+    .college_des_subheading{
+        font-size:1.2rem;
+        font-weight: bolder;
+    }
+    .college_flip_card_inner{
+        width:90%;
+    }
+    .UG-PG{
+        width:90%;
+        margin:0 auto;
+    }
+    .college_ug_container_img_img{
+        width:50%;
+        margin:0 auto;
+    }
+    .colleges_cards_heading{
+        font-size:1.5rem;
+    }
+    .college_flip{
+        width:90%;
+    }
+}
+
+@media (max-width:700px){
+    .college_des_heading{
+        font-size: 2rem;
+    }
+    .college_des_subheading{
+        font-size:1.1rem;
+        font-weight: bolder;
+    }
+    .college_flip_card_inner{
+        width: 80vw;
+        height:70%;
+    }
+    .UG-PG{
+        width:85vw;
+        margin:0 auto;
+        display:flex;
+        flex-direction: column;
+        float:center;
+    }
+    .college_ug_container_img_img{
+        width:50%;
+        margin:0 auto;
+    }
+    .colleges_cards_heading{
+        font-size:1.2rem;
+    }
+    .college_flip{
+        width:70vw;
+    }.colleges_cards{
+        width:70vw;
+    }
+    .flip_img{
+        width: 5rem;
+    }
+}

@@ -1,0 +1,263 @@
+.exam_search_input{
+    margin-top: -70px;
+    display: flex;
+
+}
+
+
+.exam_search input{
+    background-color:chocolate;
+    border: 0;
+    margin-left: 200%;
+    border-radius: 3px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 0px;
+    font-size: 1rem;
+    padding: 15px;
+    width: 320.5%;
+    height: 50px;
+    color: white;
+    align-items: center;
+}
+
+.exam_search_icon{
+    height: 43px;
+    width: 38px;
+    display: grid;
+    margin-left: 70%;
+    color: white;
+    margin-top: -0.1%;
+    background-color: chocolate;
+
+}
+.icon{
+    margin-top: -3%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.exam_search_icon svg{
+    font-size: 35px;
+}
+.exam_data_result{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 185%;
+    width: 335%;
+    margin-top: -0.2%;
+}
+ 
+
+.exam_data_result ul{
+    list-style: none;
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+
+}
+
+.exam_data_result li{
+    text-decoration: none;
+    padding: 12px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    display:block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    
+    
+}
+.exam_data_result li:hover{
+    background-color: lightgrey;
+}
+.exam_data_result ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    
+
+}
+@media (max-width:1200px){
+    .exam_search input{
+        
+        width: 250%;
+        margin-left: 60%;
+        }
+        .exam_data_result {
+            margin-left: 176%;
+            width:263%;
+            margin-top: 1%;
+            
+        }
+        .exam_search_icon{
+            height: 2%;
+            margin-left: 68%;
+        }
+
+        
+
+      
+        
+
+}
+@media (max-width:1400px){
+    .exam_search input{
+        margin-left: 160%;
+        }
+        .exam_data_result ul{
+            margin-left: -12%;
+            width:100%;
+            
+        }
+        .exam_search_icon{
+            margin-top: -3.5%;
+        }
+    
+}
+
+@media (max-width:1130px){
+    .exam_search input{
+        margin-left: 50%;
+        }
+
+        .exam_data_result {
+            margin-left: 176%;
+            width:260%;
+            
+        }
+        .exam_search_icon{
+            margin-left:72%;
+        }
+}
+@media (max-width:1000px){
+    .exam_search input{
+        margin-left: 70%;
+        width: 250%;
+        }
+
+        .exam_data_result {
+            margin-left: 135%;
+            width:235%;
+            
+        }
+        .exam_search_icon{
+            margin-left:68%;
+        }
+    
+}
+
+
+
+@media (max-width:1300px){
+    .exam_search input{
+        margin-left: 150%;
+    }
+    .exam_data_result ul{
+        margin-left: -15%;
+        width:100%;
+        
+    }
+
+
+}
+
+
+@media (max-width:1000px){
+    .exam_search input{
+        
+        width: 220%;
+        margin-left: 115%;
+        
+    
+    }
+    .exam_search_icon{
+        margin-left:69%;
+        margin-top: -5%;
+    }
+
+}
+@media (max-width:700px){
+    .exam_search input{
+        
+        
+        margin-left: -21%;
+        
+    
+    }
+    .exam_search_icon{
+        margin-left:82%;
+        margin-top: -7%;
+        
+    }
+
+}
+@media (max-width:800px){
+    .exam_search input{
+        
+        width: 190%;
+        margin-left: 95%;
+        
+    }
+
+    .exam_data_result {
+        margin-left: 111%;
+        width:205%;
+        
+    }
+
+    
+}
+
+@media (max-width:650px){
+    .exam_search input{
+        
+        
+        margin-left: 51%;
+        
+    
+    }
+    .exam_data_result ul{
+        margin-left: -37%;
+        width:100%;
+        
+    }
+
+    .exam_search_icon{
+        margin-left:73%;
+       
+        
+    }
+
+}
+@media (max-width:550px){
+    .exam_search input{
+        
+        
+        width: 130%;
+        margin-left:60%;
+        
+    
+    }
+
+    .exam_data_result ul{
+        margin-left: -32%;
+        width:70%;
+        
+    }
+    .exam_search_icon{
+        margin-left:68%;
+        margin-top: -9%;
+       
+        
+    }
+
+}
+
