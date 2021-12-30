@@ -18,7 +18,10 @@ import Developers from "./Developers";
 import Header from "./Header.jsx";
 import Helpus from "./Helpus";
 
+<<<<<<< HEAD:Client/src/Components/router.js
+=======
 
+>>>>>>> upstream/main:src/Components/router.js
 export const routes: Route[] = [
         {
         path: "/",
@@ -90,6 +93,7 @@ export const routes: Route[] = [
         path:"helpus",
         element:<Helpus/>
     }
+    
 ];
 
 export const location = new ReactLocation();
