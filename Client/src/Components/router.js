@@ -2,11 +2,8 @@ import React from 'react'
 import {  Route,  ReactLocation } from "react-location";
 import Container2 from './Container2';
 import HomePage from './HomePage';
-import Helpus from "./Helpus"
 import Footer from './Footer';
-
 import Accordion from './Accordion';
-
 import Container4 from './Container4';
 import Container1 from './Container1';
 import Searchbox from "./Search_box"
@@ -14,24 +11,12 @@ import School from "./School"
 import PG from "./PG.js"
 import UG from "./UG.js"
 import College from "./College.jsx";
-
-
 import Exams from "./Exams"
-
-
 import About from './About'
 import Blogs from "./Blogs.js";
 import Developers from "./Developers";
 import Header from "./Header.jsx";
 import Helpus from "./Helpus";
-
-
-
-
-
-
-
-
 
 export const routes: Route[] = [
         {
@@ -105,10 +90,7 @@ export const routes: Route[] = [
         path:"helpus",
         element:<Helpus/>
     }
-    {
-        path:"help",
-        element:<Helpus/>
-    }
+    
 ];
 
 export const location = new ReactLocation();
