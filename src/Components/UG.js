@@ -27,7 +27,7 @@ import Header from "./Header.jsx";
 import Chat from './Chat'
 import styled, {ThemeProvider} from 'styled-components'
 import {lightTheme, darkTheme ,GlobalStyles} from './themes'
-import {useSelector} from 'react-redux'
+
 
 const StyledApp= styled.div`
 color:${(props) => props.theme.fontColor};
@@ -36,8 +36,8 @@ color:${(props) => props.theme.fontColor};
 
 
 const UG = () => {
-    const check=useSelector((state)=>state.check)
-    console.log(check);
+    
+    
     const[theme,setTheme]=useState("dark");
         const themeChanger =() =>{
             theme=== "light" ? setTheme ("dark") : setTheme ("light");
